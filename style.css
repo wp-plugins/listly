@@ -1,0 +1,69 @@
+.ListlyAdminListAddItems
+{
+	color: #ffffff !important;
+	background: #FF7700;
+}
+
+.listly-form label
+{
+	display: block;
+	font-weight: bold;
+}
+
+.listly-form textarea.large-text
+{
+	height: 40px;
+}
+
+.listly-form span.description
+{
+	display: block;
+}
+
+.listly-form-message .error, .listly-table .error
+{
+	color: red;
+}
+
+.listly-form-message .info, .listly-table .info
+{
+	color: green;
+}
+
+.listly-form-submit
+{
+	min-height: 30px;
+	padding: 0px 0px 20px;
+	background: url(images/logo-small-blue.png) no-repeat left 20px;
+}
+
+.listly-form-submit hr
+{
+	margin-bottom: 20px;
+}
+
+.listly-form-submit button
+{
+	float: right;
+}
+
+.ui-state p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.strong
+{
+	font-weight: bold;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
