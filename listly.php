@@ -1,9 +1,9 @@
 <?php
 /*
 	Plugin Name: List.ly
-	Plugin URI:  http://list.ly/
-	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode.
-	Version:     1.0
+	Plugin URI:  http://wordpress.org/extend/plugins/listly/
+	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
+	Version:     1.1
 	Author:      Milan Kaneria
 	Author URI:  mailto:milanmk@yahoo.com
 */
@@ -44,6 +44,7 @@ if (!class_exists('Listly'))
 			register_activation_hook($this->PluginFile, array(&$this, 'Activate'));
 
 			add_filter('plugin_action_links', array(&$this, 'ActionLinks'), 10, 2);
+			add_filter('contextual_help', array(&$this, 'ContextualHelp'), 10, 3);
 			add_action('admin_menu', array(&$this, 'AdminMenu'));
 			add_action('wp_head', array(&$this, 'WPHead'));
 			add_action('wp_ajax_AJAXPublisherAuth', array(&$this, 'AJAXPublisherAuth'));
@@ -96,6 +97,19 @@ if (!class_exists('Listly'))
 		}
 
 
+		function ContextualHelp($Help, $ScreenId, $Screen)
+		{
+			global $ListlyPageSettings;
+
+			if ($ScreenId == $ListlyPageSettings)
+			{
+				$Help = '<a href="mailto:support@list.ly">Contact Support</a>';
+			}
+
+			return $Help;
+		}
+
+
 		function AdminPrintScripts()
 		{
 
@@ -128,7 +142,9 @@ if (!class_exists('Listly'))
 
 		function AdminMenu()
 		{
-			$PageSettings = add_submenu_page('options-general.php', ' &rsaquo; Settings', 'Listly', 'manage_options', $this->PluginFile, array(&$this, 'Admin'));
+			global $ListlyPageSettings;
+
+			$ListlyPageSettings = add_submenu_page('options-general.php', 'Listly &rsaquo; Settings', 'Listly', 'manage_options', $this->PluginFile, array(&$this, 'Admin'));
 
 			add_action("admin_print_scripts", array(&$this, 'AdminPrintScripts'));
 			add_action("admin_print_styles", array(&$this, 'AdminPrintStyles'));
@@ -695,8 +711,7 @@ if (!class_exists('Listly'))
 
 			if (empty($ListId))
 			{
-				print 'List ID not supplied.';
-				return;
+				return 'List ID not supplied.';
 			}
 
 			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'theme' => $Theme, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT']))));
@@ -705,7 +720,7 @@ if (!class_exists('Listly'))
 
 			if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
 			{
-				print 'Listly error!';
+				return 'Listly error!';
 			}
 			else
 			{
@@ -713,11 +728,11 @@ if (!class_exists('Listly'))
 
 				if ($ResponseJson['status'] == 'ok')
 				{
-					print $ResponseJson['list-dom'];
+					return $ResponseJson['list-dom'];
 				}
 				else
 				{
-					print $ResponseJson['message'];
+					return $ResponseJson['message'];
 				}
 			}
 		}
