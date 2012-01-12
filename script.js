@@ -90,11 +90,11 @@ jQuery(document).ready(function($)
 
 		if (window.tinyMCE.activeEditor != null && window.tinyMCE.activeEditor.isHidden() == false)
 		{
-			tinyMCE.execCommand('mceInsertContent', false, '<p>[listly id="'+$(this).attr('data-Id')+'"]</p>');
+			tinyMCE.execCommand('mceInsertContent', false, '<p>[listly id="'+$(this).attr('data-Id')+'" theme="'+ListlySettings[1]+'" layout="'+ListlySettings[2]+'" numbered="'+ListlySettings[3]+'" image="'+ListlySettings[4]+'" items="'+ListlySettings[5]+'"]</p>');
 		}
 		else
 		{
-			$('#content').val($('#content').val() + "\r\n\r\n" + '[listly id="'+$(this).attr('data-Id')+'"]');
+			$('#content').val($('#content').val() + "\r\n\r\n" + '[listly id="'+$(this).attr('data-Id')+'" theme="'+ListlySettings[1]+'" layout="'+ListlySettings[2]+'" numbered="'+ListlySettings[3]+'" image="'+ListlySettings[4]+'" items="'+ListlySettings[5]+'"]');
 		}
 	});
 

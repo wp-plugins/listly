@@ -3,8 +3,8 @@ Contributors: milanmk
 Donate link: http://list.ly/
 Tags: listly, lists, social, social list
 Requires at least: 3.0
-Tested up to: 3.2.1
-Stable tag: 1.1
+Tested up to: 3.3.1
+Stable tag: 1.2
 
 Plugin to easily integrate List.ly lists to Posts and Pages.
 
@@ -30,6 +30,9 @@ You can get a publisher key from [here](http://list.ly/publishers/earlyaccess).
 No screenshots for now.
 
 == Changelog ==
+
+= 1.2 =
+* Added parameters to shortcode.
 
 = 1.1 =
 * Fixed ShortCode output issue.

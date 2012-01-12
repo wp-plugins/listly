@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.1
+	Version:     1.2
 	Author:      Milan Kaneria
 	Author URI:  mailto:milanmk@yahoo.com
 */
@@ -27,6 +27,10 @@ if (!class_exists('Listly'))
 			$this->SettingsDefaults = array(
 				'PublisherKey' => '',
 				'Theme' => 'light',
+				'Layout' => 'full',
+				'Numbered' => 'yes',
+				'Image' => 'yes',
+				'Items' => 'all',
 			);
 
 			$this->PostDefaults = array(
@@ -118,6 +122,12 @@ if (!class_exists('Listly'))
 			<script type="text/javascript">
 				var ListlyNounce = '<?php print wp_create_nonce('ListlyNounce'); ?>';
 				var ListlyURL = '<?php print $this->SiteURL; ?>';
+				var ListlySettings = [];
+					ListlySettings[1] = '<?php print $this->Settings['Theme']; ?>'; // Theme
+					ListlySettings[2] = '<?php print $this->Settings['Layout']; ?>'; // Layout
+					ListlySettings[3] = '<?php print $this->Settings['Numbered']; ?>'; // Numbered
+					ListlySettings[4] = '<?php print $this->Settings['Image']; ?>'; // Image
+					ListlySettings[5] = '<?php print $this->Settings['Items']; ?>'; // Items
 			</script>
 
 		<?php
@@ -232,6 +242,44 @@ if (!class_exists('Listly'))
 									<option value="light" <?php $this->CheckSelected($Settings['Theme'], 'light'); ?>>Light</option>
 									<option value="dark" <?php $this->CheckSelected($Settings['Theme'], 'dark'); ?>>Dark</option>
 								</select>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<th scope="row">Layout</th>
+							<td>
+								<select name="Layout">
+									<option value="full" <?php $this->CheckSelected($Settings['Layout'], 'full'); ?>>Full</option>
+									<option value="short" <?php $this->CheckSelected($Settings['Layout'], 'short'); ?>>Short</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<th scope="row">Numbered</th>
+							<td>
+								<select name="Numbered">
+									<option value="yes" <?php $this->CheckSelected($Settings['Numbered'], 'yes'); ?>>Yes</option>
+									<option value="no" <?php $this->CheckSelected($Settings['Numbered'], 'no'); ?>>No</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<th scope="row">Image</th>
+							<td>
+								<select name="Image">
+									<option value="yes" <?php $this->CheckSelected($Settings['Image'], 'yes'); ?>>Yes</option>
+									<option value="no" <?php $this->CheckSelected($Settings['Image'], 'no'); ?>>No</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr valign="top">
+							<th scope="row">Items</th>
+							<td>
+								<input name="Items" type="text" value="<?php print $Settings['Items']; ?>" class="regular-text" />
+								<span class="description">"all" or any number greater than 0.</span>
 							</td>
 						</tr>
 
@@ -707,14 +755,18 @@ if (!class_exists('Listly'))
 		function ShortCode($Attributes, $Content = null, $Code = '')
 		{
 			$ListId = $Attributes['id'];
-			$Theme = isset($Attributes['theme']) ? $Attributes['theme'] : $this->Settings['Theme'];
+			$Theme = (isset($Attributes['theme']) && $Attributes['theme']) ? $Attributes['theme'] : $this->Settings['Theme'];
+			$Layout = (isset($Attributes['layout']) && $Attributes['layout']) ? $Attributes['layout'] : $this->Settings['Layout'];
+			$Numbered = (isset($Attributes['numbered']) && $Attributes['numbered']) ? $Attributes['numbered'] : $this->Settings['Numbered'];
+			$Image = (isset($Attributes['image']) && $Attributes['image']) ? $Attributes['image'] : $this->Settings['Image'];
+			$Items = (isset($Attributes['items']) && $Attributes['items']) ? $Attributes['items'] : $this->Settings['Items'];
 
 			if (empty($ListId))
 			{
 				return 'List ID not supplied.';
 			}
 
-			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'theme' => $Theme, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT']))));
+			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'theme' => $Theme, 'layout' => $Layout, 'numbered' => $Numbered, 'image' => $Image, 'items' => $Items, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT']))));
 
 			$Response = wp_remote_post($this->SiteURL.'v1/list/embed.json', $PostParms);
 
