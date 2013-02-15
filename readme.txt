@@ -1,10 +1,12 @@
 === List.ly ===
-Contributors: milanmk
+Contributors: listly, milanmk
 Donate link: http://list.ly/
 Tags: listly, lists, social, social list
 Requires at least: 3.0
 Tested up to: 3.3.1
 Stable tag: 1.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Plugin to easily integrate List.ly lists to Posts and Pages.
 
