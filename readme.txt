@@ -1,5 +1,5 @@
 === List.ly ===
-Contributors: milanmk
+Contributors: listly, milanmk
 Donate link: http://list.ly/
 Tags: listly, lists, list, social, crowdsource, crowdsourcing, crowd, collaboration, content, curate, curation, social, search engine optimization, seo, embed, embedded, challenge, contest, vote, rank, poll, opinion, link, quiz, survey, feedback
 Requires at least: 3.0
