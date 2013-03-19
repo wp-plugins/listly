@@ -1,56 +1,44 @@
-.ListlyAdminListAddItems
+#ListlyAdminYourList
 {
-	color: #ffffff !important;
-	background: #FF7700;
+	height: 150px;
+	padding: 6px 6px 0;
+	border: 1px solid #A6A6A6;
+	background: #ffffff;
+	overflow: auto;
 }
 
-.listly-form label
+#ListlyAdminYourList p
 {
-	display: block;
-	font-weight: bold;
+	clear: both;
+	overflow: hidden;
+	margin-top: 0;
 }
 
-.listly-form textarea.large-text
+#ListlyAdminYourList p img.avatar
 {
-	height: 40px;
+	float: left;
+	margin: 0 8px 0 0;
+	width: 24px;
+	border: 2px solid #A6A6A6;
 }
 
-.listly-form span.description
+.ListlyAdminListSearchWrap
 {
-	display: block;
+	position: relative;
 }
 
-.listly-form-message .error, .listly-table .error
+.ListlyAdminListSearchClear
 {
-	color: red;
+	display: none;
+	position: absolute;
+	top: 3px;
+	right: 5px;
 }
 
-.listly-form-message .info, .listly-table .info
-{
-	color: green;
-}
-
-.listly-form-submit
-{
-	min-height: 30px;
-	padding: 0px 0px 20px;
-	background: url(images/logo-small-blue.png) no-repeat left 20px;
-}
-
-.listly-form-submit hr
-{
-	margin-bottom: 20px;
-}
-
-.listly-form-submit button
+a.ListlyAdminListEmbed
 {
 	float: right;
-}
-
-.ui-state p
-{
-	padding-left: 10px;
-	padding-right: 10px;
+	margin: 0 0 0 8px;
 }
 
 .strong

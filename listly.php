@@ -3,9 +3,9 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.2
+	Version:     1.3
 	Author:      Milan Kaneria
-	Author URI:  mailto:milanmk@yahoo.com
+	Author URI:  http://brandintellect.in/
 */
 
 
@@ -15,6 +15,7 @@ if (!class_exists('Listly'))
 	{
 		function __construct()
 		{
+			$this->Version = 1.3;
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname($this->PluginFile) . '/';
@@ -22,41 +23,41 @@ if (!class_exists('Listly'))
 			$this->SettingsURL = 'options-general.php?page='.dirname(plugin_basename($this->PluginFile)).'/'.basename($this->PluginFile);
 			$this->SettingsName = 'Listly';
 			$this->Settings = get_option($this->SettingsName);
-			$this->SiteURL = 'http://api.list.ly/';
+			//$this->SiteURL = 'http://api.list.ly/v1/';
+			$this->SiteURL = 'http://listly-staging.herokuapp.com/v2/';
 
-			$this->SettingsDefaults = array(
+			$this->SettingsDefaults = array
+			(
 				'PublisherKey' => '',
-				'Theme' => 'light',
 				'Layout' => 'full',
-				'Numbered' => 'yes',
-				'Image' => 'yes',
-				'Items' => 'all',
+				'APIStylesheet' => '',
 			);
 
-			$this->PostDefaults = array(
+			$this->PostDefaults = array
+			(
 				'method' => 'POST',
 				'timeout' => 5,
 				'redirection' => 5,
 				'httpversion' => '1.0',
 				'blocking' => true,
-				'headers' => array('Content-Type' => 'application/json'),
+				'decompress' => true,
+				'headers' => array('Content-Type' => 'application/json', 'Accept-Encoding' => 'gzip, deflate'),
 				'body' => array(),
 				'cookies' => array()
 			);
 
 
-			register_activation_hook($this->PluginFile, array(&$this, 'Activate'));
+			register_activation_hook($this->PluginFile, array($this, 'Activate'));
 
-			add_filter('plugin_action_links', array(&$this, 'ActionLinks'), 10, 2);
-			add_filter('contextual_help', array(&$this, 'ContextualHelp'), 10, 3);
-			add_action('admin_menu', array(&$this, 'AdminMenu'));
-			add_action('wp_head', array(&$this, 'WPHead'));
-			add_action('wp_ajax_AJAXPublisherAuth', array(&$this, 'AJAXPublisherAuth'));
-			add_action('wp_ajax_AJAXListAdd', array(&$this, 'AJAXListAdd'));
-			add_action('wp_ajax_AJAXListInfo', array(&$this, 'AJAXListInfo'));
-			add_action('wp_ajax_AJAXItemAdd', array(&$this, 'AJAXItemAdd'));
-			add_action('wp_ajax_AJAXItemInfo', array(&$this, 'AJAXItemInfo'));
-			add_shortcode('listly', array(&$this, 'ShortCode'));
+			add_filter('plugin_action_links_'.plugin_basename($this->PluginFile), array($this, 'ActionLinks'));
+			add_action('init', array($this, 'Init'));
+			add_action('admin_menu', array($this, 'AdminMenu'));
+			add_action('admin_print_scripts', array($this, 'AdminPrintScripts'));
+			add_action('admin_print_styles', array($this, 'AdminPrintStyles'));
+			add_filter('contextual_help', array($this, 'ContextualHelp'), 10, 3);
+			add_action('wp_enqueue_scripts', array($this, 'WPEnqueueScripts'));
+			add_action('wp_ajax_ListlyAJAXPublisherAuth', array($this, 'ListlyAJAXPublisherAuth'));
+			add_shortcode('listly', array($this, 'ShortCode'));
 
 			if ($this->Settings['PublisherKey'] == '')
 			{
@@ -81,72 +82,64 @@ if (!class_exists('Listly'))
 		}
 
 
-		function ActionLinks($Links, $File)
+		function ActionLinks($Links)
 		{
-			static $FilePlugin;
+			$Link = "<a href='$this->SettingsURL'>Settings</a>";
 
-			if (!$FilePlugin)
-			{
-				$FilePlugin = plugin_basename($this->PluginFile);
-			}
-	
-			if ($File == $FilePlugin)
-			{
-				$Link = "<a href='$this->SettingsURL'>Settings</a>";
-
-				array_push($Links, $Link);
-			}
+			array_push($Links, $Link);
 
 			return $Links;
 		}
 
 
-		function ContextualHelp($Help, $ScreenId, $Screen)
+		function Init()
 		{
-			global $ListlyPageSettings;
-
-			if ($ScreenId == $ListlyPageSettings)
+			if (isset($_GET['ListlyDeleteCache']))
 			{
-				$Help = '<a href="mailto:support@list.ly">Contact Support</a>';
+				global $wpdb;
+
+				$ListId = ($_GET['ListlyDeleteCache'] != '') ? $_GET['ListlyDeleteCache'].'-' : '';
+
+				$Transients = $wpdb->get_col( $wpdb->prepare("SELECT DISTINCT option_name FROM $wpdb->options WHERE option_name LIKE %s", array("_transient_Listly-$ListId%")) );
+
+				if ($Transients)
+				{
+					foreach ($Transients as $Transient)
+					{
+						delete_transient(str_ireplace('_transient_', '', $Transient));
+					}
+
+					print 'Listly: Cached data deleted.';
+				}
+				else
+				{
+					print 'Listly: No cached data found.';
+				}
+			}
+		}
+
+
+		function WPEnqueueScripts()
+		{
+			if ($this->Settings['APIStylesheet'])
+			{
+				wp_enqueue_style('listly-list', $this->Settings['APIStylesheet'], false, $this->Version, 'screen');
 			}
 
-			return $Help;
+			wp_enqueue_script('jquery');
 		}
 
 
 		function AdminPrintScripts()
 		{
-
-		?>
-
-			<script type="text/javascript">
-				var ListlyNounce = '<?php print wp_create_nonce('ListlyNounce'); ?>';
-				var ListlyURL = '<?php print $this->SiteURL; ?>';
-				var ListlySettings = [];
-					ListlySettings[1] = '<?php print $this->Settings['Theme']; ?>'; // Theme
-					ListlySettings[2] = '<?php print $this->Settings['Layout']; ?>'; // Layout
-					ListlySettings[3] = '<?php print $this->Settings['Numbered']; ?>'; // Numbered
-					ListlySettings[4] = '<?php print $this->Settings['Image']; ?>'; // Image
-					ListlySettings[5] = '<?php print $this->Settings['Items']; ?>'; // Items
-			</script>
-
-		<?php
-
 			wp_enqueue_script('jquery');
-			wp_enqueue_script('jquery-ui-core');
-			wp_enqueue_script('jquery-ui-widget');
-			wp_enqueue_script('jquery-ui-mouse');
-			wp_enqueue_script('jquery-ui-position');
-			wp_enqueue_script('jquery-ui-draggable');
-			wp_enqueue_script('jquery-ui-button');
-			wp_enqueue_script('jquery-ui-dialog');
-			wp_enqueue_script('listly-script', $this->PluginURL.'script.js', false, '1.0', false);
+			wp_enqueue_script('listly-script', $this->PluginURL.'script.js', false, $this->Version, false);
+			wp_localize_script('listly-script', 'Listly', array('PluginURL' => $this->PluginURL, 'SiteURL' => $this->SiteURL, 'Key' => $this->Settings['PublisherKey'], 'Nounce' => wp_create_nonce('ListlyNounce')));
 		}
 
 		function AdminPrintStyles()
 		{
-			wp_enqueue_style('listly-style-jquery-ui', $this->PluginURL.'style.jquery.ui.css', false, '1.8.14', 'screen');
-			wp_enqueue_style('listly-style', $this->PluginURL.'style.css', false, '1.0', 'screen');
+			wp_enqueue_style('listly-style', $this->PluginURL.'style.css', false, $this->Version, 'screen');
 		}
 
 
@@ -154,13 +147,10 @@ if (!class_exists('Listly'))
 		{
 			global $ListlyPageSettings;
 
-			$ListlyPageSettings = add_submenu_page('options-general.php', 'Listly &rsaquo; Settings', 'Listly', 'manage_options', $this->PluginFile, array(&$this, 'Admin'));
+			$ListlyPageSettings = add_submenu_page('options-general.php', 'Listly &rsaquo; Settings', 'Listly', 'manage_options', $this->PluginFile, array($this, 'Admin'));
 
-			add_action("admin_print_scripts", array(&$this, 'AdminPrintScripts'));
-			add_action("admin_print_styles", array(&$this, 'AdminPrintStyles'));
-
-			add_meta_box('ListlyMetaBox', 'Listly', array(&$this, 'MetaBox'), 'page', 'side', 'default');
-			add_meta_box('ListlyMetaBox', 'Listly', array(&$this, 'MetaBox'), 'post', 'side', 'core');
+			add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), 'page', 'side', 'default');
+			add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), 'post', 'side', 'core');
 		}
 
 
@@ -171,39 +161,56 @@ if (!class_exists('Listly'))
 				wp_die(__('You do not have sufficient permissions to access this page.'));
 			}
 
-			if (isset($_POST['action']) && $_POST['action'] == 'ListlySaveSettings')
+			if (isset($_POST['action']) && !wp_verify_nonce($_POST['nonce'], $this->SettingsName))
 			{
-				if (wp_verify_nonce($_POST['nonce'], $this->SettingsName))
+				wp_die(__('Security check failed! Settings not saved.'));
+			}
+
+			global $wpdb;
+
+			if (isset($_POST['action']) && $_POST['action'] == 'Save Settings')
+			{
+				foreach ($_POST as $Key => $Value)
 				{
-					foreach ($_POST as $Key => $Value)
+					if (array_key_exists($Key, $this->SettingsDefaults))
 					{
-						if (array_key_exists($Key, $this->SettingsDefaults))
+						if (is_array($Value))
 						{
-							if (is_array($Value))
-							{
-								array_walk_recursive($Value, array(&$this, 'TrimByReference'));
-							}
-							else
-							{
-								$Value = trim($Value);
-							}
-
-							$Settings[$Key] = $Value;
+							array_walk_recursive($Value, array($this, 'TrimByReference'));
 						}
-					}
+						else
+						{
+							$Value = trim($Value);
+						}
 
-					if (update_option($this->SettingsName, $Settings))
-					{
-						print '<div class="updated"><p><strong>Settings saved.</strong></p></div>';
+						$this->Settings[$Key] = $Value;
 					}
 				}
-				else
+
+				if (update_option($this->SettingsName, $this->Settings))
 				{
-					print '<div class="error"><p><strong>Security check failed! Settings not saved.</strong></p></div>';
+					print '<div class="updated"><p><strong>Settings saved.</strong></p></div>';
 				}
 			}
 
-			$Settings = get_option($this->SettingsName);
+			if (isset($_POST['action']) && $_POST['action'] == 'Delete Cache')
+			{
+				$Transients = $wpdb->get_col("SELECT DISTINCT option_name FROM $wpdb->options WHERE option_name LIKE '_transient_Listly-%'");
+
+				if ($Transients)
+				{
+					foreach ($Transients as $Transient)
+					{
+						delete_transient(str_ireplace('_transient_', '', $Transient));
+					}
+
+					print '<div class="updated"><p><strong>All cached data deleted.</strong></p></div>';
+				}
+				else
+				{
+					print '<div class="error"><p><strong>No cached data found.</strong></p></div>';
+				}
+			}
 
 		?>
 
@@ -222,73 +229,56 @@ if (!class_exists('Listly'))
 
 				<form method="post" action="">
 
+					<h3>Common Settings</h3>
+
 					<table class="form-table listly-table">
 
 						<tr valign="top">
 							<th scope="row">
 								Publisher Key
-								<br /> <a target="_blank" href="<?php print $this->SiteURL; ?>publishers/landing">Request Publisher Key</a>
+								<br /> <a target="_blank" href="http://list.ly/publishers/landing">Request Publisher Key</a>
 							</th>
 							<td>
-								<input name="PublisherKey" type="text" value="<?php print $Settings['PublisherKey']; ?>" class="large-text" />
+								<input name="PublisherKey" type="text" value="<?php print $this->Settings['PublisherKey']; ?>" class="large-text" />
 								<a id="ListlyAdminAuthStatus" href="#">Check Key Status</a> : <span></span>
 							</td>
 						</tr>
 
-						<tr valign="top">
-							<th scope="row">Theme</th>
-							<td>
-								<select name="Theme">
-									<option value="light" <?php $this->CheckSelected($Settings['Theme'], 'light'); ?>>Light</option>
-									<option value="dark" <?php $this->CheckSelected($Settings['Theme'], 'dark'); ?>>Dark</option>
-								</select>
-							</td>
-						</tr>
+					</table>
+
+					<h3>Default ShortCode Settings</h3>
+
+					<table class="form-table listly-table">
 
 						<tr valign="top">
 							<th scope="row">Layout</th>
 							<td>
 								<select name="Layout">
-									<option value="full" <?php $this->CheckSelected($Settings['Layout'], 'full'); ?>>Full</option>
-									<option value="short" <?php $this->CheckSelected($Settings['Layout'], 'short'); ?>>Short</option>
+									<option value="full" <?php $this->CheckSelected($this->Settings['Layout'], 'full'); ?>>Full</option>
+									<option value="short" <?php $this->CheckSelected($this->Settings['Layout'], 'short'); ?>>Short</option>
+									<option value="gallery" <?php $this->CheckSelected($this->Settings['Layout'], 'gallery'); ?>>Gallery</option>
 								</select>
 							</td>
 						</tr>
 
-						<tr valign="top">
-							<th scope="row">Numbered</th>
-							<td>
-								<select name="Numbered">
-									<option value="yes" <?php $this->CheckSelected($Settings['Numbered'], 'yes'); ?>>Yes</option>
-									<option value="no" <?php $this->CheckSelected($Settings['Numbered'], 'no'); ?>>No</option>
-								</select>
-							</td>
-						</tr>
+					</table>
+
+					<h3>Cache Settings</h3>
+
+					<table class="form-table listly-table">
 
 						<tr valign="top">
-							<th scope="row">Image</th>
+							<th scope="row">Delete Cache</th>
 							<td>
-								<select name="Image">
-									<option value="yes" <?php $this->CheckSelected($Settings['Image'], 'yes'); ?>>Yes</option>
-									<option value="no" <?php $this->CheckSelected($Settings['Image'], 'no'); ?>>No</option>
-								</select>
-							</td>
-						</tr>
-
-						<tr valign="top">
-							<th scope="row">Items</th>
-							<td>
-								<input name="Items" type="text" value="<?php print $Settings['Items']; ?>" class="regular-text" />
-								<span class="description">"all" or any number greater than 0.</span>
+								<input name="action" type="submit" value="Delete Cache" class="button-secondary" />
 							</td>
 						</tr>
 
 					</table>
 
 					<input name="nonce" type="hidden" value="<?php print wp_create_nonce($this->SettingsName); ?>" />
-					<input name="action" type="hidden" value="ListlySaveSettings" />
 
-					<div class="submit"><input name="" type="submit" value="Save Settings" class="button-primary" /></div>
+					<div class="submit"><input name="action" type="submit" value="Save Settings" class="button-primary" /></div>
 
 				</form>
 
@@ -299,8 +289,23 @@ if (!class_exists('Listly'))
 		}
 
 
-		function AJAXPublisherAuth()
+		function ContextualHelp($Help, $ScreenId, $Screen)
 		{
+			global $ListlyPageSettings;
+
+			if ($ScreenId == $ListlyPageSettings)
+			{
+				$Help = '<p><a href="mailto:support@list.ly">Contact Support</a></p> <p><a target="_blank" href="http://list.ly/publishers/landing">Request Publisher Key</a></p>';
+			}
+
+			return $Help;
+		}
+
+
+		function ListlyAJAXPublisherAuth()
+		{
+			define('DONOTCACHEPAGE', true);
+
 			if (!wp_verify_nonce($_POST['nounce'], 'ListlyNounce'))
 			{
 				print '<span class="error">Authorisation failed.</span>';
@@ -316,8 +321,7 @@ if (!class_exists('Listly'))
 				else
 				{
 					$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('key' => $_POST['Key']))));
-
-					$Response = wp_remote_post($this->SiteURL.'v1/publisher/auth.json', $PostParms);
+					$Response = wp_remote_post($this->SiteURL.'publisher/auth.json', $PostParms);
 
 					if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
 					{
@@ -343,352 +347,6 @@ if (!class_exists('Listly'))
 		}
 
 
-		function AJAXListAdd()
-		{
-			if (!wp_verify_nonce($_POST['nounce'], 'ListlyNounce'))
-			{
-				print "<div class='ui-state ui-state-error ui-corner-all'><p>Authorisation failed!</p></div>";
-				exit;
-			}
-
-			if (isset($_POST['action'], $_POST['ListlyList']))
-			{
-				$_POST['ListlyList']['commentable'] = isset($_POST['ListlyList']['commentable']) ? $_POST['ListlyList']['commentable'] : 'false';
-				$_POST['ListlyList']['moderate_items'] = isset($_POST['ListlyList']['moderate_items']) ? $_POST['ListlyList']['moderate_items'] : 'false';
-				$_POST['ListlyList']['guest_participation'] = isset($_POST['ListlyList']['guest_participation']) ? $_POST['ListlyList']['guest_participation'] : 'false';
-				$_POST['ListlyList']['no_dislike'] = isset($_POST['ListlyList']['no_dislike']) ? $_POST['ListlyList']['no_dislike'] : 'false';
-
-				$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $_POST['ListlyList'], 'key' => $this->Settings['PublisherKey']))));
-
-				$Response = wp_remote_post($this->SiteURL.'v1/list/create.json', $PostParms);
-//print '<pre>'; print_r ($Response); print '</pre>'; exit;
-
-				if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
-				{
-					print json_encode(array('message' => '<span class="error">No connectivity or Listly service not available. Try later.</span>'));
-				}
-				else
-				{
-					print $Response['body'];
-				}
-			}
-			else
-			{
-
-		?>
-
-				<div class="listly-wrap listly-wrap-list-add">
-					<form class="listly-form listly-form-list-add" method="post" action="" accept-charset="utf-8">
-						<div style="height: 430px; overflow: auto;">
-						<p class="listly-form-message listly-form-message-list-add strong"></p>
-						<p>
-							<label>Title</label>
-							<input type="text" name="ListlyList[title]" maxlength="50" class="large-text" />
-							<span class="description">Between 5-50 characters</span>
-						</p>
-						<p>
-							<label>Description</label>
-							<textarea name="ListlyList[description]" maxlength="512" class="large-text"></textarea>
-							<span class="description">Up to 512 characters</span>
-						</p>
-						<p>
-							<label>Tags</label>
-							<input type="text" name="ListlyList[tag_list]" maxlength="40" class="large-text" />
-							<span class="description">Separate tags with commas</span>
-						</p>
-						<p>
-							<label>Credits</label>
-							<input type="text" name="ListlyList[source]" maxlength="255" class="large-text" />
-							<span class="description">Link to original content, if any</span>
-						</p>
-						<p>
-							<label>
-								<input type="checkbox" value="true" name="ListlyList[commentable]" checked="checked" />
-								Allow Comments
-							</label>
-							<label>
-								<input type="checkbox" value="true" name="ListlyList[moderate_items]" />
-								Moderate Items
-							</label>
-							<label>
-								<input type="checkbox" value="true" name="ListlyList[guest_participation]" checked="checked" />
-								Allow Guest Participation
-							</label>
-							<label>
-								<input type="checkbox" value="true" name="ListlyList[no_dislike]" />
-								Disable Dislikes
-							</label>
-						</p>
-						<input type="hidden" name="nounce" value="<?php print wp_create_nonce('ListlyNounce'); ?>" />
-						<input type="hidden" name="action" value="AJAXListAdd" />
-						</div>
-						<div class="listly-form-submit">
-							<hr />
-							<button class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all button-primary">
-								<span class="ui-button-text">Start List</span>
-							</button>
-						</div>
-					</form>
-				</div>
-
-		<?php
-
-			}
-
-			exit;
-		}
-
-
-		function AJAXListInfo()
-		{
-			if (!wp_verify_nonce($_POST['nounce'], 'ListlyNounce'))
-			{
-				print "<div class='ui-state ui-state-error ui-corner-all'><p>Authorisation failed!</p></div>";
-				exit;
-			}
-
-			$ListId = isset($_POST['ListId']) ? $_POST['ListId'] : '';
-			$Message = isset($_POST['Message']) ? $_POST['Message'] : '';
-
-		?>
-
-			<div class="listly-wrap listly-wrap-list-info">
-
-			<?php
-
-				$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('id' => $ListId, 'key' => $this->Settings['PublisherKey']))));
-
-				$Response = wp_remote_post($this->SiteURL.'v1/list/info', $PostParms);
-
-				if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
-				{
-					print "<div class='ui-state ui-state-error ui-corner-all'><p>No connectivity or Listly service not available. Try later.</p></div>";
-				}
-				else
-				{
-					$ResponseJson = json_decode($Response['body'], true);
-
-					if ($ResponseJson['status'] == 'ok')
-					{
-						$List = json_decode($ResponseJson['list'], true);
-
-						?>
-
-							<div>
-								<a style="float: right; margin-top: -15px; color: #0D0DFE; font-size: 11px;" target="_blank" href="<?php print $this->SiteURL; ?>list/<?php print $ListId; ?>">Preview/Edit on Listly</a>
-								<h2 style="margin-bottom: 0px;"><?php print $List['title']; ?></h2>
-								<p style="margin-top: 5px;"><?php print $List['description']; ?></p>
-							</div>
-
-							<hr />
-
-							<div style="clear: both;" class="listly-wrap listly-wrap-list-info-box">
-							<div style="height: 350px; overflow: auto;">
-
-								<div class='ui-state ui-state-highlight ui-corner-all'><p><?php print $Message; ?></p></div>
-
-								<!--<p><a style="padding: 5px 10px;" class="ListlyAdminListAddItems ui-button ui-corner-all" href="#" data-Id="<?php print $ListId; ?>">+ Add an item to this list</a></p>-->
-								<p><a class="ListlyAdminListAddItems" href="#" data-Id="<?php print $ListId; ?>"><img src="<?php print $this->PluginURL.'images/img-additem.png'; ?>" alt="" /></a></p>
-
-								<?php
-
-									if ($List['items'] != '')
-									{
-										$ListItems = json_decode($List['items'], true);
-
-										$Count = 1;
-
-										foreach ($ListItems as $ListItem)
-										{
-											print "<p><span class='strong'>$Count. {$ListItem['name']}</span> - {$ListItem['note']}</p>";
-
-											$Count++;
-										}
-									}
-
-								?>
-
-								</div>
-
-								<div class="listly-form-submit">
-									<hr />
-									<button class="ui-button ui-button-text-only ui-widget ui-state-active ui-corner-all button-secondary">
-										<span class="ui-button-text">Done</span>
-									</button>
-								</div>
-
-							<div>
-
-						<?php
-
-					}
-					else
-					{
-						print "<div class='ui-state ui-state-error ui-corner-all'><p>{$ResponseJson['message']}</p></div>";
-					}
-				}
-
-			?>
-
-			</div>
-
-		<?php
-
-			exit;
-		}
-
-
-		function AJAXItemAdd()
-		{
-			if (!wp_verify_nonce($_POST['nounce'], 'ListlyNounce'))
-			{
-				print "<div class='ui-state ui-state-error ui-corner-all'><p>Authorisation failed!</p></div>";
-				exit;
-			}
-
-			$ListId = isset($_POST['ListId']) ? $_POST['ListId'] : '';
-
-			if (isset($_POST['action'], $_POST['ListlyItem']))
-			{
-				if (isset($_POST['ListlyItem']['image']) && $_POST['ListlyItem']['image'] == '')
-				{
-					unset($_POST['ListlyItem']['image']);
-				}
-
-				$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'item' => $_POST['ListlyItem'], 'key' => $this->Settings['PublisherKey']))));
-
-				$Response = wp_remote_post($this->SiteURL.'v1/item/create.json', $PostParms);
-//trigger_error('Response - ' . var_export($Response, true), E_USER_WARNING);
-
-				if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
-				{
-					print json_encode(array('message' => '<span class="error">No connectivity or Listly service not available. Try later.</span>'));
-				}
-				else
-				{
-					print $Response['body'];
-				}
-			}
-			else
-			{
-
-		?>
-
-				<form class="listly-form listly-form-item-add" method="post" action="" accept-charset="utf-8">
-					<div style="height: 350px; overflow: auto;">
-					<h3 style="margin: 0px auto 10px;">Add Item</h3>
-					<p class="listly-form-message listly-form-message-item-add strong"></p>
-					<p>
-						<label>Item Name</label>
-						<input type="text" name="ListlyItem[name]" maxlength="50" class="large-text" />
-						<span class="description">Between 1-50 characters</span>
-					</p>
-					<p>
-						<label>URL for Item</label>
-						<input type="text" name="ListlyItem[url]" class="large-text" />
-						<span class="description">Enter an URL. We'll grab the description for you</span>
-					</p>
-					<p>
-						<label>Image for Item</label>
-						<input type="text" name="ListlyItem[image]" class="large-text" />
-						<span class="description">Enter an URL.</span>
-					</p>
-					<p>
-						<label>Add a Description</label>
-						<textarea name="ListlyItem[note]" rows="2" maxlength="1024" class="large-text"></textarea>
-						<span class="description">Optional</span>
-					</p>
-					<input type="hidden" name="nounce" value="<?php print wp_create_nonce('ListlyNounce'); ?>" />
-					<input type="hidden" name="ListId" value="<?php print $ListId; ?>" />
-					<input type="hidden" name="action" value="AJAXItemAdd" />
-					</div>
-					<div class="listly-form-submit">
-						<hr />
-						<button style="margin-left: 30px;" class="ui-button ui-button-text-only ui-widget ui-state-default ui-corner-all button-primary" data-Id="<?php print $ListId; ?>">
-							<span class="ui-button-text">Add Item</span>
-						</button>
-						<button class="ui-button ui-button-text-only ui-widget ui-state-active ui-corner-all button-secondary">
-							<span class="ui-button-text">Cancel</span>
-						</button>
-					</div>
-				</form>
-
-		<?php
-
-			}
-
-			exit;
-		}
-
-
-		function AJAXItemInfo()
-		{
-			if (!wp_verify_nonce($_POST['nounce'], 'ListlyNounce'))
-			{
-				print "<div class='ui-state ui-state-error ui-corner-all'><p>Authorisation failed!</p></div>";
-				exit;
-			}
-
-			$ListId = isset($_POST['ListId']) ? $_POST['ListId'] : '';
-
-			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('id' => $ListId, 'key' => $this->Settings['PublisherKey']))));
-
-			$Response = wp_remote_post($this->SiteURL.'v1/list/info', $PostParms);
-
-			if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
-			{
-				print "<div class='ui-state ui-state-error ui-corner-all'><p>No connectivity or Listly service not available. Try later.</p></div>";
-			}
-			else
-			{
-				$ResponseJson = json_decode($Response['body'], true);
-
-				if ($ResponseJson['status'] == 'ok')
-				{
-					$List = json_decode($ResponseJson['list'], true);
-
-					print '<div style="height: 350px; overflow: auto;">';
-					print "<div class='ui-state ui-state-highlight ui-corner-all'><p>Add more items or click done to finish.</p></div>";
-					//print "<p><a style='padding: 5px 10px;' class='ListlyAdminListAddItems ui-button ui-corner-all' href='#' data-Id='$ListId'>+ Add an item to this list</a></p>";
-					print "<p><a class='ListlyAdminListAddItems' href='#' data-Id='$ListId'><img src='{$this->PluginURL}images/img-additem.png' alt='' /></a></p>";
-
-					if ($List['items'] != '')
-					{
-						$ListItems = json_decode($List['items'], true);
-
-						$Count = 1;
-
-						foreach ($ListItems as $ListItem)
-						{
-							print "<p><span class='strong'>$Count. {$ListItem['name']}</span> - {$ListItem['note']}</p>";
-
-							$Count++;
-						}
-					}
-
-					?>
-						</div>
-
-						<div class="listly-form-submit">
-							<hr />
-							<button class="ui-button ui-button-text-only ui-widget ui-state-active ui-corner-all button-secondary">
-								<span class="ui-button-text">Done</span>
-							</button>
-						</div>
-
-					<?php
-
-				}
-				else
-				{
-					print "<div class='ui-state ui-state-error ui-corner-all'><p>{$ResponseJson['message']}</p></div>";
-				}
-			}
-
-			exit;
-		}
-
-
 		function MetaBox()
 		{
 			if ($this->Settings['PublisherKey'] == '')
@@ -697,94 +355,144 @@ if (!class_exists('Listly'))
 			}
 			else
 			{
+				$UserURL = '#';
+
 				$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('key' => $this->Settings['PublisherKey']))));
 
-				$Response = wp_remote_post($this->SiteURL.'v1/publisher/lists', $PostParms);
-
-				if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
+				if (false === ($Response = get_transient('Listly-Auth')))
 				{
-					print '<p class="error">No connectivity or Listly service not available. Try later.</p>';
+					$Response = wp_remote_post($this->SiteURL.'publisher/auth.json', $PostParms);
+
+					if (!is_wp_error($Response) && isset($Response['body']) && $Response['body'] != '')
+					{
+						set_transient('Listly-Auth', $Response, 86400);
+					}
 				}
-				else
+
+				if (!is_wp_error($Response) && isset($Response['body']) && $Response['body'] != '')
 				{
 					$ResponseJson = json_decode($Response['body'], true);
 
 					if ($ResponseJson['status'] == 'ok')
 					{
-						$Lists = json_decode($ResponseJson['lists'], true);
-
-					?>
-
-						<p><strong>List</strong></p>
-						<p><a id="ListlyAdminListAdd" href="#">Make New List</a></p>
-
-						<p><strong>Your Lists</strong></p>
-						<div id="ListlyAdminYourList" style="height: 250px; overflow: auto;">
-							<?php foreach ($Lists as $Key => $List) : ?>
-								<p><?php print $List['title']; ?><br />
-								<a class="ListlyAdminListEmbed" href="#" data-Id="<?php print $List['list_id']; ?>">ShortCode</a>
-								<a class="ListlyAdminListInfo" href="#" data-Id="<?php print $List['list_id']; ?>">Edit</a></p>
-							<?php endforeach; ?>
-						</div>
-
-					<?php
-
-					}
-					else
-					{
-						print "<div class='ui-state ui-state-error ui-corner-all'><p>{$ResponseJson['message']} Enter a valid key under <a href='$this->SettingsURL'>Settings</a>.</p></div>";
+						$UserURL = $ResponseJson['user_url'].'?trigger=newlist';
 					}
 				}
 
-				?>
+			?>
 
-		<?php
+				<div style="text-align: right;"><a class="button" target="_blank" href="<?php print $UserURL; ?>">Make New List</a></div>
+
+				<p>
+					<div class="ListlyAdminListSearchWrap">
+						<input type="text" name="ListlyAdminListSearch" placeholder="Type at least 4 characters to search" autocomplete="off" style="width: 100%; margin: 0 0 5px;" />
+						<a class="ListlyAdminListSearchClear" href="#">X</a>
+					</div>
+					<label><input type="radio" name="ListlyAdminListSearchType" value="publisher" checked="checked" /> <small>Just My Lists</small></label> &nbsp; <label><input type="radio" name="ListlyAdminListSearchType" value="all" /> <small>Search All Lists</small></label>
+				</p>
+
+				<div id="ListlyAdminYourList"></div>
+
+			<?php
 
 			}
-		}
-
-
-		function WPHead()
-		{
-			wp_enqueue_script('jquery');
-			//wp_enqueue_script($this->SettingsName, $this->PluginURL.'scripts.js', array('jquery'), '1.0', false);
-			//wp_enqueue_style($this->SettingsName, $this->PluginURL.'style.css', false, '1.0', 'screen');
 		}
 
 
 		function ShortCode($Attributes, $Content = null, $Code = '')
 		{
 			$ListId = $Attributes['id'];
-			$Theme = (isset($Attributes['theme']) && $Attributes['theme']) ? $Attributes['theme'] : $this->Settings['Theme'];
 			$Layout = (isset($Attributes['layout']) && $Attributes['layout']) ? $Attributes['layout'] : $this->Settings['Layout'];
-			$Numbered = (isset($Attributes['numbered']) && $Attributes['numbered']) ? $Attributes['numbered'] : $this->Settings['Numbered'];
-			$Image = (isset($Attributes['image']) && $Attributes['image']) ? $Attributes['image'] : $this->Settings['Image'];
-			$Items = (isset($Attributes['items']) && $Attributes['items']) ? $Attributes['items'] : $this->Settings['Items'];
 
 			if (empty($ListId))
 			{
-				return 'List ID not supplied.';
+				return 'Listly: Required parameter List ID is missing.';
 			}
 
-			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'theme' => $Theme, 'layout' => $Layout, 'numbered' => $Numbered, 'image' => $Image, 'items' => $Items, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT']))));
+			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'layout' => $Layout, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT'], 'clear_wp_cache' => site_url("/?ListlyDeleteCache=$ListId") ))));
 
-			$Response = wp_remote_post($this->SiteURL.'v1/list/embed.json', $PostParms);
+			if (false === ($Response = get_transient("Listly-$ListId-$Layout")))
+			{
+				$Response = wp_remote_post($this->SiteURL.'list/embed.json', $PostParms);
+
+				$this->DebugConsole('Create Cache - API Parameters -> ', false, $ListId);
+				$this->DebugConsole(json_encode($PostParms), true);
+				$this->DebugConsole('Create Cache - API Response -> ', false, $ListId);
+				$this->DebugConsole(json_encode($Response), true);
+
+				if (!is_wp_error($Response) && isset($Response['body']) && $Response['body'] != '')
+				{
+					$ResponseJson = json_decode($Response['body'], true);
+
+					if ($ResponseJson['status'] == 'ok')
+					{
+						set_transient("Listly-$ListId-$Layout", $Response, 86400);
+					}
+				}
+			}
 
 			if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
 			{
-				return 'Listly error!';
+				return "<!-- Listly error! --><p><a href=\"http://list.ly/$ListId\">View List on List.ly</a></p>";
 			}
 			else
 			{
+				if (false !== ($Timeout = get_option("_transient_timeout_Listly-$ListId-$Layout")) && $Timeout < time() + 82800)
+				{
+					$Response = wp_remote_post($this->SiteURL.'list/embed.json', $PostParms);
+
+					$this->DebugConsole('Update Cache - API Parameters -> ', false, $ListId);
+					$this->DebugConsole(json_encode($PostParms), true);
+					$this->DebugConsole('Update Cache - API Response -> ', false, $ListId);
+					$this->DebugConsole(json_encode($Response), true);
+
+					if (!is_wp_error($Response) && isset($Response['body']) && $Response['body'] != '')
+					{
+						$ResponseJson = json_decode($Response['body'], true);
+
+						if ($ResponseJson['status'] == 'ok')
+						{
+							delete_transient("Listly-$ListId-$Layout");
+							set_transient("Listly-$ListId-$Layout", $Response, 86400);
+						}
+					}
+				}
+
+				$this->DebugConsole('Cached Data -> ', false, $ListId);
+				$this->DebugConsole(json_encode($Response), true);
+
 				$ResponseJson = json_decode($Response['body'], true);
 
 				if ($ResponseJson['status'] == 'ok')
 				{
+					if (!$this->Settings['APIStylesheet'] || $this->Settings['APIStylesheet'] != $ResponseJson['styles'][0])
+					{
+						$this->Settings['APIStylesheet'] = $ResponseJson['styles'][0];
+						update_option($this->SettingsName, $this->Settings);
+					}
+
 					return $ResponseJson['list-dom'];
 				}
 				else
 				{
-					return $ResponseJson['message'];
+					$this->DebugConsole('API Error -> '.$ResponseJson['message'], false, $ListId);
+					return "<!-- Listly error! --><p><a href=\"http://list.ly/$ListId\">View List on List.ly</a></p>";
+				}
+			}
+		}
+
+
+		function DebugConsole($Message = '', $Array = false, $ListId = '')
+		{
+			if (isset($_GET['ListlyDebug']) && $Message)
+			{
+				if ($Array)
+				{
+					print "<script type='text/javascript'> console.log($Message); </script>";
+				}
+				else
+				{
+					print "<script type='text/javascript'> console.log('Listly $ListId: $Message'); </script>";
 				}
 			}
 		}

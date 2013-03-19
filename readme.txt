@@ -1,10 +1,10 @@
 === List.ly ===
-Contributors: listly, milanmk
+Contributors: milanmk
 Donate link: http://list.ly/
-Tags: listly, lists, social, social list
+Tags: listly, lists, list, social, crowdsource, crowdsourcing, crowd, collaboration, content, curate, curation, social, search engine optimization, seo, embed, embedded, challenge, contest, vote, rank, poll, opinion, link, quiz, survey, feedback
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 1.2
+Tested up to: 3.5
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,13 +25,23 @@ Plugin to easily integrate List.ly lists to Posts and Pages. It allows publisher
 
 = How can I get publisher key =
 
-You can get a publisher key from [here](http://list.ly/publishers/earlyaccess).
+You can get a publisher key from [here](http://list.ly/publishers/landing).
 
 == Screenshots ==
 
-No screenshots for now.
+1. Apply your publisher key and click save in order to enable the Listly plugin
+2. Find your list on Listly and click on the embed button and you will see this preview screen. You can resize to get a sense of the responsive design. You can also choose between one of three layouts
+3. Grab your shortcode from any list on Listly and paste it into your post of page
+4. Example of gallery format list
+5. Example of short format list
+6. Example of full format list
 
 == Changelog ==
+
+= 1.3 =
+* Updated Metabox interface.
+* Added fallback link to list for embed code when there are API connection errors.
+* Added local caching of lists.
 
 = 1.2 =
 * Added parameters to shortcode.
