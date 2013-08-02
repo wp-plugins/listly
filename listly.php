@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.3
+	Version:     1.4
 	Author:      Milan Kaneria
 	Author URI:  http://brandintellect.in/
 */
@@ -401,6 +401,8 @@ if (!class_exists('Listly'))
 
 		function ShortCode($Attributes, $Content = null, $Code = '')
 		{
+			global $wp_version;
+
 			$ListId = $Attributes['id'];
 			$Layout = (isset($Attributes['layout']) && $Attributes['layout']) ? $Attributes['layout'] : $this->Settings['Layout'];
 
@@ -408,6 +410,9 @@ if (!class_exists('Listly'))
 			{
 				return 'Listly: Required parameter List ID is missing.';
 			}
+
+			$this->DebugConsole("WP -> $wp_version", false, $ListId);
+			$this->DebugConsole('PHP -> '.phpversion(), false, $ListId);
 
 			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'layout' => $Layout, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT'], 'clear_wp_cache' => site_url("/?ListlyDeleteCache=$ListId") ))));
 
@@ -433,7 +438,7 @@ if (!class_exists('Listly'))
 
 			if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
 			{
-				return "<!-- Listly error! --><p><a href=\"http://list.ly/$ListId\">View List on List.ly</a></p>";
+				return "<p><a href=\"http://list.ly/$ListId\">View List on List.ly</a></p>";
 			}
 			else
 			{
@@ -476,7 +481,7 @@ if (!class_exists('Listly'))
 				else
 				{
 					$this->DebugConsole('API Error -> '.$ResponseJson['message'], false, $ListId);
-					return "<!-- Listly error! --><p><a href=\"http://list.ly/$ListId\">View List on List.ly</a></p>";
+					return "<p><a href=\"http://list.ly/$ListId\">View List on List.ly</a></p>";
 				}
 			}
 		}
