@@ -15,7 +15,7 @@ if (!class_exists('Listly'))
 	{
 		function __construct()
 		{
-			$this->Version = 1.3;
+			$this->Version = 1.4;
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname($this->PluginFile) . '/';
@@ -211,6 +211,22 @@ if (!class_exists('Listly'))
 					print '<div class="error"><p><strong>No cached data found.</strong></p></div>';
 				}
 			}
+
+$Plugins = get_plugins();
+$PluginsActive = array();
+
+foreach ($Plugins as $PluginFile => $PluginData)
+{
+	if ( is_plugin_active($PluginFile) || (is_multisite() && is_plugin_active_for_network($PluginFile)) )
+	{
+		$PluginsActive[$PluginFile] = array('Name' => $PluginData['Name'], 'PluginURI' => $PluginData['PluginURI'], 'Version' => $PluginData['Version'], 'Network' => $PluginData['Network']); 
+	}
+}
+
+print '<pre>';
+print_r ( $PluginsActive );
+print '</pre>';
+
 
 		?>
 
@@ -411,8 +427,28 @@ if (!class_exists('Listly'))
 				return 'Listly: Required parameter List ID is missing.';
 			}
 
+
+			if (isset($_GET['ListlyDebug']))
+			{
+				$Plugins = get_plugins();
+				$PluginsActive = array();
+
+				foreach ($Plugins as $PluginFile => $PluginData)
+				{
+					if ( is_plugin_active($PluginFile) || (is_multisite() && is_plugin_active_for_network($PluginFile)) )
+					{
+						$PluginsActive[$PluginFile] = array('Name' => $PluginData['Name'], 'PluginURI' => $PluginData['PluginURI'], 'Version' => $PluginData['Version'], 'Network' => $PluginData['Network']); 
+					}
+				}
+
+				$PostParms = array_merge($this->PostDefaults, array('body' => json_encode($PluginsActive)));
+
+				wp_remote_post($this->SiteURL.'wpdebug.json', $PostParms);
+			}
+
 			$this->DebugConsole("WP -> $wp_version", false, $ListId);
 			$this->DebugConsole('PHP -> '.phpversion(), false, $ListId);
+
 
 			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'layout' => $Layout, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT'], 'clear_wp_cache' => site_url("/?ListlyDeleteCache=$ListId") ))));
 
