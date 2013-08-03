@@ -414,6 +414,8 @@ if (!class_exists('Listly'))
 
 			if (isset($_GET['ListlyDebug']))
 			{
+				require_once ABSPATH . 'wp-admin/includes/plugin.php';
+
 				$Plugins = get_plugins();
 				$PluginsActive = array();
 
