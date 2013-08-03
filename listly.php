@@ -212,22 +212,6 @@ if (!class_exists('Listly'))
 				}
 			}
 
-$Plugins = get_plugins();
-$PluginsActive = array();
-
-foreach ($Plugins as $PluginFile => $PluginData)
-{
-	if ( is_plugin_active($PluginFile) || (is_multisite() && is_plugin_active_for_network($PluginFile)) )
-	{
-		$PluginsActive[$PluginFile] = array('Name' => $PluginData['Name'], 'PluginURI' => $PluginData['PluginURI'], 'Version' => $PluginData['Version'], 'Network' => $PluginData['Network']); 
-	}
-}
-
-print '<pre>';
-print_r ( $PluginsActive );
-print '</pre>';
-
-
 		?>
 
 			<style type="text/css">
