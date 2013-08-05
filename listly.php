@@ -432,6 +432,7 @@ if (!class_exists('Listly'))
 				wp_remote_post($this->SiteURL.'wpdebug.json', $PostParms);
 			}
 
+			$this->DebugConsole("Listly -> $this->Version", false, $ListId);
 			$this->DebugConsole("WP -> $wp_version", false, $ListId);
 			$this->DebugConsole('PHP -> '.phpversion(), false, $ListId);
 
