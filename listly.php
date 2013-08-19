@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.4
+	Version:     1.5
 	Author:      Milan Kaneria
 	Author URI:  http://brandintellect.in/
 */
@@ -15,7 +15,7 @@ if (!class_exists('Listly'))
 	{
 		function __construct()
 		{
-			$this->Version = 1.4;
+			$this->Version = 1.5;
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname($this->PluginFile) . '/';
@@ -41,9 +41,9 @@ if (!class_exists('Listly'))
 				'httpversion' => '1.0',
 				'blocking' => true,
 				'decompress' => true,
-				'headers' => array('Content-Type' => 'application/json', 'Accept-Encoding' => 'gzip, deflate'),
+				'headers' => array('Content-Type' => 'application/x-www-form-urlencoded', 'Accept-Encoding' => 'gzip, deflate'),
 				'body' => array(),
-				'cookies' => array()
+				'cookies' => array(),
 			);
 
 
@@ -320,7 +320,7 @@ if (!class_exists('Listly'))
 				}
 				else
 				{
-					$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('key' => $_POST['Key']))));
+					$PostParms = array_merge($this->PostDefaults, array('body' => http_build_query(array('key' => $_POST['Key']))));
 					$Response = wp_remote_post($this->SiteURL.'publisher/auth.json', $PostParms);
 
 					if (is_wp_error($Response) || !isset($Response['body']) || $Response['body'] == '')
@@ -357,7 +357,7 @@ if (!class_exists('Listly'))
 			{
 				$UserURL = '#';
 
-				$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('key' => $this->Settings['PublisherKey']))));
+				$PostParms = array_merge($this->PostDefaults, array('body' => http_build_query(array('key' => $this->Settings['PublisherKey']))));
 
 				if (false === ($Response = get_transient('Listly-Auth')))
 				{
@@ -427,7 +427,7 @@ if (!class_exists('Listly'))
 					}
 				}
 
-				$PostParms = array_merge($this->PostDefaults, array('body' => json_encode($PluginsActive)));
+				$PostParms = array_merge($this->PostDefaults, array('body' => http_build_query($PluginsActive)));
 
 				wp_remote_post($this->SiteURL.'wpdebug.json', $PostParms);
 			}
@@ -437,7 +437,7 @@ if (!class_exists('Listly'))
 			$this->DebugConsole('PHP -> '.phpversion(), false, $ListId);
 
 
-			$PostParms = array_merge($this->PostDefaults, array('body' => json_encode(array('list' => $ListId, 'layout' => $Layout, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT'], 'clear_wp_cache' => site_url("/?ListlyDeleteCache=$ListId") ))));
+			$PostParms = array_merge($this->PostDefaults, array('body' => http_build_query(array('list' => $ListId, 'layout' => $Layout, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT'], 'clear_wp_cache' => site_url("/?ListlyDeleteCache=$ListId") ))));
 
 			if (false === ($Response = get_transient("Listly-$ListId-$Layout")))
 			{
