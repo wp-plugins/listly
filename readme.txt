@@ -4,7 +4,7 @@ Donate link: http://list.ly/
 Tags: listly, lists, list, social, crowdsource, crowdsourcing, crowd, collaboration, content, curate, curation, social, search engine optimization, seo, embed, embedded, challenge, contest, vote, rank, poll, opinion, link, quiz, survey, feedback
 Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 
 == Changelog ==
 
+= 1.6 =
+* Updated ShortCode routine for local caching.
+
 = 1.5 =
 * Switched outgoing API content type from JSON to Form Urlencode for wider server compatibility.
 
@@ -50,7 +53,7 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 * Added local caching of lists.
 
 = 1.2 =
-* Added parameters to shortcode.
+* Added parameters to ShortCode.
 
 = 1.1 =
 * Fixed ShortCode output issue.
