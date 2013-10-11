@@ -23,7 +23,7 @@ if (!class_exists('Listly'))
 			$this->SettingsURL = 'options-general.php?page='.dirname(plugin_basename($this->PluginFile)).'/'.basename($this->PluginFile);
 			$this->SettingsName = 'Listly';
 			$this->Settings = get_option($this->SettingsName);
-			$this->SiteURL = 'http://api.list.ly/v2/'; // http://listly-staging.herokuapp.com/v2/
+			$this->SiteURL = 'http://list.ly/api/v2/';
 
 			$this->SettingsDefaults = array
 			(
