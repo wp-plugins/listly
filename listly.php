@@ -15,7 +15,7 @@ if (!class_exists('Listly'))
 	{
 		function __construct()
 		{
-			$this->Version = 1.6;
+			$this->Version = '1.6.1';
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname($this->PluginFile) . '/';
