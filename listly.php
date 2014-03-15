@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.6.2
+	Version:     1.6.3
 	Author:      Milan Kaneria
 	Author URI:  http://brandintellect.in/
 */
@@ -15,7 +15,7 @@ if (!class_exists('Listly'))
 	{
 		function __construct()
 		{
-			$this->Version = '1.6.2';
+			$this->Version = '1.6.3';
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname($this->PluginFile) . '/';
@@ -443,7 +443,6 @@ if (!class_exists('Listly'))
 			{
 				$Response = wp_remote_post($this->SiteURL.'list/embed.json', $PostParms);
 
-				//$this->DebugConsole('Create Cache - API Parameters -> ', false, $ListId);
 				//$this->DebugConsole(json_encode($PostParms), true); // Exposes Publisher Key
 				$this->DebugConsole('Create Cache - API Response -> ', false, $ListId);
 				$this->DebugConsole(json_encode($Response), true);
@@ -467,21 +466,21 @@ if (!class_exists('Listly'))
 			{
 				if (false !== ($Timeout = get_option("_transient_timeout_$TransientId")) && $Timeout < time() + 82800)
 				{
-					$Response = wp_remote_post($this->SiteURL.'list/embed.json', $PostParms);
+					$ResponseFresh = wp_remote_post($this->SiteURL.'list/embed.json', $PostParms);
 
-					//$this->DebugConsole('Update Cache - API Parameters -> ', false, $ListId);
 					//$this->DebugConsole(json_encode($PostParms), true); // Exposes Publisher Key
 					$this->DebugConsole('Update Cache - API Response -> ', false, $ListId);
-					$this->DebugConsole(json_encode($Response), true);
+					$this->DebugConsole(json_encode($ResponseFresh), true);
 
-					if (!is_wp_error($Response) && isset($Response['body']) && $Response['body'] != '')
+					if (!is_wp_error($ResponseFresh) && isset($ResponseFresh['body']) && $ResponseFresh['body'] != '')
 					{
-						$ResponseJson = json_decode($Response['body'], true);
+						$ResponseFreshJson = json_decode($ResponseFresh['body'], true);
 
-						if ($ResponseJson['status'] == 'ok')
+						if ($ResponseFreshJson['status'] == 'ok')
 						{
 							delete_transient($TransientId);
-							set_transient($TransientId, $Response, 86400);
+							set_transient($TransientId, $ResponseFresh, 86400);
+							$Response = $ResponseFresh;
 						}
 					}
 				}
