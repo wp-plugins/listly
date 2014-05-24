@@ -3,8 +3,8 @@ Contributors: listly, milanmk
 Donate link: http://list.ly/
 Tags: listly, lists, list, social, crowdsource, crowdsourcing, crowd, collaboration, content, curate, curation, social, search engine optimization, seo, embed, embedded, challenge, contest, vote, rank, poll, opinion, link, quiz, survey, feedback
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.6.3
+Tested up to: 3.9
+Stable tag: 1.6.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,10 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 6. Example of full format list
 
 == Changelog ==
+
+= 1.6.4 =
+* Added support for SSL.
+* Fixed Metabox My List display after clearing search box.
 
 = 1.6.3 =
 * Fixed local cache issue.

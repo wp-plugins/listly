@@ -31,6 +31,11 @@ jQuery(document).ready(function($)
 			$('.ListlyAdminListSearchClear').hide();
 		}
 
+		if (ElmValue == '' && SearchType == 'publisher')
+		{
+			ListlyAdminYourList();
+		}
+
 		if (ElmValue.length > 2)
 		{
 			Container.html('<p>Loading...</p>');
@@ -82,6 +87,13 @@ jQuery(document).ready(function($)
 
 		$('.ListlyAdminListSearchClear').hide();
 		$('input[name="ListlyAdminListSearch"]').val('').focus();
+
+		var SearchType = $('input[name="ListlyAdminListSearchType"]:checked').val();
+
+		if (SearchType == 'publisher')
+		{
+			ListlyAdminYourList();
+		}
 	});
 
 

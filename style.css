@@ -40,3 +40,18 @@ a.ListlyAdminListEmbed
 	float: right;
 	margin: 0 0 0 8px;
 }
+
+.strong
+{
+	font-weight: bold;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
