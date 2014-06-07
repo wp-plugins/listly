@@ -46,7 +46,7 @@ jQuery(document).ready(function($)
 				url: Listly.SiteURL + 'autocomplete/list.json',
 				data: {'term': ElmValue, 'key': Listly.Key, 'type': SearchType},
 				jsonp: 'callback',
-				jsonpCallback: 'jsonCallback',
+				//jsonpCallback: 'jsonCallback',
 				contentType: 'application/json',
 				dataType: 'jsonp',
 				success: function(data)
@@ -117,7 +117,7 @@ jQuery(document).ready(function($)
 			url: Listly.SiteURL + 'publisher/lists',
 			data: {'key': Listly.Key},
 			jsonp: 'callback',
-			jsonpCallback: 'jsonCallback',
+			//jsonpCallback: 'jsonCallback',
 			contentType: 'application/json',
 			dataType: 'jsonp',
 			success: function(data)

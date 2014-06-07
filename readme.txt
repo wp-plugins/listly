@@ -4,7 +4,7 @@ Donate link: http://list.ly/
 Tags: listly, lists, list, social, crowdsource, crowdsourcing, crowd, collaboration, content, curate, curation, social, search engine optimization, seo, embed, embedded, challenge, contest, vote, rank, poll, opinion, link, quiz, survey, feedback
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.6.4
+Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,10 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 6. Example of full format list
 
 == Changelog ==
+
+= 1.6.5 =
+* Updating ShortCode to pass all parameters to API.
+* Added support for Custom Post Types.
 
 = 1.6.4 =
 * Added support for SSL.

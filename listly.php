@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.6.4
+	Version:     1.6.5
 	Author:      Milan Kaneria
 	Author URI:  http://brandintellect.in/
 */
@@ -15,7 +15,7 @@ if (!class_exists('Listly'))
 	{
 		function __construct()
 		{
-			$this->Version = '1.6.4';
+			$this->Version = '1.6.5';
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname($this->PluginFile) . '/';
@@ -97,9 +97,9 @@ if (!class_exists('Listly'))
 			{
 				global $wpdb;
 
-				$ListId = ($_GET['ListlyDeleteCache'] != '') ? $_GET['ListlyDeleteCache'].'-' : '';
+				$TransientId = ($_GET['ListlyDeleteCache'] != '') ? $_GET['ListlyDeleteCache'] : 'Listly-';
 
-				$Transients = $wpdb->get_col( $wpdb->prepare("SELECT DISTINCT option_name FROM $wpdb->options WHERE option_name LIKE %s", array("_transient_Listly-$ListId%")) );
+				$Transients = $wpdb->get_col( $wpdb->prepare("SELECT DISTINCT option_name FROM $wpdb->options WHERE option_name LIKE %s", array("_transient_$TransientId%")) );
 
 				if ($Transients)
 				{
@@ -114,6 +114,8 @@ if (!class_exists('Listly'))
 				{
 					print 'Listly: No cached data found.';
 				}
+
+				exit;
 			}
 		}
 
@@ -150,6 +152,16 @@ if (!class_exists('Listly'))
 
 			add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), 'page', 'side', 'default');
 			add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), 'post', 'side', 'core');
+
+			$PostTypes = get_post_types(array('_builtin' => false));
+
+			if ($PostTypes)
+			{
+				foreach ($PostTypes as $PostType)
+				{
+					add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), $PostType, 'side', 'default');
+				}
+			}
 		}
 
 
@@ -272,6 +284,32 @@ if (!class_exists('Listly'))
 								<input name="action" type="submit" value="Delete Cache" class="button-secondary" />
 							</td>
 						</tr>
+
+						<?php if (isset($_GET['debug'])) : ?>
+							<tr valign="top">
+								<th scope="row">Cached Items</th>
+								<td>
+									<?php
+										$Transients = $wpdb->get_col("SELECT DISTINCT option_name FROM $wpdb->options WHERE option_name LIKE '_transient_Listly-%'");
+
+										if ($Transients)
+										{
+											foreach ($Transients as $Transient)
+											{
+												$TransientId = str_ireplace('_transient_', '', $Transient);
+												$Timeout = date(get_option('date_format').' '.get_option('time_format'), get_option("_transient_timeout_$TransientId"));
+
+												print "<p>$TransientId ($Timeout)</p>";
+											}
+										}
+										else
+										{
+											print 'No cached data found.';
+										}
+									?>
+								</td>
+							</tr>
+						<?php endif; ?>
 
 					</table>
 
@@ -405,7 +443,8 @@ if (!class_exists('Listly'))
 			$ListId = $Attributes['id'];
 			$Layout = (isset($Attributes['layout']) && $Attributes['layout']) ? $Attributes['layout'] : $this->Settings['Layout'];
 			$Title = (isset($Attributes['title']) && $Attributes['title']) ? sanitize_key('-'.$Attributes['title']) : '';
-			$TransientId = "Listly-$ListId$Title-$Layout";
+			//$TransientId = "Listly-$ListId$Title-$Layout";
+			$TransientId = 'Listly-'.md5(http_build_query($Attributes));
 
 			if (empty($ListId))
 			{
@@ -435,9 +474,11 @@ if (!class_exists('Listly'))
 			$this->DebugConsole("Listly -> $this->Version", false, $ListId);
 			$this->DebugConsole("WP -> $wp_version", false, $ListId);
 			$this->DebugConsole('PHP -> '.phpversion(), false, $ListId);
+			$this->DebugConsole("Transient -> $TransientId", false, $ListId);
 
 
-			$PostParms = array_merge($this->PostDefaults, array('body' => http_build_query(array('list' => $ListId, 'layout' => $Layout, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT'], 'clear_wp_cache' => site_url("/?ListlyDeleteCache=$ListId") ))));
+			$PostParmsBody = http_build_query( array_merge( $Attributes , array( 'list' => $ListId, 'layout' => $Layout, 'key' => $this->Settings['PublisherKey'], 'user-agent' => $_SERVER['HTTP_USER_AGENT'], 'clear_wp_cache' => site_url("/?ListlyDeleteCache=$TransientId") ) ) );
+			$PostParms = array_merge($this->PostDefaults, array('body' => $PostParmsBody));
 
 			if (false === ($Response = get_transient($TransientId)))
 			{
