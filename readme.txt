@@ -1,7 +1,7 @@
 === List.ly ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, embed, embedded, engagement, feedback, filter, images, instagram, link, links, list, listly, lists, marketing, media, metrics, news, opinion, plugin, playlist, poll, post, posts, quiz, rank, ranker, ranking, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube 
+Tags: audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, embed, embedded, engagement, feedback, filter, images, instagram, listicle, link, links, list, listly, lists, marketing, media, metrics, news, opinion, plugin, playlist, poll, post, posts, quiz, rank, ranker, ranking, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube 
 
 Requires at least: 3.0
 Tested up to: 3.9
@@ -9,25 +9,25 @@ Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin to easily integrate List.ly lists / lictices to Posts and Pages.
+Plugin to easily integrate List.ly lists / lictices to Posts and Pages on Wordpress and beyond.
 
 == Description ==
 
-Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. 
+Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to lists and embed lists using customizable shortcodes. 
 
 Listly lets you curate and crowdsource any list embedded in a blog post / page. 
 
 Listly empowers your audience to contribute to the list content on your blog. People can also embed other people's lists on their blog.
 
-Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Develper Wish They Knew)
+Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Develper Wish They Knew). Listly is also great for creating playlists of videos, slide and audio.  
 
-30% of blog posts are in the form of lists, listly just makes those post social and collaborative.
+30% of blog posts on the web are in the form of lists, listly just makes those posts social and collaborative.
 
 Here's a video to explain the value of embedding Listly lists on your Wordpress blog:
 
 [youtube http://www.youtube.com/watch?v=sAmOywUMpaA]
 
-Think of Listly as Slideshare for lists. Listly is an authoring platform for lists that can be seamless embedded in blog post across the web.
+Think of Listly as Slideshare for lists. Puts your lists on Listly them embed them on your blog. Listly is an authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
 
 == Installation ==
 
