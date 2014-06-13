@@ -1,7 +1,8 @@
 === List.ly ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: listly, lists, list, social, crowdsource, crowdsourcing, crowd, collaboration, content, curate, curation, social, search engine optimization, seo, embed, embedded, challenge, contest, vote, rank, poll, opinion, link, quiz, survey, feedback
+Tags: audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, embed, embedded, engagement, feedback, filter, images, instagram, link, links, list, listly, lists, marketing, media, metrics, news, opinion, plugin, playlist, poll, post, posts, quiz, rank, ranker, ranking, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube 
+
 Requires at least: 3.0
 Tested up to: 3.9
 Stable tag: 1.6.5
