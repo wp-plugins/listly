@@ -13,7 +13,7 @@ Plugin to easily integrate List.ly lists / lictices to Posts and Pages.
 
 == Description ==
 
-lugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode.
+Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. 
 
 Listly lets you curate and crowdsource any list embedded in a blog post / page. 
 
@@ -21,9 +21,13 @@ Listly empowers your audience to contribute to the list content on your blog. Pe
 
 Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Develper Wish They Knew)
 
-Here's a video to explain the value of embedding Listly lists on your Wordpress blog
+30% of blog posts are in the form of lists, listly just makes those post social and collaborative.
+
+Here's a video to explain the value of embedding Listly lists on your Wordpress blog:
 
 [youtube http://www.youtube.com/watch?v=sAmOywUMpaA]
+
+Think of Listly as Slideshare for lists. Listly is an authoring platform for lists that can be seamless embedded in blog post across the web.
 
 == Installation ==
 
