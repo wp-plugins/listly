@@ -9,11 +9,11 @@ Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin to easily integrate List.ly lists / lictices to Posts and Pages on Wordpress and beyond.
+Plugin to easily integrate List.ly lists / licticles in posts & pages on Wordpress & beyond.
 
 == Description ==
 
-Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to lists and embed lists using customizable shortcodes. 
+Plugin to easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists and embed lists using customizable shortcodes. 
 
 Listly lets you curate and crowdsource any list embedded in a blog post / page. 
 
