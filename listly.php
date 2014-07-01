@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.6.5
+	Version:     1.6.6
 	Author:      Milan Kaneria
 	Author URI:  http://brandintellect.in/
 */
@@ -15,7 +15,7 @@ if (!class_exists('Listly'))
 	{
 		function __construct()
 		{
-			$this->Version = '1.6.5';
+			$this->Version = '1.6.6';
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname($this->PluginFile) . '/';
@@ -53,7 +53,6 @@ if (!class_exists('Listly'))
 			add_action('admin_menu', array($this, 'AdminMenu'));
 			add_action('admin_print_scripts', array($this, 'AdminPrintScripts'));
 			add_action('admin_print_styles', array($this, 'AdminPrintStyles'));
-			add_filter('contextual_help', array($this, 'ContextualHelp'), 10, 3);
 			add_action('wp_enqueue_scripts', array($this, 'WPEnqueueScripts'));
 			add_action('wp_ajax_ListlyAJAXPublisherAuth', array($this, 'ListlyAJAXPublisherAuth'));
 			add_shortcode('listly', array($this, 'ShortCode'));
@@ -122,12 +121,17 @@ if (!class_exists('Listly'))
 
 		function WPEnqueueScripts()
 		{
-			if ($this->Settings['APIStylesheet'])
-			{
-				wp_enqueue_style('listly-list', $this->Settings['APIStylesheet'], false, $this->Version, 'screen');
-			}
+			global $post;
 
-			wp_enqueue_script('jquery');
+			if ( !is_singular() || ( is_singular() && has_shortcode($post->post_content, 'listly') ) )
+			{
+				if ($this->Settings['APIStylesheet'])
+				{
+					wp_enqueue_style('listly-list', $this->Settings['APIStylesheet'], false, $this->Version, 'screen');
+				}
+
+				wp_enqueue_script('jquery');
+			}
 		}
 
 
@@ -146,9 +150,9 @@ if (!class_exists('Listly'))
 
 		function AdminMenu()
 		{
-			global $ListlyPageSettings;
+			$ListlyHook = add_submenu_page('options-general.php', 'Listly Settings', 'Listly', 'manage_options', 'Listly', array($this, 'Admin'));
 
-			$ListlyPageSettings = add_submenu_page('options-general.php', 'Listly Settings', 'Listly', 'manage_options', 'Listly', array($this, 'Admin'));
+			add_action("load-$ListlyHook", array($this, 'AdminMenuLoad'));
 
 			add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), 'page', 'side', 'default');
 			add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), 'post', 'side', 'core');
@@ -162,6 +166,18 @@ if (!class_exists('Listly'))
 					add_meta_box('ListlyMetaBox', 'Listly', array($this, 'MetaBox'), $PostType, 'side', 'default');
 				}
 			}
+		}
+
+
+		function AdminMenuLoad()
+		{
+			add_filter('contextual_help', array($this, 'AdminContextualHelp'), 10, 3);
+		}
+
+
+		function AdminContextualHelp($Help, $ScreenId, $Screen)
+		{
+			return '<p><a href="mailto:support@list.ly">Contact Support</a></p> <p><a target="_blank" href="http://list.ly/publishers/landing">Request Publisher Key</a></p>';
 		}
 
 
@@ -326,19 +342,6 @@ if (!class_exists('Listly'))
 		}
 
 
-		function ContextualHelp($Help, $ScreenId, $Screen)
-		{
-			global $ListlyPageSettings;
-
-			if ($ScreenId == $ListlyPageSettings)
-			{
-				$Help = '<p><a href="mailto:support@list.ly">Contact Support</a></p> <p><a target="_blank" href="http://list.ly/publishers/landing">Request Publisher Key</a></p>';
-			}
-
-			return $Help;
-		}
-
-
 		function ListlyAJAXPublisherAuth()
 		{
 			define('DONOTCACHEPAGE', true);
@@ -443,7 +446,6 @@ if (!class_exists('Listly'))
 			$ListId = $Attributes['id'];
 			$Layout = (isset($Attributes['layout']) && $Attributes['layout']) ? $Attributes['layout'] : $this->Settings['Layout'];
 			$Title = (isset($Attributes['title']) && $Attributes['title']) ? sanitize_key('-'.$Attributes['title']) : '';
-			//$TransientId = "Listly-$ListId$Title-$Layout";
 			$TransientId = 'Listly-'.md5(http_build_query($Attributes));
 
 			if (empty($ListId))
