@@ -1,16 +1,13 @@
 === List.ly ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, marketing, media, metrics, news, object, oembed, opinion, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
+Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, marketing, media, metrics, news, object, oembed, opinion, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
 
 Requires at least: 3.0
-<<<<<<< .mine
-Tested up to: 3.9.1
-Stable tag: 1.6.6
+
 =======
 Tested up to: 3.9
 Stable tag: 1.6.6
->>>>>>> .r953228
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
