@@ -4,8 +4,6 @@ Donate link: http://list.ly/
 Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, marketing, media, metrics, news, object, oembed, opinion, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
 
 Requires at least: 3.0
-
-=======
 Tested up to: 3.9
 Stable tag: 1.6.6
 License: GPLv2 or later
@@ -31,7 +29,7 @@ Here's a video to explain the value of embedding Listly lists on your Wordpress 
 
 Think of Listly as Slideshare for lists. Put your lists on Listly them embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
 
-Here's 5 ides how you can use Listly on your Wordpress blog.
+Here's 5 simple ideas to begin using Listly on your Wordpress blog.
 
 1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014) on other blogs for easy resharing
 2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=search) for a given blog or project.
