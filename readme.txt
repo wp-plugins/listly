@@ -1,33 +1,46 @@
 === List.ly ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, embed, embedded, engagement, feedback, filter, images, instagram, listicle, link, links, list, listly, lists, marketing, media, metrics, news, opinion, plugin, playlist, poll, post, posts, quiz, rank, ranker, ranking, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube 
+Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, marketing, media, metrics, news, object, oembed, opinion, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
 
 Requires at least: 3.0
+<<<<<<< .mine
+Tested up to: 3.9.1
+Stable tag: 1.6.6
+=======
 Tested up to: 3.9
 Stable tag: 1.6.6
+>>>>>>> .r953228
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin to easily integrate List.ly lists / listicles in posts & pages on Wordpress & beyond.
+Plugin to easily integrate responsive List.ly lists / listicles in posts & pages on Wordpress & beyond.
 
 == Description ==
 
-Plugin to easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists and embed lists using customizable shortcodes. 
+Plugin to easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists and embed lists as responsive content using customizable shortcodes. 
 
 Listly lets you curate and crowdsource any list embedded in a blog post / page. 
 
 Listly empowers your audience to contribute to the list content on your blog. People can also embed other people's lists on their blog.
 
-Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Develper Wish They Knew). Listly is also great for creating playlists of videos, slide and audio.  
+Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Develper Wish They Knew). Listly is also great for creating playlists of videos, slides, audio & images. 
 
-30% of blog posts on the web are in the form of lists, listly just makes those posts social and collaborative.
+30% of blog posts on the web are in the form of lists, Listly just makes those posts social and collaborative.
 
 Here's a video to explain the value of embedding Listly lists on your Wordpress blog:
 
 [youtube http://www.youtube.com/watch?v=sAmOywUMpaA]
 
-Think of Listly as Slideshare for lists. Puts your lists on Listly them embed them on your blog. Listly is an authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
+Think of Listly as Slideshare for lists. Put your lists on Listly them embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
+
+Here's 5 ides how you can use Listly on your Wordpress blog.
+
+1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014) on other blogs for easy resharing
+2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=search) for a given blog or project.
+3. Create univeral [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist) of relevant slides, videos and podcasts to embed on your blog
+4. Create lists of [related posts or resources](http://list.ly/list/8KM-content-marketing-tools) to help your readers 
+5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use and extend your list
 
 == Installation ==
 
