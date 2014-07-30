@@ -37,6 +37,10 @@ Here's 5 simple ideas to begin using Listly on your Wordpress blog.
 4. Create lists of [related posts or resources](http://list.ly/list/8KM-content-marketing-tools) to help your readers 
 5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use and extend your list
 
+We think of Lists as a type of data, just like you think of Slides, Videos or Podcasts. All these technologies have evolved in similar ways to be highly embeddable. They have also become highly trafficed search destination sites.
+
+[slideshare http://www.slideshare.net/nickkellet/embeddable-media-categories-shareable-content-v3]
+
 == Installation ==
 
 1. Upload `listly` folder to the `/wp-content/plugins/` directory
@@ -58,6 +62,8 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 4. Example of gallery format list
 5. Example of short format list
 6. Example of full format list
+7. Example of magazine format list (including a headline image) - You can upload you own custom high res images
+8. [Chrome extension](https://chrome.google.com/webstore/detail/listly/bnohaknhjanaejcegmlbhiknhcfkajbb)
 
 == Changelog ==
 
