@@ -1,7 +1,7 @@
 === List.ly ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, marketing, media, metrics, news, object, oembed, opinion, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
+Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, local, marketing, media, metrics, news, object, oembed, opinion, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter,twitter lists, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
 
 Requires at least: 3.0
 Tested up to: 3.9
@@ -19,7 +19,7 @@ Listly lets you curate and crowdsource any list embedded in a blog post / page.
 
 Listly empowers your audience to contribute to the list content on your blog. People can also embed other people's lists on their blog.
 
-Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Develper Wish They Knew). Listly is also great for creating playlists of videos, slides, audio & images. 
+Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Developer Wish They Knew). Listly is also great for creating playlists of videos, slides, audio & images. 
 
 30% of blog posts on the web are in the form of lists, Listly just makes those posts social and collaborative.
 
