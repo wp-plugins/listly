@@ -46,7 +46,7 @@ Reviews
 3. [4 Reasons You Should Use Listly as Your Blogroll](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/)
 4. [Wordpress bloggers take note. List making made simpler with Listly](http://www.speedofcreativity.org/2014/08/05/create-embeddable-twitter-list-with-list-ly/)
 5. [Thanks to Listly, You Don’t Need to Suck Up to Influencers Any 6. More](http://beta21.circussocial.com/tools/thanks-to-listly-you-dont-need-to-suck-up-to-influencers-any-more/)
-7. [Finally a list of 50+ Listly reviews] (http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
+6. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
 
 == Installation ==
 
