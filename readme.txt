@@ -1,7 +1,7 @@
 === List.ly ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, local, marketing, media, metrics, news, object, oembed, opinion, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter,twitter lists, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
+Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, directory lists, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, local, marketing, media, metrics, members lists, news, object, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter,twitter lists, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
 
 Requires at least: 3.0
 Tested up to: 3.9
@@ -38,6 +38,15 @@ Here's 5 simple ideas to begin using Listly on your Wordpress blog.
 5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use and extend your list
 
 We think of Lists as a type of data, just like you think of Slides, Videos or Podcasts. All these technologies have evolved in similar ways to be highly embeddable. They have also become highly trafficed search destination sites. See graphic on [Slideshare](http://www.slideshare.net/nickkellet/embeddable-media-categories-shareable-content-v3)
+
+Reviews
+
+1. [Use lists to boost reader engagement](http://www.appvita.com/2013/06/04/listly-use-lists-to-boost-reader-engagement/)
+2. [Is Listly the future of list posts](http://www.razorsocial.com/is-list-ly-the-future-of-list-posts/)
+3. [4 Reasons You Should Use Listly as Your Blogroll](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/)
+4. [Wordpress bloggers take note. List making made simpler with Listly](http://www.speedofcreativity.org/2014/08/05/create-embeddable-twitter-list-with-list-ly/)
+5. [Thanks to Listly, You Don’t Need to Suck Up to Influencers Any 6. More](http://beta21.circussocial.com/tools/thanks-to-listly-you-dont-need-to-suck-up-to-influencers-any-more/)
+7. [Finally a list of 50+ Listly reviews] (http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
 
 == Installation ==
 
