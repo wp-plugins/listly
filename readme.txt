@@ -33,9 +33,9 @@ Here's 5 simple ideas to begin using Listly on your Wordpress blog.
 
 1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014) on other blogs for easy resharing
 2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=search) for a given blog or project.
-3. Create univeral [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist) of relevant slides, videos and podcasts to embed on your blog
+3. Create universal [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist) of relevant slides, videos and podcasts to embed on your blog
 4. Create lists of [related posts or resources](http://list.ly/list/8KM-content-marketing-tools) to help your readers 
-5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use and extend your list
+5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use and extend your list.
 
 We think of Lists as a type of data, just like you think of Slides, Videos or Podcasts. All these technologies have evolved in similar ways to be highly embeddable. They have also become highly trafficed search destination sites. See graphic on [Slideshare](http://www.slideshare.net/nickkellet/embeddable-media-categories-shareable-content-v3)
 
