@@ -1,7 +1,7 @@
 === List.ly ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, directory lists, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, listicle, link, links, list, listly, lists, local, marketing, media, metrics, members lists, news, object, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter,twitter lists, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
+Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, directory lists, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, journalism, journalist, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, media, metrics, members lists, news, object, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter,twitter lists, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
 
 Requires at least: 3.0
 Tested up to: 3.9
@@ -50,12 +50,28 @@ Reviews
 7. [A Conversation With Nick Kellet, List.ly  Co-Founder by @pamelamuldoon](http://nextstagemediagroup.com/a-conversation-with-nick-kellet-listly-co-founder/)
 8. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
 
+Why Do we Love (and Hate) Lists?
+
+Lists are an integral part of life and digital media. It's worth exploring why.
+1. [10 Reasons to Take a Fresh Look at Lists (Monty Python style)](http://www.slideshare.net/nickkellet/lists-through-the-eyes-on-monty-python-the-life-of-brian)
+2. [Why Do People Either Love or Hate Lists - And Why it doest really matter](http://www.slideshare.net/nickkellet/list-posts-why-people-love-and-hate-lists-curation-tips-for-list-makers)
+3. [10 Reasons You'll Love Lists](http://www.slideshare.net/nickkellet/10-reason-youll-love-lists-for)
+
 == Installation ==
+
+Installing 
 
 1. Upload `listly` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Enter your publisher key in plugin settings page
-4. Go to Page/Post editor and you will find a new meta box named "Listly" where you can add/manage all your lists
+3. Enter your [publisher key](http://list.ly/publishers/landing) in plugin settings page
+
+Adding a List to Your Blog
+
+1. Go to Listly to manage your lists eg here's [Nick Kellet's list page](http://list.ly/nickkellet). You can simply begin by embedding another person's list.
+2. On each list page eg ['50+ Listly Reviews'](http://list.ly/list/2SC) there's an 'Embed List' link that takes your to a page like [this](http://list.ly/preview/2SC)
+3. Grab your customized embed code eg [listly  id="2SC" layout="short" show_header="true" show_author="true" show_sharing="false" show_tools="true" per_page="3"] 
+4. Paste your shortcode into any new or existing post or page. 
+5. Preview or publish to see the list embedded on your blog
 
 == Frequently Asked Questions ==
 
