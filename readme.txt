@@ -46,15 +46,16 @@ Reviews
 3. [Wordpress bloggers take note. List making made simpler with Listly by @wfryer](http://www.speedofcreativity.org/2014/08/05/create-embeddable-twitter-list-with-list-ly/)
 4. [Use lists to boost reader engagement](http://www.appvita.com/2013/06/04/listly-use-lists-to-boost-reader-engagement/)
 5. [Is Listly the future of list posts by @IanCleary / @razorsocial](http://www.razorsocial.com/is-list-ly-the-future-of-list-posts/)
-6. [Thanks to Listly, You Don’t Need to Suck Up to Influencers Any 6. More by @circussocial](http://beta21.circussocial.com/tools/thanks-to-listly-you-dont-need-to-suck-up-to-influencers-any-more/)
+6. [Thanks to Listly, You Don’t Need to Suck Up to Influencers Any More by @circussocial](http://beta21.circussocial.com/tools/thanks-to-listly-you-dont-need-to-suck-up-to-influencers-any-more/)
 7. [A Conversation With Nick Kellet, List.ly  Co-Founder by @pamelamuldoon](http://nextstagemediagroup.com/a-conversation-with-nick-kellet-listly-co-founder/)
 8. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
 
 Why Do we Love (and Hate) Lists?
 
 Lists are an integral part of life and digital media. It's worth exploring why.
-1. [10 Reasons to Take a Fresh Look at Lists (Monty Python style)](http://www.slideshare.net/nickkellet/lists-through-the-eyes-on-monty-python-the-life-of-brian)
-2. [Why Do People Either Love or Hate Lists - And Why it doest really matter](http://www.slideshare.net/nickkellet/list-posts-why-people-love-and-hate-lists-curation-tips-for-list-makers)
+
+1. [10 Reasons to Take a Fresh Look at Lists - Monty Python style](http://www.slideshare.net/nickkellet/lists-through-the-eyes-on-monty-python-the-life-of-brian)
+2. [Why Do People Either Love or Hate Lists - And Why it doesn't really matter](http://www.slideshare.net/nickkellet/list-posts-why-people-love-and-hate-lists-curation-tips-for-list-makers)
 3. [10 Reasons You'll Love Lists](http://www.slideshare.net/nickkellet/10-reason-youll-love-lists-for)
 
 == Installation ==
@@ -67,9 +68,9 @@ Installing
 
 Adding a List to Your Blog
 
-1. Go to Listly to manage your lists eg here's [Nick Kellet's list page](http://list.ly/nickkellet). You can simply begin by embedding another person's list.
+1. Go to Listly to manage your lists eg here is [Nick Kellet's list page](http://list.ly/nickkellet). You can  begin by embedding another person's list.
 2. On each list page eg ['50+ Listly Reviews'](http://list.ly/list/2SC) there's an 'Embed List' link that takes your to a page like [this](http://list.ly/preview/2SC)
-3. Grab your customized embed code eg [listly  id="2SC" layout="short" show_header="true" show_author="true" show_sharing="false" show_tools="true" per_page="3"] 
+3. Grab your customized embed code e.g. [listly  id="2SC" layout="short" show_header="true" show_author="true" show_sharing="false" show_tools="true" per_page="3"] 
 4. Paste your shortcode into any new or existing post or page. 
 5. Preview or publish to see the list embedded on your blog
 
