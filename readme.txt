@@ -1,4 +1,4 @@
-=== List.ly ===
+=== List.ly Embedable Social Lists for Bloggers, Brands, Publishers & Journalists - Invite Readers to Contribute  to Your Posts & Pages ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
 Tags: auto, automatic, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, dailymotion, disqus, directory lists, embed, embeds, embedded, engagement, feedback, filter, html5, hulu, iframe,  images, instagram, journalism, journalist, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, media, metrics, members lists, news, object, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, ranker, ranking, responsive, responsive video, rss, scoopit, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, slideshow, social media, scribd, social, sort, sorting, storify, survey, tag, tagging, tumblr, twitter,twitter lists, video, views, vote, widget, writing, youtube, vine, viddler, vimeo
