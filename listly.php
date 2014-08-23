@@ -5,7 +5,7 @@
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
 	Version:     1.6.6
 	Author:      Milan Kaneria
-	Author URI:  http://brandintellect.in/
+	Author URI:  http://brandintellect.in/?Listly
 */
 
 
