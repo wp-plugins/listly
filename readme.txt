@@ -138,4 +138,4 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 
 == Upgrade Notice ==
 
-No issues for upgrade.
+Added conditional loading of CSS & JS, support for Custom Post Types, SSL API and other bugfixes.
