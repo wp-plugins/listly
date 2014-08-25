@@ -57,7 +57,7 @@ Lists are an integral part of life and digital media. It's worth exploring why.
 1. [10 Reasons to Take a Fresh Look at Lists - Monty Python style](http://www.slideshare.net/nickkellet/lists-through-the-eyes-on-monty-python-the-life-of-brian)
 2. [Why Do People Either Love or Hate Lists - And Why it doesn't really matter](http://www.slideshare.net/nickkellet/list-posts-why-people-love-and-hate-lists-curation-tips-for-list-makers)
 3. [10 Reasons You'll Love Lists](http://www.slideshare.net/nickkellet/10-reason-youll-love-lists-for)
-4. [7 Ways Your Habnd-Curated HTML Lists Are Looking & Acting Old](http://www.slideshare.net/nickkellet/lists-lists-lists-lists-lists-lists-lists-7-ways-your-lists-are-looking-acting-old/)
+4. [7 Ways Your Hand-Curated HTML Lists Are Looking & Acting Old](http://www.slideshare.net/nickkellet/lists-lists-lists-lists-lists-lists-lists-7-ways-your-lists-are-looking-acting-old/)
 
 == Installation ==
 
