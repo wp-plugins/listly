@@ -17,7 +17,7 @@ Plugin to easily integrate List.ly lists on Wordpress. Add/edit lists, add items
 
 Listly lets you curate and crowdsource any list embedded in a blog post / page. 
 
-Listly empowers your audience to contribute to the list content on your blog. People can also embed other people's lists on their blog.
+Listly empowers your audience to contribute to the list content on your blog. People can also embed other people's lists on their blog. Your lists are a source of content for others (just like Slides on Slideshare).
 
 Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Developer Wish They Knew). Listly is also great for creating playlists of videos, slides, audio & images. 
 
@@ -58,6 +58,12 @@ Lists are an integral part of life and digital media. It's worth exploring why.
 2. [Why Do People Either Love or Hate Lists - And Why it doesn't really matter](http://www.slideshare.net/nickkellet/list-posts-why-people-love-and-hate-lists-curation-tips-for-list-makers)
 3. [10 Reasons You'll Love Lists](http://www.slideshare.net/nickkellet/10-reason-youll-love-lists-for)
 4. [7 Ways Your Hand-Curated HTML Lists Are Looking & Acting Old](http://www.slideshare.net/nickkellet/lists-lists-lists-lists-lists-lists-lists-7-ways-your-lists-are-looking-acting-old/)
+
+Fun Examples of the Listicles You Could Create with Your Readers
+
+1. [Top 10 Heart-Warming Moments in Welsh Rugby](http://www.walesoncraic.com/top-10-heart-warming-moments-welsh-rugby/)
+2. [10 Things To Do In Wales On a Rainy Bank Holiday Monday](http://www.walesoncraic.com/10-things-wales-rainy-bank-holiday-monday/)
+3. [Top 8 Things To Do In Rhyl](http://www.walesoncraic.com/top-8-things-to-do-in-rhyl/)
 
 == Installation ==
 
