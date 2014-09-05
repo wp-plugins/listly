@@ -4,7 +4,7 @@ Donate link: http://list.ly/
 Tags:, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, journalism, journalist, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
