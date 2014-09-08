@@ -9,7 +9,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin to easily integrate responsive List.ly lists / listicles in posts & pages on Wordpress & beyond.
+Plugin to easily integrate social, collaborative List.ly lists  as responsive embeddable content in listicles, blog posts & pages on Wordpress & beyond.
 
 == Description ==
 
