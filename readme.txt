@@ -9,7 +9,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts perform great, but great lists can be challenging to author. Listly lists are fun to create & easy to maintain/embed.
+List posts are top performing content, but great lists can be challenging to author. Listly lists are fun to create & easy to maintain/embed.
 
 == Description ==
 
