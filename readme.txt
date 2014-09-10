@@ -9,9 +9,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts perform really well, but hand-crafting great lists can be challenging. Listly make lists fun and easy to author and maintain as collaborative embeddable content.
-
-The Listly Plugin makes it fast to embed responsive listicle content on Wordpress blogs.
+List posts perform great, but great lists can be challenging to author. Listly lists are fun to create & easy to maintain/embed.
 
 == Description ==
 
