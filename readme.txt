@@ -27,6 +27,10 @@ Here's a video to explain the value of embedding Listly lists on your Wordpress 
 
 [youtube http://www.youtube.com/watch?v=sAmOywUMpaA]
 
+![Getting Started Guide][http://image.slidesharecdn.com/getstartedwithlistly-140311230254-phpapp02/95/get-started-with-listly-a-beginners-guide-to-social-list-making-1-638.jpg?cb=1411072660
+](http://www.slideshare.net/nickkellet/get-started-with-listly-a-beginners-guide-to-social-list-making)
+
+
 Think of Listly as Slideshare for lists. Put your lists on Listly them embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
 
 Here's 5 simple ideas to begin using Listly on your Wordpress blog.
