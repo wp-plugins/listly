@@ -51,7 +51,8 @@ Reviews
 5. [Confessions of a List Lover via +TonyAdams1969](https://plus.google.com/+TonyAdams1969/posts/eW3dnnK5a1V)
 6. [Thanks to Listly, You Don’t Need to Suck Up to Influencers Any More by @circussocial](http://beta21.circussocial.com/tools/thanks-to-listly-you-dont-need-to-suck-up-to-influencers-any-more/)
 7. [A Conversation With Nick Kellet, List.ly  Co-Founder by @pamelamuldoon](http://nextstagemediagroup.com/a-conversation-with-nick-kellet-listly-co-founder/)
-8. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
+8. [How to Create Helpful Healthcare Lists with List.ly](http://healthworkscollective.com/marie-ennis-oconnor/141746/how-create-helpful-healthcare-lists-twitter)
+9. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
 
 Why Do we Love (and Hate) Lists?
 
