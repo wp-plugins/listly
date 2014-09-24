@@ -62,7 +62,7 @@ Lists are an integral part of life and digital media. It's worth exploring why.
 2. [Why Do People Either Love or Hate Lists - And Why it doesn't really matter](http://www.slideshare.net/nickkellet/list-posts-why-people-love-and-hate-lists-curation-tips-for-list-makers)
 3. [10 Reasons You'll Love Lists](http://www.slideshare.net/nickkellet/10-reason-youll-love-lists-for)
 4. [7 Ways Your Hand-Curated HTML Lists Are Looking & Acting Old](http://www.slideshare.net/nickkellet/lists-lists-lists-lists-lists-lists-lists-7-ways-your-lists-are-looking-acting-old/)
-5. [Hybrid Media - 42 Emerging Content Types - Inspiring Ways to Create Lists](http://www.slideshare.net/nickkellet/hybrid-media-10-emerging-content-types)
+5. [Hybrid Media - 42 Emerging Content Types - Inspiring Ways to Create Lists](http://www.slideshare.net/nickkellet/hybrid-media-10-emerging-content-types/)
 
 Fun Examples of the Listicles You Could Create with Your Readers
 
