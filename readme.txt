@@ -96,9 +96,9 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 
 == Screenshots ==
 
-1. Apply your publisher key and click save in order to enable the Listly plugin
-2. Find your list on Listly and click on the embed button and you will see this preview screen. You can resize to get a sense of the responsive design. You can also choose between one of three layouts
-3. Grab your shortcode from any list on Listly and paste it into your post of page
+1. Apply your publisher key & click save in order to enable the Listly plugin
+2. Find your list on Listly & click on the embed button & you will see this preview screen. You can resize to get a sense of the responsive design. You can also choose between one of three layouts
+3. Grab your shortcode from any list on Listly & paste it into your post of page
 4. Example of gallery format list
 5. Example of short format list
 6. Example of full format list
