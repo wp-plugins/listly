@@ -63,6 +63,7 @@ Lists are an integral part of life and digital media. It's worth exploring why.
 3. [10 Reasons You'll Love Lists](http://www.slideshare.net/nickkellet/10-reason-youll-love-lists-for)
 4. [7 Ways Your Hand-Curated HTML Lists Are Looking & Acting Old](http://www.slideshare.net/nickkellet/lists-lists-lists-lists-lists-lists-lists-7-ways-your-lists-are-looking-acting-old/)
 5. [Hybrid Media - 42 Emerging Content Types - Inspiring Ways to Create Lists](http://www.slideshare.net/nickkellet/hybrid-media-10-emerging-content-types/)
+6. [Social Content - SCOPE is the nre Paid, Owned, Earned Media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335)
 
 Fun Examples of the Listicles You Could Create with Your Readers
 
