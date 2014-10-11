@@ -1,7 +1,7 @@
 === Listly: for bloggers, brands, publishers & journalists who want their readers to contribute ===
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags:, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter lists, video, vote, widget, writing, youtube
+Tags:, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -16,6 +16,8 @@ List posts are top performing content, but great lists can be challenging to aut
 Plugin to easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists and embed lists as responsive content using customizable shortcodes. 
 
 Listly lets you curate and crowdsource any list embedded in a blog post / page. 
+
+Turns your lists into reusable, shareable, embeddable content.
 
 Listly empowers your audience to contribute to the list content on your blog. People can also embed other people's lists on their blog. Your lists are a source of content for others (just like Slides on Slideshare).
 
