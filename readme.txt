@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) generate traffic, but it's tedious to author visually-appealing lists. Listly lists are easy to create, rank, curate & embed.
+List posts (listicles) generate traffic, but it's tedious to author visually-appealing lists. Easy to create, rank, curate & embed lists.
 
 == Description ==
 
