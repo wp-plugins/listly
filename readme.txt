@@ -1,4 +1,5 @@
-=== Listly: for bloggers, brands, publishers & journalists who want their readers to contribute ===
+=== Listly: for bloggers, brands, publishers & journalists who want readers to engage ===
+
 Contributors: listly, milanmk
 Donate link: http://list.ly/
 Tags:, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
@@ -9,21 +10,26 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts are top performing content, but great lists can be challenging to author. Listly lists are fun to create & easy to maintain/embed.
+List posts (listicles) generate traffic, but it's tedious to author visually-appealing lists. Listly lists are easy to create, rank, curate & embed.
 
 == Description ==
 
-Plugin to easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists and embed lists as responsive content using customizable shortcodes. 
+Plugin to deeply & easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists and embed lists as responsive content using customizable shortcodes, offering multiple layouts and rich customization options.
+
+Most of all Listly makes lists social and collaborative, but you can grow into that over time. On day one of using Listly you can get significant personal utility by saving time on authoring great visually appealing lists.
 
 Listly lets you curate and crowdsource any list embedded in a blog post / page. 
 
-Turns your lists into reusable, shareable, embeddable content.
+Listly turns your lists into reusable, shareable, embeddable content.
 
-Listly empowers your audience to contribute to the list content on your blog. People can also embed other people's lists on their blog. Your lists are a source of content for others (just like Slides on Slideshare).
+Listly empowers your audience to contribute to the list content on your blog. That's a level of engagement above commenting. People can also embed other people's lists on their blog. 
+
+- Your lists are a source of content for others (just like Slides on Slideshare).
+- You can embed other people's lists on your blog (great blog posts in less time).
 
 Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Developer Wish They Knew). Listly is also great for creating playlists of videos, slides, audio & images. 
 
-30% of blog posts on the web are in the form of lists, Listly just makes those posts social and collaborative.
+30% of blog posts on the web are in the form of lists. Numbered list posts are the best performing content on the web. Listly just makes those posts social and collaborative. Listly turns lists in a form of media on a par with slides and video.
 
 Here's a video to explain the value of embedding Listly lists on your Wordpress blog:
 
@@ -52,7 +58,7 @@ Reviews
 4. [Use lists to boost reader engagement](http://www.appvita.com/2013/06/04/listly-use-lists-to-boost-reader-engagement/)
 5. [Confessions of a List Lover via +TonyAdams1969](https://plus.google.com/+TonyAdams1969/posts/eW3dnnK5a1V)
 6. [Thanks to Listly, You Don’t Need to Suck Up to Influencers Any More by @circussocial](http://beta21.circussocial.com/tools/thanks-to-listly-you-dont-need-to-suck-up-to-influencers-any-more/)
-7. [A Conversation With Nick Kellet, List.ly  Co-Founder by @pamelamuldoon](http://nextstagemediagroup.com/a-conversation-with-nick-kellet-listly-co-founder/)
+7. [A Conversation With Nick Kellet, List.ly Co-Founder by @pamelamuldoon](http://nextstagemediagroup.com/a-conversation-with-nick-kellet-listly-co-founder/)
 8. [How to Create Helpful Healthcare Lists with List.ly](http://healthworkscollective.com/marie-ennis-oconnor/141746/how-create-helpful-healthcare-lists-twitter)
 9. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
 
@@ -65,7 +71,7 @@ Lists are an integral part of life and digital media. It's worth exploring why.
 3. [10 Reasons You'll Love Lists](http://www.slideshare.net/nickkellet/10-reason-youll-love-lists-for)
 4. [7 Ways Your Hand-Curated HTML Lists Are Looking & Acting Old](http://www.slideshare.net/nickkellet/lists-lists-lists-lists-lists-lists-lists-7-ways-your-lists-are-looking-acting-old/)
 5. [Hybrid Media - 42 Emerging Content Types - Inspiring Ways to Create Lists](http://www.slideshare.net/nickkellet/hybrid-media-10-emerging-content-types/)
-6. [Social Content - SCOPE is the nre Paid, Owned, Earned Media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335)
+6. [Social Content - SCOPE is the new POEM: Paid, Owned, Earned Media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335)
 
 Fun Examples of the Listicles You Could Create with Your Readers
 
