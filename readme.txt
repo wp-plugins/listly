@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags:, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags:, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -10,11 +10,11 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) generate traffic, but it's tedious to author visually-appealing lists. Easy to create, rank, curate & embed lists.
+List posts (listicles) generate traffic, but it's tedious to author visually-appealing lists. Easy to create, rank, curate & embed collaborative lists.
 
 == Description ==
 
-Plugin to deeply & easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists and embed lists as responsive content using customizable shortcodes, offering multiple layouts and rich customization options.
+Plugin to deeply & easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists & embed lists as responsive content using customizable shortcodes, offering multiple layouts & rich customization options.
 
 Most of all Listly makes lists social and collaborative, but you can grow into that over time. On day one of using Listly you can get significant personal utility by saving time on authoring great visually appealing lists.
 
