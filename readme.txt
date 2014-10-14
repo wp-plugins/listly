@@ -14,13 +14,20 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 == Description ==
 
-Plugin to deeply & easily integrate List.ly lists on Wordpress. Add/edit lists, add items to lists & embed lists as responsive content using customizable shortcodes, offering multiple layouts & rich customization options.
+Plugin to deeply & easily integrate numbered lists on Wordpress. Listly makes it easy to: 
 
-Most of all Listly makes lists social and collaborative, but you can grow into that over time. On day one of using Listly you can get significant personal utility by saving time on authoring great visually appealing lists.
+- Add/edit lists directly via  blog posts/pages or via Listly
+- Let your lists evolve over time by accepting contributions from your readers
+- You and your readers can add items to your lists
+- Moderate suggestions if desired (hide or delete)
+- Readers can vote and create an aggregated ranking
+- Embed lists on Wordpress and other blogging platforms
+- Provides responsive embeddable content so your lists look great on mobile, tablets or desktop devices
+- Custom shortcodes allow you to choose from multiple layouts and control list behaviour
 
-Listly lets you curate and crowdsource any list embedded in a blog post / page. 
+When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social and collaborative, but you can grow into that over time.
 
-Listly turns your lists into reusable, shareable, embeddable content.
+Listly turns your lists into reusable, shareable, embeddable responsive content.
 
 Listly empowers your audience to contribute to the list content on your blog. That's a level of engagement above commenting. People can also embed other people's lists on their blog. 
 
