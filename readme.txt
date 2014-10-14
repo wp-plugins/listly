@@ -22,7 +22,7 @@ Plugin to deeply & easily integrate numbered lists on Wordpress. Listly makes it
 - Moderate suggestions if desired (hide or delete)
 - Readers can vote and create an aggregated ranking
 - Embed lists on Wordpress and other blogging platforms
-- Provides responsive embeddable content so your lists look great on mobile, tablets or desktop devices
+- Listly lists are responsive so your content look great on mobile, tablets & desktops
 - Custom shortcodes allow you to choose from multiple layouts and control list behaviour
 
 When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social and collaborative, but you can grow into that over time.
