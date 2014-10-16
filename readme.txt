@@ -20,12 +20,14 @@ Plugin to deeply & easily integrate numbered lists on Wordpress. Listly makes it
 - Let your lists evolve over time by accepting contributions from your readers
 - You and your readers can add items to your lists
 - Moderate suggestions as desired /needed ( delete / approve / remove)
-- Readers can vote on and aggregated ranking for any list
+- Readers can vote on and aggregate ranking for any list
+- Optionally lists can be hand curated into a custom curated order.
 - Embed lists on Wordpress and other blogging platforms
 - Easy to share. People can effortlessly share a list or an item embedded on any post/page
 - Listly lists are responsive so your content look great on mobile, tablets & desktops
 - Custom shortcodes allow you to choose from multiple layouts and control list behaviour
 - Metrics. Track where people view and engage with your lists. Also see who contributes.
+- Include media to play inline in your list eg (slides, videos, audio, images, tweets etc) 
 
 When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social and collaborative, but you can grow into that over time.
 
