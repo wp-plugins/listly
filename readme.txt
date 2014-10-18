@@ -16,20 +16,20 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 Plugin to deeply & easily integrate numbered lists on Wordpress. Listly makes it easy to: 
 
-- Add/edit lists directly via  blog posts/pages or via Listly
+- Add/edit lists directly via blog posts/pages or via Listly
 - Let your lists evolve over time by accepting contributions from your readers
-- You and your readers can add items to your lists
-- Moderate suggestions as desired /needed ( delete / approve / remove)
-- Readers can vote on and aggregate ranking for any list
+- Moderate reader's suggestions as desired /needed ( delete / approve / remove)
+- Readers can vote on & aggregate ranking for any list
 - Optionally lists can be hand curated into a custom curated order.
-- Embed lists on Wordpress and other blogging platforms
+- Embed lists on Wordpress & other blogging platforms
 - Easy to share. People can effortlessly share a list or an item embedded on any post/page
 - Listly lists are responsive so your content look great on mobile, tablets & desktops
-- Custom shortcodes allow you to choose from multiple layouts and control list behaviour
-- Metrics. Track where people view and engage with your lists. Also see who contributes.
+- Custom shortcodes allow you to choose from multiple layouts & control list behaviour
+- Metrics. Track where people view & engage with your lists. Also see who contributes.
 - Include media to play inline in your list eg (slides, videos, audio, images, tweets etc) 
+- Run contests/surveys to source & rank ideas. Option to let people & ideas on the fly
 
-When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social and collaborative, but you can grow into that over time.
+When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
 
 Listly turns your lists into reusable, shareable, embeddable responsive content.
 
@@ -40,7 +40,7 @@ Listly empowers your audience to contribute to the list content on your blog. Th
 
 Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Developer Wish They Knew). Listly is also great for creating playlists of videos, slides, audio & images. 
 
-30% of blog posts on the web are in the form of lists. Numbered list posts are the best performing content on the web. Listly just makes those posts social and collaborative. Listly turns lists in a form of media on a par with slides and video.
+30% of blog posts on the web are in the form of lists. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly turns lists in a form of media on a par with slides & video.
 
 Here's a video to explain the value of embedding Listly lists on your Wordpress blog:
 
@@ -55,9 +55,9 @@ Here's 5 simple ideas to begin using Listly on your Wordpress blog.
 
 1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014) on other blogs for easy resharing
 2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=search) for a given blog or project.
-3. Create universal [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist) of relevant slides, videos and podcasts to embed on your blog
+3. Create universal [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist) of relevant slides, videos & podcasts to embed on your blog
 4. Create lists of [related posts or resources](http://list.ly/list/8KM-content-marketing-tools) to help your readers 
-5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use and extend your list.
+5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use & extend your list.
 
 We think of Lists as a type of data, just like you think of Slides, Videos or Podcasts. All these technologies have evolved in similar ways to be highly embeddable. They have also become highly trafficed search destination sites. See graphic on [Slideshare](http://www.slideshare.net/nickkellet/embeddable-media-categories-shareable-content-v3)
 
@@ -75,7 +75,7 @@ Reviews
 
 Why Do we Love (and Hate) Lists?
 
-Lists are an integral part of life and digital media. It's worth exploring why.
+Lists are an integral part of life & digital media. It's worth exploring why.
 
 1. [10 Reasons to Take a Fresh Look at Lists - Monty Python style](http://www.slideshare.net/nickkellet/lists-through-the-eyes-on-monty-python-the-life-of-brian)
 2. [Why Do People Either Love or Hate Lists - And Why it doesn't really matter](http://www.slideshare.net/nickkellet/list-posts-why-people-love-and-hate-lists-curation-tips-for-list-makers)
@@ -91,6 +91,9 @@ Fun Examples of the Listicles You Could Create with Your Readers
 3. [Top 8 Things To Do In Rhyl](http://www.walesoncraic.com/top-8-things-to-do-in-rhyl/)
 4. [10 Things Obama Needs to Know Before he Comes to Wales](Http://www.Walesoncraic.com/10-Things-Obama-Needs-Know-Comes-Wales/)
 5. [7 Things To Do In South Wales While The NATO Summit Is On](http://www.walesoncraic.com/7-things-south-wales-nato-summit/)
+
+Image Credit: [Ian Muttoo](https://www.flickr.com/photos/imuttoo/4504392318/
+) via Flickr & Creative Commons
 
 == Installation ==
 
@@ -128,7 +131,7 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 == Changelog ==
 
 = 1.6.6 =
-* Conditional loading of CSS and Scripts on singular pages based on ShortCode presence.
+* Conditional loading of CSS & Scripts on singular pages based on ShortCode presence.
 
 = 1.6.5 =
 * Updating ShortCode to pass all parameters to API.
@@ -172,4 +175,4 @@ You can get a publisher key from [here](http://list.ly/publishers/landing).
 
 == Upgrade Notice ==
 
-Added conditional loading of CSS & JS, support for Custom Post Types, SSL API and other bugfixes.
+Added conditional loading of CSS & JS, support for Custom Post Types, SSL API & other bugfixes.
