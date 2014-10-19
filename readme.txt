@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags:, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, create, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, post list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -28,6 +28,7 @@ Plugin to deeply & easily integrate numbered lists on Wordpress. Listly makes it
 - Metrics. Track where people view & engage with your lists. Also see who contributes.
 - Include media to play inline in your list eg (slides, videos, audio, images, tweets etc) 
 - Run contests/surveys to source & rank ideas. Option to let people & ideas on the fly
+- Affiliate product lists have never been easier to create, share and embed (needs Pro)
 
 When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
 
