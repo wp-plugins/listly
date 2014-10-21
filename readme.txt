@@ -14,30 +14,30 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 == Description ==
 
-Plugin to deeply & easily integrate numbered lists on Wordpress. 
+Plugin to deeply & easily integrate numbered lists on Wordpress & beyond. 
 
-5 Lists Authoring / Moderating Benefits:
+Benefits of Authoring / Moderating List Posts with/via Listly:
 
-1. Add/edit lists directly via blog posts/pages or via Listly
+1. Add/edit lists directly via blog posts/pages or via Listly 
 2. Let your list posts evolve over time by accepting contributions from your readers (great for SEO)
-3. Moderate reader's suggestions as desired /needed ( delete / approve / remove)
-4. Readers can vote & aggregate ranking for the most popular list items
+3. Moderate reader's suggestions as desired ( delete / approve / remove)
+4. Readers vote toranking the most popular list items (your list post gets more valuable over time)
+5. Easy to share. People can effortlessly share a list or an item embedded on any post/page
+
+Benefits of leveraging Listly as a publishing or media platform for list posts:
+
+1. Embed lists & create high traffic list posts on Wordpress & other blogging platforms
+3. Listly lists are responsive so your content looks great on mobile, tablets & desktops (it's not an iframe - width & height are dynamic based on available space & device constraints - embed in a post or a sidebar
+4. Custom shortcodes allow you to choose from multiple layouts & control list behaviour 
+4. Metrics. Track where people view & engage with your lists. See who contributes & build an army of helpers
 5. Optionally lists can be hand curated into a custom curated order
 
-5 Publishing benefits:
-
-1. Embed lists and create high traffic list posts on Wordpress & other blogging platforms
-2. Easy to share. People can effortlessly share a list or an item embedded on any post/page
-3. Listly lists are responsive so your content look great on mobile, tablets & desktops (it's not an iframe - width and height are dynamic based on available space and device constraints)
-4. Custom shortcodes allow you to choose from multiple layouts & control list behaviour 
-5. Metrics. Track where people view & engage with your lists. See who contributes & build an army of helpers
-
-5 Content Marketing / Content Management Benefits:
+Benefits of leveraging Listly lists for Content Marketing / Content Management:
 
 1. Earn great organic search traffic. Lists are automatically tagged for SEO best practices. Our biggest list has seen [1.4 million views](http://list.ly/list/Um-old-hindi-evergreen-songs?feature=wpplugin) & that's 100% organic search traffic
 2. Include media links on your lists to create interactive platlists eg slides, videos, audio, images, tweets etc (one plugin to let you embed many forms of media)
 3. Run contests/surveys to source & rank ideas. Option to let people & ideas on the fly
-4. Affiliate product lists have never been easier to create, share and embed (needs Pro)
+4. Affiliate product lists have never been easier to create, share & embed (needs Pro)
 5. [Get more from your Twitter lists by turning them into social content](http://venturebeat.com/2013/12/06/list-ly-makes-twitter-lists-significantly-more-awesome-social-shareable-manageable-and-rankable/). People lists are a great tool for building engagement eg [Top 10 Women in Business Intelligence](http://www.antivia.com/blog/?p=2435) - 50% of the views came from the blog / 50% from Listly.
 
 30% of blog posts on the web are in the form of lists. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly turns lists in a form of media on a par with slides & video.
