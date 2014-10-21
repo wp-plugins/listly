@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, create, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, create, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -14,22 +14,31 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 == Description ==
 
-Plugin to deeply & easily integrate numbered lists on Wordpress. Listly makes it easy to: 
+Plugin to deeply & easily integrate numbered lists on Wordpress. 
+
+5 Lists Authoring / Moderating Benefits:
 
 1. Add/edit lists directly via blog posts/pages or via Listly
-2. Let your list posts evolve over time by accepting contributions from your readers
+2. Let your list posts evolve over time by accepting contributions from your readers (great for SEO)
 3. Moderate reader's suggestions as desired /needed ( delete / approve / remove)
-4. Readers can vote on & aggregate ranking for any list
-5. Optionally lists can be hand curated into a custom curated order.
-6. Embed lists and create high traffic list posts on Wordpress & other blogging platforms
-7. Easy to share. People can effortlessly share a list or an item embedded on any post/page
-8. Listly lists are responsive so your content look great on mobile, tablets & desktops
-9. Custom shortcodes allow you to choose from multiple layouts & control list behaviour
-10. Metrics. Track where people view & engage with your lists. Also see who contributes
-11. Include media to play inline in your list eg (slides, videos, audio, images, tweets etc) 
-12. Run contests/surveys to source & rank ideas. Option to let people & ideas on the fly
-13. Affiliate product lists have never been easier to create, share and embed (needs Pro)
-14. [Get more from your Twitter lists by turning them into social content](http://venturebeat.com/2013/12/06/list-ly-makes-twitter-lists-significantly-more-awesome-social-shareable-manageable-and-rankable/). People lists are a great tool for building engagement eg [Top 10 Women in Business Intelligence](http://www.antivia.com/blog/?p=2435)
+4. Readers can vote & aggregate ranking for the most popular list items
+5. Optionally lists can be hand curated into a custom curated order
+
+5 Publishing benefits:
+
+1. Embed lists and create high traffic list posts on Wordpress & other blogging platforms
+2. Easy to share. People can effortlessly share a list or an item embedded on any post/page
+3. Listly lists are responsive so your content look great on mobile, tablets & desktops (it's not an iframe - width and height are dynamic based on available space and device constraints)
+4. Custom shortcodes allow you to choose from multiple layouts & control list behaviour 
+5. Metrics. Track where people view & engage with your lists. See who contributes & build an army of helpers
+
+5 Content Marketing / Content Management Benefits:
+
+1. Earn great organic search traffic. Lists are automatically tagged for SEO best practices. Our biggest list has seen [1.4 million views](http://list.ly/list/Um-old-hindi-evergreen-songs?feature=wpplugin) & that's 100% organic search traffic
+2. Include media links on your lists to create interactive platlists eg slides, videos, audio, images, tweets etc (one plugin to let you embed many forms of media)
+3. Run contests/surveys to source & rank ideas. Option to let people & ideas on the fly
+4. Affiliate product lists have never been easier to create, share and embed (needs Pro)
+5. [Get more from your Twitter lists by turning them into social content](http://venturebeat.com/2013/12/06/list-ly-makes-twitter-lists-significantly-more-awesome-social-shareable-manageable-and-rankable/). People lists are a great tool for building engagement eg [Top 10 Women in Business Intelligence](http://www.antivia.com/blog/?p=2435) - 50% of the views came from the blog / 50% from Listly.
 
 30% of blog posts on the web are in the form of lists. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly turns lists in a form of media on a par with slides & video.
 
@@ -55,10 +64,10 @@ Think of Listly as Slideshare for lists. Put your lists on Listly them embed the
 
 Here's 5 simple ideas to begin using Listly on your Wordpress blog.
 
-1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014) on other blogs for easy resharing
-2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=search) for a given blog or project.
-3. Create universal [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist) of relevant slides, videos & podcasts to embed on your blog
-4. Create lists of [related posts or resources](http://list.ly/list/8KM-content-marketing-tools) to help your readers 
+1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014?search) on other blogs for easy resharing
+2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=wpplugin) for a given blog or project.
+3. Create universal [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist?feature=wpplugin) of relevant slides, videos & podcasts to embed on your blog
+4. Create lists of [related posts or resources](http://list.ly/list/8KM-content-marketing-tools/?feature=wpplugin) to help your readers 
 5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use & extend your list.
 
 We think of Lists as a type of data, just like you think of Slides, Videos or Podcasts. All these technologies have evolved in similar ways to be highly embeddable. They have also become highly trafficed search destination sites. See graphic on [Slideshare](http://www.slideshare.net/nickkellet/embeddable-media-categories-shareable-content-v3)
@@ -73,7 +82,7 @@ Reviews
 6. [Thanks to Listly, You Don’t Need to Suck Up to Influencers Any More by @circussocial](http://beta21.circussocial.com/tools/thanks-to-listly-you-dont-need-to-suck-up-to-influencers-any-more/)
 7. [A Conversation With Nick Kellet, List.ly Co-Founder by @pamelamuldoon](http://nextstagemediagroup.com/a-conversation-with-nick-kellet-listly-co-founder/)
 8. [How to Create Helpful Healthcare Lists with List.ly](http://healthworkscollective.com/marie-ennis-oconnor/141746/how-create-helpful-healthcare-lists-twitter)
-9. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=search)
+9. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=wpplugin)
 
 Why Do we Love (and Hate) Lists?
 
