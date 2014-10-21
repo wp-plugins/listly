@@ -21,8 +21,8 @@ Benefits of Authoring / Moderating List Posts with/via Listly:
 1. Add/edit lists directly via blog posts/pages or via Listly 
 2. Let your list posts evolve over time by accepting contributions from your readers (great for SEO)
 3. Moderate reader's suggestions as desired ( delete / approve / remove)
-4. Readers vote toranking the most popular list items (your list post gets more valuable over time)
-5. Easy to share. People can effortlessly share a list or an item embedded on any post/page
+4. Readers vote to rank the most popular items, so your list post gets more valuable over time
+5. Effortlessly share lists or list items on Listly or via embeds on any post/page
 
 Benefits of leveraging Listly as a publishing or media platform for list posts:
 
