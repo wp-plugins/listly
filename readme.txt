@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, community, content curation, content marketing, content, contest, contests, create, crowd, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, html5, iframe, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: admin, affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, google, html5, iframe, images, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -14,20 +14,20 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 == Description ==
 
-Plugin to deeply & easily integrate numbered lists on Wordpress & beyond. 
+Plugin to deeply & easily integrate numbered lists on Wordpress & beyond. Beyond commenting, Listly lets your audience actively contribute to your blog posts, while you retain control.
 
-Benefits of Authoring / Moderating List Posts with/via Listly:
+Benefits of Authoring / Moderating / Administering List Posts with/via Listly:
 
-1. Add/edit lists directly via blog posts/pages or via Listly 
+1. Add/edit lists directly via blog posts/pages or Listly (inc assisted finding or uploading of custom images) 
 2. Let your list posts evolve over time by accepting contributions from your readers (great for SEO)
 3. Moderate reader's suggestions as desired ( delete / approve / remove)
-4. Readers vote to rank the most popular items, so your list post gets more valuable over time
+4. Readers vote to rank their fave items, so your list post gets more useful over time
 5. Effortlessly share lists or list items on Listly or via embeds on any post/page
 
 Benefits of leveraging Listly as a publishing or media platform for list posts:
 
 1. Embed lists & create high traffic list posts on Wordpress & other blogging platforms
-3. Listly lists are responsive so your content looks great on mobile, tablets & desktops (it's not an iframe - width & height are dynamic based on available space & device constraints - embed in a post or a sidebar
+3. Listly lists are responsive so your content looks great on mobile, tablets & desktops (it's not an iframe - width & height are dynamic based on available space & device constraints - embed in a page, post or a sidebar)
 4. Custom shortcodes allow you to choose from multiple layouts & control list behaviour 
 4. Metrics. Track where people view & engage with your lists. See who contributes & build an army of helpers
 5. Optionally lists can be hand curated into a custom curated order
