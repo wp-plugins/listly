@@ -98,19 +98,19 @@ Lists are an integral part of life & digital media. It's worth exploring why:
 Fun Examples of the Listicles You Could Create with Your Readers:
 
 1. [Top 10 Heart-Warming Moments in Welsh Rugby](http://www.walesoncraic.com/top-10-heart-warming-moments-welsh-rugby/)[Listly](http://list.ly/list/QJK-top-10-heart-warming-moments-in-welsh-rugby)
-2. [10 Things To Do In Wales On a Rainy Bank Holiday Monday](http://www.walesoncraic.com/10-things-wales-rainy-bank-holiday-monday/)[Listly](http://list.ly/list/QI8-10-things-to-do-in-wales-on-a-rainy-bank-holiday-monday)
-3. [Top 8 Things To Do In Rhyl](http://www.walesoncraic.com/top-8-things-to-do-in-rhyl/)[Listly](http://list.ly/list/QGH-top-8-things-to-do-in-rhyl)
+2. [10 Things To Do In Wales On a Rainy Bank Holiday Monday](http://www.walesoncraic.com/10-things-wales-rainy-bank-holiday-monday/) - [Listly list](http://list.ly/list/QI8-10-things-to-do-in-wales-on-a-rainy-bank-holiday-monday)
+3. [Top 8 Things To Do In Rhyl](http://www.walesoncraic.com/top-8-things-to-do-in-rhyl/) - [Listly list](http://list.ly/list/QGH-top-8-things-to-do-in-rhyl)
 4. [10 Things Obama Needs to Know Before he Comes to Wales](Http://www.Walesoncraic.com/10-Things-Obama-Needs-Know-Comes-Wales/)
-[Listly](http://list.ly/list/QVO-10-things-obama-needs-to-know-before-he-comes-to-wales)
-5. [7 Things To Do In South Wales While The NATO Summit Is On](http://www.walesoncraic.com/7-things-south-wales-nato-summit/)[Listly](http://list.ly/list/QkI-7-things-to-do-in-south-wales-while-the-nato-summit-is-on)
+- [Listly list](http://list.ly/list/QVO-10-things-obama-needs-to-know-before-he-comes-to-wales)
+5. [7 Things To Do In South Wales While The NATO Summit Is On](http://www.walesoncraic.com/7-things-south-wales-nato-summit/) - [Listly list](http://list.ly/list/QkI-7-things-to-do-in-south-wales-while-the-nato-summit-is-on)
 
 Social Examples Where Blogs are Sourcing Crownd Input (content) and Preferences (votes):
 
-1. Top 10 Women in Business Intelligence. [Antivia Blog](http://www.antivia.com/blog/?p=2435)[Antivia Listly](http://list.ly/list/SJK-most-influential-women-in-business-intelligence)
-2. Christian Blogs You Should Be Reading in 2014 [Patheos Blog](http://www.patheos.com/blogs/christianpiatt/2014/10/its-time-list-the-christian-blogs-youre-reading-in-2014/)[Listly ](http://list.ly/list/SJl-christian-blogs-you-should-be-reading-2014)
-3.Rolling Stones legends Ronnie Wood and Mick Jagger arrive in Adelaide for long-awaited Adelaide Oval gig [Newscorp The Advertiser Adelaide](http://www.adelaidenow.com.au/news/south-australia/rolling-stones-legend-ronnie-wood-arrives-in-adelaide-for-longawaited-aussie-tour/story-fni6uo1m-1227091560281)[Listly](http://list.ly/list/SwB-rolling-stones-in-number-adelaide-request-line)
-4. Best Group Blog 2013 - Edublog Awards [Eublogs Awards Side](http://edublogawards.com/2013awards/best-group-blog-2013/)(http://edublogawards.com/2013awards/best-group-blog-2013/)[Listly](http://list.ly/list/Bn0-best-group-blog-2013-edublog-awards)
-5. Crowdsourced List of the Best Marketing Speakers [Marketo Blog](http://blog.marketo.com/2013/09/the-best-marketing-speakers.html)[Listly](http://list.ly/list/7wZ-best-marketing-speakers)
+1. Top 10 Women in Business Intelligence. [Antivia Blog](http://www.antivia.com/blog/?p=2435) - [ Listly list](http://list.ly/list/SJK-most-influential-women-in-business-intelligence)
+2. Christian Blogs You Should Be Reading in 2014 [Patheos Blog](http://www.patheos.com/blogs/christianpiatt/2014/10/its-time-list-the-christian-blogs-youre-reading-in-2014/) - [Listly list](http://list.ly/list/SJl-christian-blogs-you-should-be-reading-2014)
+3.Rolling Stones legends Ronnie Wood and Mick Jagger arrive in Adelaide for long-awaited Adelaide Oval gig [Newscorp The Advertiser Adelaide](http://www.adelaidenow.com.au/news/south-australia/rolling-stones-legend-ronnie-wood-arrives-in-adelaide-for-longawaited-aussie-tour/story-fni6uo1m-1227091560281) - [Listly list](http://list.ly/list/SwB-rolling-stones-in-number-adelaide-request-line)
+4. Best Group Blog 2013 - Edublog Awards [Eublogs Awards Side](http://edublogawards.com/2013awards/best-group-blog-2013/) -  [Listly list](http://list.ly/list/Bn0-best-group-blog-2013-edublog-awards)
+5. Crowdsourced List of the Best Marketing Speakers [Marketo Blog](http://blog.marketo.com/2013/09/the-best-marketing-speakers.html) - [Listly list](http://list.ly/list/7wZ-best-marketing-speakers)
 
 
 Image Credit: [Ian Muttoo](https://www.flickr.com/photos/imuttoo/4504392318/
