@@ -100,8 +100,7 @@ Fun Examples of the Listicles You Could Create with Your Readers:
 1. [Top 10 Heart-Warming Moments in Welsh Rugby](http://www.walesoncraic.com/top-10-heart-warming-moments-welsh-rugby/)[Listly](http://list.ly/list/QJK-top-10-heart-warming-moments-in-welsh-rugby)
 2. [10 Things To Do In Wales On a Rainy Bank Holiday Monday](http://www.walesoncraic.com/10-things-wales-rainy-bank-holiday-monday/) - [Listly list](http://list.ly/list/QI8-10-things-to-do-in-wales-on-a-rainy-bank-holiday-monday)
 3. [Top 8 Things To Do In Rhyl](http://www.walesoncraic.com/top-8-things-to-do-in-rhyl/) - [Listly list](http://list.ly/list/QGH-top-8-things-to-do-in-rhyl)
-4. [10 Things Obama Needs to Know Before he Comes to Wales](Http://www.Walesoncraic.com/10-Things-Obama-Needs-Know-Comes-Wales/)
-- [Listly list](http://list.ly/list/QVO-10-things-obama-needs-to-know-before-he-comes-to-wales)
+4. [10 Things Obama Needs to Know Before he Comes to Wales](Http://www.Walesoncraic.com/10-Things-Obama-Needs-Know-Comes-Wales/) - [Listly list](http://list.ly/list/QVO-10-things-obama-needs-to-know-before-he-comes-to-wales)
 5. [7 Things To Do In South Wales While The NATO Summit Is On](http://www.walesoncraic.com/7-things-south-wales-nato-summit/) - [Listly list](http://list.ly/list/QkI-7-things-to-do-in-south-wales-while-the-nato-summit-is-on)
 
 Social Examples Where Blogs are Sourcing Crownd Input (content) and Preferences (votes):
