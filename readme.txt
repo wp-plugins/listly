@@ -14,7 +14,7 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 == Description ==
 
-Plugin to deeply & easily integrate numbered lists on Wordpress & beyond. Beyond commenting, Listly lets your audience actively contribute to your blog posts, while you retain control.
+Integrate numbered lists on Wordpress & beyond. Beyond commenting, Listly lets your audience actively contribute to your blog posts, while you retain control.
 
 Benefits of Authoring / Moderating / Administering List Posts with/via Listly:
 
@@ -23,6 +23,8 @@ Benefits of Authoring / Moderating / Administering List Posts with/via Listly:
 3. Moderate reader's suggestions as desired ( delete / approve / remove)
 4. Readers vote to rank their fave items, so your list post gets more useful over time
 5. Effortlessly share lists or list items on Listly or via embeds on any post/page
+
+Authing lists is tedious, but its worse to go back & edit the post to add on omission or make a correction. Listly lets youy update the content, without editing the post in admin, so nothing breaks, plus others can contribute.
 
 Benefits of leveraging Listly as a publishing or media platform for list posts:
 
@@ -97,7 +99,7 @@ Lists are an integral part of life & digital media. It's worth exploring why:
 
 Fun Examples of the Listicles You Could Create with Your Readers:
 
-1. [Top 10 Heart-Warming Moments in Welsh Rugby](http://www.walesoncraic.com/top-10-heart-warming-moments-welsh-rugby/)[Listly](http://list.ly/list/QJK-top-10-heart-warming-moments-in-welsh-rugby)
+1. [Top 10 Heart-Warming Moments in Welsh Rugby](http://www.walesoncraic.com/top-10-heart-warming-moments-welsh-rugby/) - [Listly list](http://list.ly/list/QJK-top-10-heart-warming-moments-in-welsh-rugby)
 2. [10 Things To Do In Wales On a Rainy Bank Holiday Monday](http://www.walesoncraic.com/10-things-wales-rainy-bank-holiday-monday/) - [Listly list](http://list.ly/list/QI8-10-things-to-do-in-wales-on-a-rainy-bank-holiday-monday)
 3. [Top 8 Things To Do In Rhyl](http://www.walesoncraic.com/top-8-things-to-do-in-rhyl/) - [Listly list](http://list.ly/list/QGH-top-8-things-to-do-in-rhyl)
 4. [10 Things Obama Needs to Know Before he Comes to Wales](Http://www.Walesoncraic.com/10-Things-Obama-Needs-Know-Comes-Wales/) - [Listly list](http://list.ly/QVO)
