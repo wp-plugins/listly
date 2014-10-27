@@ -24,7 +24,7 @@ Benefits of Authoring / Moderating / Administering List Posts with/via Listly:
 4. Readers vote to rank their fave items, so your list post gets more useful over time
 5. Effortlessly share lists or list items on Listly or via embeds on any post/page
 
-Authoring lists is tedious. What's worse is editing old posts to add omission/suggestions or to correct. Listly lets you update the content, without editing the post in WP admin, so nothing breaks. What's the cost of not updating? It says your blog is dated & you aren't listening. Worse still the utility of your content decays over time. We call it list rot.
+Authoring lists is tedious. Editing old posts to add omission/suggestions or to correct is even worse. Listly lets you update the content, without editing the post in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren listening? Worse still the utility of your content decays over time. We call it list rot.
 
 Benefits of leveraging Listly as a publishing or media platform for list posts:
 
