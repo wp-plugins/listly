@@ -165,7 +165,21 @@ Yes, you can search and filter and paginate within the matching items
 
 = Can I tell where my list is embedded? =
 
-Yes, we track how many views each list sees on each domain where it's embedded.
+Yes, we track how many views each list sees on each domain where it's embedded (and where people voted).
+
+Click on the total view count and that will open a lightbox and display all the view metrics.
+
+You can click on URL in that list and take you to the blog post. 
+
+= Can I turn off voting and letting people add to my list? =
+
+Yes, its a pro feature
+
+= Can I see who's voted? = 
+
+Yes, click on the total number of votes. And then you can see who's liked and disliked any given item.
+
+You can click on the person's avatar and follow them to their profile.
 
 
 == Screenshots ==
