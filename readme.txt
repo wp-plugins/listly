@@ -139,6 +139,35 @@ Adding a List to Your Blog
 
 You can get a publisher key from [here](http://list.ly/publishers/landing).
 
+= Can Anyone Add to my lists? =
+
+Yes, but there's a moderation queue, so you can choose to accept of reject suggestions. You can also choose to make the moderation queue invisible.
+
+= Can I make private lists? =
+
+Yes, it's a premium feature.
+
+= Are the list responsive? =
+
+Yes, and you can choose from any of the layouts.
+
+= How long can a list be? =
+
+There's no limit. We have lists with 1000+ items. Longer lists are automatically paginated. You can control pagination size.
+
+= How many people can contribute to a single list? =
+
+There's no limit. We've seen lists with 5k+ contributors. It's all a function of your brand and community size.
+
+= Can I search a list? =
+
+Yes, you can search and filter and paginate within the matching items
+
+= Can I tell where my list is embedded? =
+
+Yes, we track how many views each list sees on each domain where it's embedded.
+
+
 == Screenshots ==
 
 1. Apply your publisher key & click save in order to enable the Listly plugin
