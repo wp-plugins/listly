@@ -161,19 +161,19 @@ There's no limit. We've seen lists with 5k+ contributors. It's all a function of
 
 = Can I search a list? =
 
-Yes, you can search and filter and paginate within the matching items
+Yes, you can search, filter & paginate within the matching items.
 
 = Can I tell where my list is embedded? =
 
-Yes, we track how many views each list sees on each domain where it's embedded (and where people voted).
+Yes, Listly tracks how many views each list sees on each domain where it's embedded (and where people voted).
 
-Click on the total view count and that will open a lightbox and display all the view metrics.
+Click on the total view count and that will open a lightbox and display all the view metrics broken down by domain.
 
-You can click on URL in that list and take you to the blog post. 
+You can click on URL in that list and take you to the blog post URL. 
 
 = Can I turn off voting and letting people add to my list? =
 
-Yes, its a pro feature
+Yes, its a pro feature.
 
 = Can I see who's voted? = 
 
@@ -181,6 +181,13 @@ Yes, click on the total number of votes. And then you can see who's liked and di
 
 You can click on the person's avatar and follow them to their profile.
 
+= Do I have to use the plugin? = 
+
+No, there's a javascript option. We'd recommend the plugin for performance reasons and for SEO reasons. The plugin caches lists locally, offering a second level of caching beyond the caching offered on Listly. Also the Listly list does not appear to the search engines as a widget, but as text so your list content is fully indexed.
+
+= Are changes reflected on my embeded blog post? = 
+
+Yes, the list is first loaded from cache (on your Wordpress install or on Listly). Once the list is loaded it calls to Listly to check for changes and then those changes are shown on your blog.
 
 == Screenshots ==
 
