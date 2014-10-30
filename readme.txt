@@ -61,6 +61,10 @@ Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or List
 
 Explore the [Getting Started](http://www.slideshare.net/nickkellet/get-started-with-listly-a-beginners-guide-to-social-list-making) guide if you are new to Listly.
 
+Lists and Listly are simply part of the shift from self-hosted media to embebbed media. The social sharing benefits far out weigh  control issues. They also enable your content to become earned media. You wouldn't self host a video today and it's our belief the same logic applies to collaborative lists that evolve over time.
+
+[youtube https://www.youtube.com/watch?v=yjIQtnQ8YAA??autoplay=1]
+
 
 Think of Listly as Slideshare for lists. Put your lists on Listly them embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
 
