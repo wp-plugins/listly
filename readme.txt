@@ -63,7 +63,7 @@ Explore the [Getting Started](http://www.slideshare.net/nickkellet/get-started-w
 
 Lists and Listly are part of the shift from self-hosted media to embedded media. The social sharing benefits far out weigh control issues. They also enable your content to become [earned media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335). You wouldn't self host a video today and it's our belief the same logic applies to collaborative lists that evolve over time.
 
-[youtube http://bit.ly/1sLAw47]
+[youtube https://www.youtube.com/watch?v=yjIQtnQ8YAA&autoplay=1]
 
 Think of Listly as Slideshare for lists. Put your lists on Listly them embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
 
