@@ -137,11 +137,19 @@ Adding a List to Your Blog
 
 = How do lists impact Social Sharing, SEO & SERP =
 
+Yes. Best to watch this video. 
+
 [youtube https://www.youtube.com/watch?v=ZgETZd9qNeo]
+
+Also see this video featured on a Listly list. See how you can share the [list](http://list.ly/list/TfN) AND / OR them [item](http://list.ly/i/894413)
 
 = How can I get publisher key =
 
 You can get a publisher key from [here](http://list.ly/publishers/landing).
+
+Watch this video to see how to install and apply for a key.
+
+[youtube https://www.youtube.com/watch?v=5QrsIGbRJrI]
 
 = Can Anyone Add to my lists? =
 
