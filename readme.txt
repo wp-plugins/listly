@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: admin, affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, poll, post, posts, list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: admin, affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, FAQ, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, photo, poll, post, posts, list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -135,6 +135,10 @@ Adding a List to Your Blog
 
 == Frequently Asked Questions ==
 
+= How do lists impact Social Sharing, SEO & SERP =
+
+[youtube https://www.youtube.com/watch?v=ZgETZd9qNeo]
+
 = How can I get publisher key =
 
 You can get a publisher key from [here](http://list.ly/publishers/landing).
@@ -147,13 +151,13 @@ Yes, but there's a moderation queue, so you can choose to accept of reject sugge
 
 Yes, it's a premium feature.
 
-= Are the list responsive? =
+= Are the lists responsive? =
 
-Yes, and you can choose from any of the layouts.
+Yes, and you can choose from any of the four layouts.
 
 = How long can a list be? =
 
-There's no limit. We have lists with 1000+ items. Longer lists are automatically paginated. You can control pagination size.
+There's no limit. We have lists with 1000+ items. Longer lists are automatically paginated. You can control pagination size. You can search within the list.
 
 = How many people can contribute to a single list? =
 
