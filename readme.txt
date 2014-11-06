@@ -61,11 +61,11 @@ Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or List
 
 Explore the [Getting Started](http://www.slideshare.net/nickkellet/get-started-with-listly-a-beginners-guide-to-social-list-making) guide if you are new to Listly.
 
-Lists and Listly are part of the shift from self-hosted media to embedded media. The social sharing benefits far out weigh control issues. They also enable your content to become [earned media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335). You wouldn't self host a video today and it's our belief the same logic applies to collaborative lists that evolve over time.
+Lists and Listly are part of the shift from self-hosted media to embedded media. The social sharing benefits far out weigh control issues. They also enable your content to become [earned media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335). You wouldn't self host a video today. We believe the same logic applies to collaborative lists that evolve over time.
 
 [youtube https://www.youtube.com/watch?v=yjIQtnQ8YAA&autoplay=1]
 
-Think of Listly as Slideshare for lists. Put your lists on Listly them embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
+Think of Listly as Slideshare for lists. Put your lists on Listly, then embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
 
 Here's 5 simple ideas to begin using Listly on your Wordpress blog:
 
@@ -146,6 +146,12 @@ Yes. Best to watch this video.
 
 Also see this video featured on a Listly list. See how you can share the [list](http://list.ly/list/TfN) AND / OR them [item](http://list.ly/i/894413)
 
+= Do you have a Bookmarklet? =
+
+Yes, install it [here](https://chrome.google.com/webstore/detail/listly/bnohaknhjanaejcegmlbhiknhcfkajbb) and make sure you watch this video.
+
+[youtube https://www.youtube.com/watch?v=NJoodZNl5Gk]
+
 = How can I get publisher key =
 
 You can get a publisher key from [here](http://list.ly/publishers/landing).
@@ -160,15 +166,15 @@ Yes, but there's a moderation queue, so you can choose to accept of reject sugge
 
 = Can I make private lists? =
 
-Yes, it's a premium feature.
+Yes, it's a [premium feature](http://list.ly/upgrade).
 
 = Are the lists responsive? =
 
-Yes, and you can choose from any of the four layouts.
+Yes, and you can choose from any of the four layouts and all layouts adjust responsively. Lists are not like iFrames. They have dyamic height and width based on the content and the available space.
 
 = How long can a list be? =
 
-There's no limit. We have lists with 1000+ items. Longer lists are automatically paginated. You can control pagination size. You can search within the list.
+There's no limit. We have many lists with 1000+ items. Longer lists are automatically paginated. You can control pagination size. You can search within the list (searches are served based).
 
 = How many people can contribute to a single list? =
 
