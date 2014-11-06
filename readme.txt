@@ -138,7 +138,15 @@ Adding a List to Your Blog
 
 == Frequently Asked Questions ==
 
-= How do lists impact Social Sharing, SEO & SERP =
+= Why should I Author lists on Listly instead of my blog? =
+
+Would you self host a video or use YouTube? Why not? Watch this video for an in depth and contextual explantion of Social Networks vs Media Platforms. Lists fit into this trend as one of 7 key media types.
+
+[youtube https://www.youtube.com/watch?v=STfQ4V_2VE0]
+
+via [LAVACON talk](http://list.ly/i/886615)
+
+= How do lists impact Social Sharing, SEO & SERP? =
 
 Yes. Best to watch this video. 
 
@@ -152,7 +160,7 @@ Yes, install it [here](https://chrome.google.com/webstore/detail/listly/bnohaknh
 
 [youtube https://www.youtube.com/watch?v=NJoodZNl5Gk]
 
-= How can I get publisher key =
+= How can I get publisher key? =
 
 You can get a publisher key from [here](http://list.ly/publishers/landing).
 
