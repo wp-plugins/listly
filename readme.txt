@@ -50,7 +50,7 @@ Watch this video to learn the value of embedding Listly lists on your Wordpress 
 
 When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
 
-Listly turns your lists into reusable, shareable, embeddable responsive content.
+Listly make your lists reusable: shareable, embeddable as responsive content. HTML lists on blogs add friction to sharing and reuse.
 
 Listly empowers your audience to contribute to the list content on your blog. That's a level of engagement above commenting. People can also embed other people's lists on their blog. 
 
@@ -140,7 +140,7 @@ Adding a List to Your Blog
 
 = Why should I Author lists on Listly instead of my blog? =
 
-Would you self host a video or use YouTube? Why not? Watch this video for an in depth and contextual explantion of Social Networks vs Media Platforms. Lists fit into this trend as one of 7 key media types.
+Would you self host a video? No, you'd use YouTube? Why not? Watch this video for an in depth & contextual explantion of Social Networks vs Media Platforms. Lists fit into this trend as one of 7 key media types.
 
 [youtube https://www.youtube.com/watch?v=STfQ4V_2VE0]
 
