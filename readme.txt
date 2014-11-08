@@ -61,7 +61,7 @@ Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or List
 
 Explore the [Getting Started](http://www.slideshare.net/nickkellet/get-started-with-listly-a-beginners-guide-to-social-list-making) guide if you are new to Listly.
 
-Lists and Listly are part of the shift from self-hosted media to embedded media. The social sharing benefits far out weigh control issues. They also enable your content to become [earned media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335). You wouldn't self host a video today. We believe the same logic applies to collaborative lists that evolve over time.
+Lists & Listly are part of the shift from self-hosted media to embedded media. The social sharing benefits far out weigh control issues. They also enable your content to become [earned media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335). You wouldn't self host a video today. We believe the same logic applies to collaborative lists that evolve over time.
 
 [youtube https://www.youtube.com/watch?v=yjIQtnQ8YAA&autoplay=1]
 
@@ -108,11 +108,11 @@ Fun Examples of the Listicles You Could Create with Your Readers:
 4. [10 Things Obama Needs to Know Before he Comes to Wales](Http://www.Walesoncraic.com/10-Things-Obama-Needs-Know-Comes-Wales/) - [Listly list](http://list.ly/QVO)
 5. [7 Things To Do In South Wales While The NATO Summit Is On](http://www.walesoncraic.com/7-things-south-wales-nato-summit/) - [Listly list](http://list.ly/list/QkI-7-things-to-do-in-south-wales-while-the-nato-summit-is-on)
 
-Social Examples Where Blogs are Sourcing Crownd Input (content) and Preferences (votes):
+Social Examples Where Blogs are Sourcing Crownd Input (content) & Preferences (votes):
 
 1. Top 10 Women in Business Intelligence. [Antivia Blog](http://www.antivia.com/blog/?p=2435) - [Listly list](http://list.ly/list/SJK-most-influential-women-in-business-intelligence)
 2. Christian Blogs You Should Be Reading in 2014 [Patheos Blog](http://www.patheos.com/blogs/christianpiatt/2014/10/its-time-list-the-christian-blogs-youre-reading-in-2014/) - [Listly list](http://list.ly/list/SJl-christian-blogs-you-should-be-reading-2014)
-3. Rolling Stones legends Ronnie Wood and Mick Jagger arrive in Adelaide for long-awaited Adelaide Oval gig [Newscorp The Advertiser Adelaide](http://www.adelaidenow.com.au/news/south-australia/rolling-stones-legend-ronnie-wood-arrives-in-adelaide-for-longawaited-aussie-tour/story-fni6uo1m-1227091560281) - [Listly list](http://list.ly/list/SwB-rolling-stones-in-number-adelaide-request-line)
+3. Rolling Stones legends Ronnie Wood & Mick Jagger arrive in Adelaide for long-awaited Adelaide Oval gig [Newscorp The Advertiser Adelaide](http://www.adelaidenow.com.au/news/south-australia/rolling-stones-legend-ronnie-wood-arrives-in-adelaide-for-longawaited-aussie-tour/story-fni6uo1m-1227091560281) - [Listly list](http://list.ly/list/SwB-rolling-stones-in-number-adelaide-request-line)
 4. Best Group Blog 2013 - Edublog Awards [Eublogs Awards Side](http://edublogawards.com/2013awards/best-group-blog-2013/) -  [Listly list](http://list.ly/list/Bn0-best-group-blog-2013-edublog-awards)
 5. Crowdsourced List of the Best Marketing Speakers [Marketo Blog](http://blog.marketo.com/2013/09/the-best-marketing-speakers.html) - [Listly list](http://list.ly/list/7wZ-best-marketing-speakers)
 
@@ -140,7 +140,7 @@ Adding a List to Your Blog
 
 = Why should I Author lists on Listly instead of my blog? =
 
-Would you self host a video? No, you'd use YouTube? Why not? Watch this video for an in depth & contextual explantion of Social Networks vs Media Platforms. Lists fit into this trend as one of 7 key media types.
+Would you self-host a video? No, you'd use YouTube? Why not? Watch this video for an in depth & contextual explantion of Social Networks vs Media Platforms. Lists fit into this trend as one of 7 key media types.
 
 [youtube https://www.youtube.com/watch?v=STfQ4V_2VE0]
 
@@ -156,7 +156,7 @@ Also see this video featured on a Listly list. See how you can share the [list](
 
 = Do you have a Bookmarklet? =
 
-Yes, install it [here](https://chrome.google.com/webstore/detail/listly/bnohaknhjanaejcegmlbhiknhcfkajbb) and make sure you watch this video.
+Yes, install it [here](https://chrome.google.com/webstore/detail/listly/bnohaknhjanaejcegmlbhiknhcfkajbb) & make sure you watch this video.
 
 [youtube https://www.youtube.com/watch?v=NJoodZNl5Gk]
 
@@ -164,7 +164,7 @@ Yes, install it [here](https://chrome.google.com/webstore/detail/listly/bnohaknh
 
 You can get a publisher key from [here](http://list.ly/publishers/landing).
 
-Watch this video to see how to install and apply for a key.
+Watch this video to see how to install & apply for a key.
 
 [youtube https://www.youtube.com/watch?v=5QrsIGbRJrI]
 
@@ -178,7 +178,7 @@ Yes, it's a [premium feature](http://list.ly/upgrade).
 
 = Are the lists responsive? =
 
-Yes, and you can choose from any of the four layouts and all layouts adjust responsively. Lists are not like iFrames. They have dyamic height and width based on the content and the available space.
+Yes, & you can choose from any of the four layouts and all layouts adjust responsively. Lists are not like iFrames. They have dyamic height & width based on the content & the available space.
 
 = How long can a list be? =
 
@@ -186,7 +186,7 @@ There's no limit. We have many lists with 1000+ items. Longer lists are automati
 
 = How many people can contribute to a single list? =
 
-There's no limit. We've seen lists with 5k+ contributors. It's all a function of your brand and community size.
+There's no limit. We've seen lists with 5k+ contributors. It's all a function of your brand & community size.
 
 = Can I search a list? =
 
@@ -196,27 +196,27 @@ Yes, you can search, filter & paginate within the matching items.
 
 Yes, Listly tracks how many views each list sees on each domain where it's embedded (and where people voted).
 
-Click on the total view count and that will open a lightbox and display all the view metrics broken down by domain.
+Click on the total view count & that will open a lightbox and display all the view metrics broken down by domain.
 
-You can click on URL in that list and take you to the blog post URL. 
+You can click on URL in that list & take you to the blog post URL. 
 
-= Can I turn off voting and letting people add to my list? =
+= Can I turn off voting & letting people add to my list? =
 
 Yes, its a pro feature.
 
 = Can I see who's voted? = 
 
-Yes, click on the total number of votes. And then you can see who's liked and disliked any given item.
+Yes, click on the total number of votes. And then you can see who's liked & disliked any given item.
 
-You can click on the person's avatar and follow them to their profile.
+You can click on the person's avatar & follow them to their profile.
 
 = Do I have to use the plugin? = 
 
-No, there's a javascript option. We'd recommend the plugin for performance reasons and for SEO reasons. The plugin caches lists locally, offering a second level of caching beyond the caching offered on Listly. Also the Listly list does not appear to the search engines as a widget, but as text so your list content is fully indexed.
+No, there's a javascript option. We'd recommend the plugin for performance reasons & for SEO reasons. The plugin caches lists locally, offering a second level of caching beyond the caching offered on Listly. Also the Listly list does not appear to the search engines as a widget, but as text so your list content is fully indexed.
 
 = Are changes reflected on my embeded blog post? = 
 
-Yes, the list is first loaded from cache (on your Wordpress install or on Listly). Once the list is loaded it calls to Listly to check for changes and then those changes are shown on your blog.
+Yes, the list is first loaded from cache (on your Wordpress install or on Listly). Once the list is loaded it calls to Listly to check for changes & then those changes are shown on your blog.
 
 == Screenshots ==
 
