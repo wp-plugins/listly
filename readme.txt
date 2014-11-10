@@ -48,7 +48,7 @@ Watch this video to learn the value of embedding Listly lists on your Wordpress 
 
 [youtube http://www.youtube.com/watch?v=sAmOywUMpaA]
 
-When you begin using Listly you can get significant personal utility by saving time on authoring great visually appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
+When you begin using Listly you can get significant personal utility by saving time on authoring great, visually-appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
 
 Listly make your lists reusable: shareable, embeddable as responsive content. HTML lists on blogs add friction to sharing and reuse.
 
@@ -89,7 +89,7 @@ Reviews:
 8. [How to Create Helpful Healthcare Lists with List.ly](http://healthworkscollective.com/marie-ennis-oconnor/141746/how-create-helpful-healthcare-lists-twitter)
 9. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=wpplugin)
 
-Why Do we Love (and Hate) Lists?
+Why Do we Love (& Hate) Lists?
 
 Lists are an integral part of life & digital media. It's worth exploring why:
 
@@ -178,7 +178,7 @@ Yes, it's a [premium feature](http://list.ly/upgrade).
 
 = Are the lists responsive? =
 
-Yes, & you can choose from any of the four layouts and all layouts adjust responsively. Lists are not like iFrames. They have dyamic height & width based on the content & the available space.
+Yes, & you can choose from any of the four layouts & all layouts adjust responsively. Lists are not like iFrames. They have dyamic height & width based on the content & the available space.
 
 = How long can a list be? =
 
@@ -194,9 +194,9 @@ Yes, you can search, filter & paginate within the matching items.
 
 = Can I tell where my list is embedded? =
 
-Yes, Listly tracks how many views each list sees on each domain where it's embedded (and where people voted).
+Yes, Listly tracks how many views each list sees on each domain where it's embedded (& where people voted).
 
-Click on the total view count & that will open a lightbox and display all the view metrics broken down by domain.
+Click on the total view count & that will open a lightbox & display all the view metrics broken down by domain.
 
 You can click on URL in that list & take you to the blog post URL. 
 
