@@ -16,7 +16,7 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 Integrate numbered lists on Wordpress & beyond. Beyond commenting, Listly lets your audience actively contribute to your blog posts, while you retain control. Get more from your numbered list posts with Listly. 
 
-Nobody questions if list posts work, we just question is there a better way. We think social lists wins. A collaborative list platform for lists will allways outperform static HTML lists.  
+Nobody questions if list posts work, we just question is there a better way. We think social lists wins. A collaborative list platform for lists will always outperform static HTML lists.  
 
 Benefits of Authoring / Moderating / Administering List Posts with/via Listly:
 
@@ -31,8 +31,8 @@ Authoring lists is tedious. Editing old posts to add omission/suggestions or to 
 Benefits of leveraging Listly as a publishing or media platform for list posts:
 
 1. Embed lists & create high traffic list posts on Wordpress & other blogging platforms
-3. Listly lists are responsive so your content looks great on mobile, tablets & desktops (it's not an iframe - width & height are dynamic based on available space & device constraints - embed in a page, post or a sidebar)
-4. Custom shortcodes allow you to choose from multiple layouts & control list behaviour 
+2. Listly lists are responsive so your content looks great on mobile, tablets & desktops (it's not an iframe - width & height are dynamic based on available space & device constraints - embed in a page, post or a sidebar)
+3. Custom shortcodes allow you to choose from multiple layouts & control list behaviour 
 4. Metrics. Track where people view & engage with your lists. See who contributes & build an army of helpers
 5. Optionally lists can be hand curated into a custom curated order
 
