@@ -14,7 +14,7 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 == Description ==
 
-Integrate numbered lists on Wordpress & beyond. Listly lets your audience actively contribute to your blog posts, while you retain control. It's more valuable than comments. 
+Integrate numbered lists on Wordpress & beyond. Listly lets your audience actively contribute to your blog posts, while you retain control. No list is ever complete. With Listly your audience helps keep your content current, while connecting with those who share their passions.
 
 **Get more from your numbered list posts with Listly.**
 
