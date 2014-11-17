@@ -14,13 +14,13 @@ List posts (listicles) generate traffic, but it's tedious to author visually-app
 
 == Description ==
 
-Integrate numbered lists on Wordpress & beyond. Listly lets your audience actively contribute to your blog posts, while you retain control. No list is ever complete. With Listly your audience helps keep your content current, while connecting with those who share their passions.
+Integrate numbered lists on Wordpress & beyond. Listly lets your audience actively contribute to your blog posts, while you retain control. No list is ever complete. With Listly your audience helps keep your content current, while connecting with those who share a common passion.
 
 **Get more from your numbered list posts with Listly.**
 
 Nobody questions if list posts work, we just believe there's a better way. We think social lists win. A collaborative list platform for lists will always outperform static HTML lists because your content can evolve over time and become distributed across the web.
 
-Benefits of Authoring / Moderating / Administering List Posts with/via Listly:
+**Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
 1. Add/edit lists directly via blog posts/pages or Listly (inc assisted finding or uploading of custom images) 
 2. Let your list posts evolve over time by accepting contributions from your readers (great for SEO)
@@ -30,7 +30,7 @@ Benefits of Authoring / Moderating / Administering List Posts with/via Listly:
 
 Authoring lists is tedious. Editing old posts to add omission/suggestions, corrections are worse. Listly lets you update the content, without editing in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren listening? Worse still the utility of your content decays over time. We call it list rot.
 
-Benefits of leveraging Listly as a publishing or media platform for list posts:
+**Benefits of leveraging Listly as a publishing or media platform for list posts:**
 
 1. Embed lists & create high traffic list posts on Wordpress & other blogging platforms
 2. Listly lists are responsive so your content looks great on mobile, tablets & desktops (it's not an iframe - width & height are dynamic based on available space & device constraints - embed in a page, post or a sidebar)
@@ -38,7 +38,7 @@ Benefits of leveraging Listly as a publishing or media platform for list posts:
 4. Metrics. Track where people view & engage with your lists. See who contributes & build an army of helpers
 5. Optionally lists can be hand curated into a custom curated order
 
-Benefits of leveraging Listly lists for Content Marketing / Content Management:
+**Benefits of leveraging Listly lists for Content Marketing / Content Management:**
 
 1. Earn great organic search traffic. Lists are automatically tagged for SEO best practices. Our biggest list has seen [1.4 million views](http://list.ly/list/Um-old-hindi-evergreen-songs?feature=wpplugin) & that's 100% organic search traffic
 2. Include media links on your lists to create interactive platlists eg slides, videos, audio, images, tweets etc (one plugin to let you embed many forms of media)
@@ -48,7 +48,7 @@ Benefits of leveraging Listly lists for Content Marketing / Content Management:
 
 30% of blog posts on the web are in the form of numbered lists. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly turns lists in a form of media on a par with slides & video.
 
-Watch this video to learn the value of embedding Listly lists on your Wordpress blog:
+**Watch to learn the value of embedding Listly lists on your blog:**
 
 [youtube http://www.youtube.com/watch?v=sAmOywUMpaA]
 
@@ -69,9 +69,9 @@ Lists & Listly are part of the shift from self-hosted media to embedded media. T
 
 [youtube https://www.youtube.com/watch?v=yjIQtnQ8YAA&autoplay=1]
 
-Think of Listly as Slideshare for lists. Put your lists on Listly, then embed them on your blog. Listly is an responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
+Think of Listly as Slideshare for lists. Put your lists on Listly, then embed them on your blog. Listly is a responsive authoring platform for lists that can be seamlessly embedded in blog posts across the web. 
 
-Here's 5 simple ideas to begin using Listly on your Wordpress blog:
+**Here's 5 simple ideas to begin using Listly on your Wordpress blog:**
 
 1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014?search) on other blogs for easy resharing
 2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=wpplugin) for a given blog or project.
@@ -81,7 +81,7 @@ Here's 5 simple ideas to begin using Listly on your Wordpress blog:
 
 We think of Lists as a type of data, just like you think of Slides, Videos or Podcasts. All these technologies have evolved in similar ways to be highly embeddable. They have also become highly trafficed search destination sites. See graphic on [Slideshare](http://www.slideshare.net/nickkellet/embeddable-media-categories-shareable-content-v3)
 
-Reviews:
+**Reviews:**
 
 1. [My List of My WordPress Lists Using Listly by @BobWp](http://bobwp.com/list-wordpress-lists-using-listly/)
 2. [4 Reasons You Should Use Listly as Your Blogroll by @PolleyDan](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/)
@@ -93,7 +93,7 @@ Reviews:
 8. [How to Create Helpful Healthcare Lists with List.ly](http://healthworkscollective.com/marie-ennis-oconnor/141746/how-create-helpful-healthcare-lists-twitter)
 9. [Finally a list of 50+ Listly reviews](http://list.ly/list/2SC-50-plus-featured-listly-reviews-for-list-post-fans-brands-bloggers-community-managers-publishers-and-community-builders?feature=wpplugin)
 
-Why Do we Love (& Hate) Lists?
+**Why Do we Love (& Hate) Lists?**
 
 Lists are an integral part of life & digital media. It's worth exploring why:
 
@@ -104,7 +104,7 @@ Lists are an integral part of life & digital media. It's worth exploring why:
 5. [Hybrid Media - 42 Emerging Content Types - Inspiring Ways to Create Lists](http://www.slideshare.net/nickkellet/hybrid-media-10-emerging-content-types/)
 6. [Social Content - SCOPE is the new POEM: Paid, Owned, Earned Media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335)
 
-Fun Examples of the Listicles You Could Create with Your Readers:
+**Fun Examples of the Listicles You Could Create with Your Readers:**
 
 1. [Top 10 Heart-Warming Moments in Welsh Rugby](http://www.walesoncraic.com/top-10-heart-warming-moments-welsh-rugby/) - [Listly list](http://list.ly/list/QJK-top-10-heart-warming-moments-in-welsh-rugby)
 2. [10 Things To Do In Wales On a Rainy Bank Holiday Monday](http://www.walesoncraic.com/10-things-wales-rainy-bank-holiday-monday/) - [Listly list](http://list.ly/list/QI8-10-things-to-do-in-wales-on-a-rainy-bank-holiday-monday)
@@ -112,7 +112,7 @@ Fun Examples of the Listicles You Could Create with Your Readers:
 4. [10 Things Obama Needs to Know Before he Comes to Wales](Http://www.Walesoncraic.com/10-Things-Obama-Needs-Know-Comes-Wales/) - [Listly list](http://list.ly/QVO)
 5. [7 Things To Do In South Wales While The NATO Summit Is On](http://www.walesoncraic.com/7-things-south-wales-nato-summit/) - [Listly list](http://list.ly/list/QkI-7-things-to-do-in-south-wales-while-the-nato-summit-is-on)
 
-Social Examples Where Blogs are Sourcing Crownd Input (content) & Preferences (votes):
+**Social Examples Where Blogs are Sourcing Crownd Input (content) & Preferences (votes):**
 
 1. Top 10 Women in Business Intelligence. [Antivia Blog](http://www.antivia.com/blog/?p=2435) - [Listly list](http://list.ly/list/SJK-most-influential-women-in-business-intelligence)
 2. Christian Blogs You Should Be Reading in 2014 [Patheos Blog](http://www.patheos.com/blogs/christianpiatt/2014/10/its-time-list-the-christian-blogs-youre-reading-in-2014/) - [Listly list](http://list.ly/list/SJl-christian-blogs-you-should-be-reading-2014)
