@@ -1,4 +1,4 @@
-=== Listly: for bloggers, brands, publishers & journalists who want readers to engage ===
+=== Listly: for bloggers, brands & journalists who crave reader contribution & reach ===
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) generate traffic, but it's tedious to author visually-appealing lists. Easy to create, rank, curate & embed  lists.
+List posts (listicles) generate traffic, but it's tedious to author visually-appealing lists. Social lists to rank, embed, evolve & share
 
 == Description ==
 
@@ -121,8 +121,7 @@ Lists are an integral part of life & digital media. It's worth exploring why:
 5. Crowdsourced List of the Best Marketing Speakers [Marketo Blog](http://blog.marketo.com/2013/09/the-best-marketing-speakers.html) - [Listly list](http://list.ly/list/7wZ-best-marketing-speakers)
 
 
-Image Credit: [Ian Muttoo](https://www.flickr.com/photos/imuttoo/4504392318/
-) via Flickr & Creative Commons
+Image Credit: [Ian Muttoo](https://www.flickr.com/photos/imuttoo/4504392318/) via Flickr & Creative Commons
 
 == Installation ==
 
