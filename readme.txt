@@ -18,7 +18,11 @@ Integrate numbered lists on Wordpress & beyond. Listly lets your audience active
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe there's a better way. We think social lists win. A collaborative list platform for lists will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse and embed your lists.
+Nobody questions if list posts work, we just believe there's a better way. We think social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask people to help.
+
+Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse and embed your lists.
+
+Your lists get more valuable with time not less. 
 
 **Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
