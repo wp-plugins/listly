@@ -18,11 +18,17 @@ Integrate numbered lists on Wordpress & beyond. Listly lets your audience active
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe there's a better way. We think social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask people to help.
+Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask people to help. It's a never ending task, that your community drives. 
+
+Your job in the list making process is to source ideas, ask questions (via list) and to start and share the lists so that others want to contribute and participate.
 
 Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse and embed your lists.
 
-Your lists get more valuable with time not less. 
+A great static list willget stolen/copied/modified. A Listly list will get embedded, shared and embedded.
+
+Your lists get more valuable with time not less and hence attract more people.
+
+Living content at work.
 
 **Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
@@ -32,7 +38,7 @@ Your lists get more valuable with time not less.
 4. Readers vote to rank their fave items, so your list post gets more useful over time
 5. Effortlessly share lists or list items on Listly or via embeds on any post/page
 
-Authoring lists is tedious. Editing old posts to add omissions/suggestions. Corrections are worse. Listly lets you update the content, without editing in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren't listening? Worse still the utility of your content decays over time. We call it list rot.
+Authoring lists is tedious. Editing old posts to add omissions/suggestions. Corrections are worse. Listly lets you update the list content, without editing in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren't listening? Worse still the utility of your content decays over time. We call it list rot.
 
 **Benefits of leveraging Listly as a publishing or media platform for list posts:**
 
