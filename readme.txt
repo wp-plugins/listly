@@ -22,15 +22,15 @@ Use Listy to create, curate or collaborate on ranked numbered lists.
 
 Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask people to help. It's a never ending task, that your community drives. 
 
-Your job is to source & seed ideas. Ask questions in the form of lists. Start list and share them so that others want to contribute and participate. Don't attempt to be exhaustive and perfect. Leave gaps. 
+Your job is to source & seed ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role. Your listticles should be inviting & enaging. Start lists share them to entice readers to contribute & participate. Don't attempt to be exhaustive & perfect. Leave gaps. Don't be a smarticle. That's not social. Leave room for mere mortals to help. Be imperfecticle. 
 
 Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In showing your imperfection you help others to shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page! 
 
-Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse and embed your lists.
+Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists.
 
-A great static list willget stolen/copied/modified. A Listly list will get embedded, shared and embedded.
+A great static list willget stolen/copied/modified. A Listly list will get embedded, shared & embedded.
 
-Your lists get more valuable with time not less and hence attract more people.
+Your lists get more valuable with time not less & hence attract more people.
 
 Living content at work.
 
@@ -68,7 +68,7 @@ Authoring lists is tedious. Editing old posts to add omissions/suggestions. Corr
 
 When you begin using Listly you can get significant personal utility by saving time on authoring great, visually-appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
 
-Listly make your lists reusable: shareable, embeddable as responsive content. HTML lists on blogs add friction to sharing and reuse.
+Listly make your lists reusable: shareable, embeddable as responsive content. HTML lists on blogs add friction to sharing & reuse.
 
 Listly empowers your audience to contribute to the list content on your blog. That's a level of engagement above commenting. People can also embed other people's lists on their blog. 
 
@@ -154,6 +154,16 @@ Adding a List to Your Blog
 5. Preview or publish to see the list embedded on your blog
 
 == Frequently Asked Questions ==
+
+= Where can I get support? =
+
+There is the Wordpress support page [here](https://wordpress.org/support/plugin/listly), but we prefer support to be logged via our [support site](http://listly.tenderapp.com/).
+
+Make sure you include URLs for your lists, your Listly account and any blog post you are embedding the list on. Operating sytems and browsers help too.
+
+Pleasre also mention if you are using Listly, the bookmarklet or the Chrome extension.
+
+All this information will help us be speedier and more useful in our responses.
 
 = Why should I Author lists on Listly instead of my blog? =
 
