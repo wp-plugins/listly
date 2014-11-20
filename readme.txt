@@ -24,7 +24,7 @@ Nobody questions if list posts work, we just believe there's a better way. We kn
 
 Your job is to source & seed ideas. Ask questions in the form of lists. Start list and share them so that others want to contribute and participate. Don't attempt to be exhaustive and perfect. Leave gaps. 
 
-Imperfection is sexy. [Brené Brown knows] it(http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does] too(https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In showing your imperfection you also help others shine. 
+Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. [Brené Brown knows it] (http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does too] (https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In showing your imperfection you help others to shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page! 
 
 Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse and embed your lists.
 
