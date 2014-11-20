@@ -22,7 +22,9 @@ Use Listy to create, curate or collaborate on ranked numbered lists.
 
 Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask people to help. It's a never ending task, that your community drives. 
 
-Your job in the list making process is to source ideas, ask questions (via list) and to start and share the lists so that others want to contribute and participate.
+Your job is to source & seed ideas. Ask questions in the form of lists. Start list and share them so that others want to contribute and participate. Don't attempt to be exhaustive and perfect. Leave gaps. 
+
+Imperfection is sexy. [Brené Brown knows] it(http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does] too(https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In showing your imperfection you also help others shine. 
 
 Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse and embed your lists.
 
