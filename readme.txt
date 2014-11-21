@@ -22,17 +22,18 @@ Use Listy to create, curate or collaborate on ranked numbered lists.
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can drive. 
+Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun& more productive. Begin lists with just a few items - an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can drive. 
 
 Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role. Your listticles should be inviting & enaging. Start lists & share them to entice readers to contribute & participate. Don't attempt to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is not social. Leave room for mere mortals to help. Be imperfecticle. 
 
-Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In sharing your imperfections, you let others shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy] works(http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
+Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In sharing your imperfections, you let others shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy](http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
 
-Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists. You will get more views and engagement. 
+Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists. You will get more views & engagement. 
 
-A great static list will get stolen/copied/modified. A great Listly list will get embedded, shared & embedded
+- A great static list will get stolen/copied/ignored/forgotten/outdated
+- A great Listly list will get embedded, shared & maintained
 
-Your lists get more valuable with time not less & hence attract more people. This is the cycle of life wwhen your content can evolve.
+Your lists get more valuable with time not less & hence attract more people. This is the cycle of life when your content can evolve because people can help.
 
 **Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
