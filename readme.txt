@@ -60,7 +60,7 @@ Authoring lists is tedious. Editing old posts to add omissions/suggestions is wo
 4. Affiliate product lists have never been easier to create, share & embed (needs Pro)
 5. [Get more from your Twitter lists by turning them into social content](http://venturebeat.com/2013/12/06/list-ly-makes-twitter-lists-significantly-more-awesome-social-shareable-manageable-and-rankable/). People lists are a great tool for building engagement eg [Top 10 Women in Business Intelligence](http://www.antivia.com/blog/?p=2435) - 50% of the views came from the blog / 50% from Listly.
 
-30% of the web is numbered list posts. Lists work. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly elevates lists to be a platform on a par slides / video media platforms like Slideshare & YouTube.
+30% of the web is numbered list posts. Lists work. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly elevates lists to be a platform on a par with slides / video media platforms like Slideshare & YouTube.
 
 **Watch to learn the value of embedding Listly lists on your blog:**
 
