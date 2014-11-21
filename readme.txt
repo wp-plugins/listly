@@ -14,25 +14,25 @@ List posts (listicles) generate traffic, but are tedious to author with visual a
 
 == Description ==
 
-Integrate numbered lists on Wordpress & beyond. Listly lets your audience actively contribute to your blog posts, while you retain control. No list is ever complete. With Listly your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
+**Integrate numbered lists on Wordpress & beyond.**
+
+Listly lets your audience actively contribute to your blog posts, while you retain control. No list is ever complete. With Listly your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
 
 Use Listy to create, curate or collaborate on ranked numbered lists.
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask people to help. It's a never ending task, that your community drives. 
+Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun. You can begin with just a few items - an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can drive. 
 
-Your job is to source & seed ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role. Your listticles should be inviting & enaging. Start lists share them to entice readers to contribute & participate. Don't attempt to be exhaustive & perfect. Leave gaps. Don't be a smarticle. That's not social. Leave room for mere mortals to help. Be imperfecticle. 
+Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role. Your listticles should be inviting & enaging. Start lists & share them to entice readers to contribute & participate. Don't attempt to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is not social. Leave room for mere mortals to help. Be imperfecticle. 
 
-Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In showing your imperfection you help others to shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page! 
+Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In sharing your imperfections, you let others shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy] works(http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
 
-Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists.
+Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists. You will get more views and engagement. 
 
-A great static list willget stolen/copied/modified. A Listly list will get embedded, shared & embedded.
+A great static list will get stolen/copied/modified. A great Listly list will get embedded, shared & embedded
 
-Your lists get more valuable with time not less & hence attract more people.
-
-Living content at work.
+Your lists get more valuable with time not less & hence attract more people. This is the cycle of life wwhen your content can evolve.
 
 **Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
@@ -42,7 +42,7 @@ Living content at work.
 4. Readers vote to rank their fave items, so your list post gets more useful over time
 5. Effortlessly share lists or list items on Listly or via embeds on any post/page
 
-Authoring lists is tedious. Editing old posts to add omissions/suggestions. Corrections are worse. Listly lets you update the list content, without editing in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren't listening? Worse still the utility of your content decays over time. We call it list rot.
+Authoring lists is tedious. Editing old posts to add omissions/suggestions is worse. Listly lets you (and your audience) update the list content, without editing in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren't listening? Worse still the utility of your content decays over time. We call it list rot.
 
 **Benefits of leveraging Listly as a publishing or media platform for list posts:**
 
@@ -60,7 +60,7 @@ Authoring lists is tedious. Editing old posts to add omissions/suggestions. Corr
 4. Affiliate product lists have never been easier to create, share & embed (needs Pro)
 5. [Get more from your Twitter lists by turning them into social content](http://venturebeat.com/2013/12/06/list-ly-makes-twitter-lists-significantly-more-awesome-social-shareable-manageable-and-rankable/). People lists are a great tool for building engagement eg [Top 10 Women in Business Intelligence](http://www.antivia.com/blog/?p=2435) - 50% of the views came from the blog / 50% from Listly.
 
-30% of blog posts on the web are in the form of numbered lists, for good reason. Lists work. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly turns lists in a form of media on a par with slides & video.
+30% of the web is numbered list posts. Lists work. Numbered list posts are the best performing content on the web. Listly just makes those posts social & collaborative. Listly elevates lists to be a platform on a par slides / video media platforms like Slideshare & YouTube.
 
 **Watch to learn the value of embedding Listly lists on your blog:**
 
