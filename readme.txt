@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: admin, affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, FAQ, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, photo, poll, post, posts, list posts, quiz, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: admin, affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, FAQ, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, photo, poll, post, posts, list posts, quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -18,22 +18,31 @@ List posts (listicles) generate traffic, but are tedious to author with visual a
 
 Listly lets your audience actively contribute to your blog posts, while you retain control. No list is ever complete. With Listly your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
 
-Use Listy to create, curate or collaborate on ranked numbered lists.
+Use Listy to create, curate or collaborate to build awesome, people-ranked numbered lists.
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe there's a better way. We know social lists win. Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can drive. 
+Nobody questions if list posts work, we just believe there's a better way. We a social list platform beat personal lists that exist only as text in a blog post. Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace and drive. 
 
-Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role. Your listicles should be inviting & enaging. Start lists & share them to entice readers to contribute & participate. Don't attempt to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is not social or inviting. Leave room for mere mortals to help. Be imperfecticle. 
+Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role by answering questions. 
 
-Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). In sharing your imperfections, you let others shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy](http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
+**Your listicles should be inviting & enaging** 
 
-Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists. You will get more views & engagement. 
+Start lists & share them to entice readers to contribute & participate. Don't attempt to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is not social or inviting. An exhaustive list is unapproachable. Leave room for mere mortals to help. Be imperfecticle. If you are going to ask help, look like you need it. Be real.
+
+Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. 
+
+- [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). 
+- [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). 
+
+By sharing your imperfections, you let others shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy](http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
+
+Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists. You will get more views & engagement. What more means is up to you. You get out what you put in.
 
 - A great static list will get stolen/copied/ignored/forgotten/outdated
 - A great Listly list will get embedded, shared & maintained
 
-Your lists get more valuable with time not less & hence attract more people. This is the cycle of life when your content can evolve because people can help.
+Your lists get more valuable with time not less & hence attract more helpers. This is the cycle of life when you let your content  evolve by empowering people can help.
 
 **Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
@@ -43,7 +52,7 @@ Your lists get more valuable with time not less & hence attract more people. Thi
 4. Readers vote to rank their fave items, so your list post gets more useful over time
 5. Effortlessly share lists or list items on Listly or via embeds on any post/page
 
-Authoring lists is tedious. Editing old posts to add omissions/suggestions is worse. Listly lets you (and your audience) update the list content, without editing in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren't listening? Worse still the utility of your content decays over time. We call it list rot.
+Authoring lists is tedious. Editing old posts to add omissions/suggestions is worse. Listly lets you (& your audience) update the list content, without editing in WP admin, so nothing breaks. What's the cost of not updating? Does it say you aren't listening? Worse still the utility of your content decays over time. We call it list rot.
 
 **Benefits of leveraging Listly as a publishing or media platform for list posts:**
 
