@@ -22,7 +22,9 @@ Use Listy to create, curate or collaborate to build awesome, people-ranked numbe
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe there's a better way. We a social list platform beat personal lists that exist only as text in a blog post. Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace and drive. 
+Nobody questions if list posts work, we just believe a social list platform beats personal lists, existing only as text in a blog post. You wouldn't self-host a video today. We believe the same logic applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram have proven the value of making content shareable.
+
+Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace and drive. 
 
 Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role by answering questions. 
 
@@ -89,7 +91,7 @@ Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or List
 
 Explore the [Getting Started](http://www.slideshare.net/nickkellet/get-started-with-listly-a-beginners-guide-to-social-list-making) guide if you are new to Listly.
 
-Lists & Listly are part of the shift from self-hosted media to embedded media. The social sharing benefits far out weigh control issues. They also enable your content to become [earned media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335). You wouldn't self host a video today. We believe the same logic applies to collaborative lists that evolve over time.
+Lists & Listly are part of the shift from self-hosted media to embedded media. The social sharing benefits far out weigh control issues. They also enable your content to become [earned media](http://www.slideshare.net/nickkellet/scope-is-the-new-poem-making-sense-of-emerging-digital-media-v3-39720335). 
 
 [youtube https://www.youtube.com/watch?v=yjIQtnQ8YAA&autoplay=1]
 
