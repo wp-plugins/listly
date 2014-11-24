@@ -16,13 +16,13 @@ List posts (listicles) generate traffic, but are tiresome to author with visual 
 
 **Integrate numbered lists on Wordpress & beyond.**
 
-Listly lets your audience actively contribute to your posts, while letting you retain control. No list is ever complete. With Listly, your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
+Listly lets your audience actively contribute to your posts, while letting you retain control. In reality, no list is ever complete. With Listly, your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
 
 Use Listy to create, curate or collaborate to build awesome, people-ranked numbered lists.
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe a social list platform beats personal lists, existing only as text in a blog post. You wouldn't self-host a video today. We believe the same logic applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram have proven the value of making content shareable.
+Nobody questions if list posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe the same logic applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram have proven the value of making content shareable & embeddabe.
 
 Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace and drive. 
 
