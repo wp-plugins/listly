@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: admin, affiliate, affiliates, audience, blog, blogroll, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, FAQ, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, photo, poll, post, posts, list posts, quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: admin, affiliate, affiliates, audience, blog, blogroll, bookmark, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, FAQ, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, photo, poll, post, posts, list posts, quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.0
@@ -10,13 +10,13 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) generate traffic, but are tedious to author with visual appeal. Social lists to rank, evolve, embed & share
+List posts (listicles) generate traffic, but are tiresome to author with visual appeal. Social lists to rank, evolve, embed & share
 
 == Description ==
 
 **Integrate numbered lists on Wordpress & beyond.**
 
-Listly lets your audience actively contribute to your blog posts, while you retain control. No list is ever complete. With Listly your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
+Listly lets your audience actively contribute to your posts, while letting you retain control. No list is ever complete. With Listly, your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
 
 Use Listy to create, curate or collaborate to build awesome, people-ranked numbered lists.
 
