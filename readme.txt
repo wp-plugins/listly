@@ -10,41 +10,41 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) generate traffic, but are tiresome to author with visual appeal. Social lists to rank, evolve, embed & share
+List posts (listicles) get you found, but are tiresome to author with pizzazz. Social lists to rank, evolve, embed & share.
 
 == Description ==
 
-**Integrate numbered lists on Wordpress & beyond.**
+**Integrate numbered lists on Wordpress & beyond**
 
-Listly lets your audience actively contribute to your posts, while letting you retain control. In reality, no list is ever complete. With Listly, the audience help your content evolve via socially interaction. Communities form around shared interests, needs & expertise.
+Listly lets your audience actively contribute to your posts, while letting you moderate. In reality, no list is ever complete. With Listly, the audience help your content evolve through social engagement. Communities form around shared interests, needs & expertise.
 
-Use Listy to create, curate or collaborate to build awesome, people-ranked numbered lists.
+Use Listy to create, curate or collaborate to build awesome, people-ranked numbered-lists.
 
 **Get more from your numbered list posts with Listly**
 
-List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram prove content that's findable shareable & embeddabe works best. 
+List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram prove content that's findable shareable & embeddabe perform better. 
 
-Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace and drive. Working alone on lists is just 1.0
+Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace & drive. Working alone on lists is just 1.0
 
-Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role by answering questions. 
+Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because the audience plays an active role by answering questions. Listly's paradigm emulates talk radio.
 
 **Your listicles should be inviting & enaging** 
 
-Start lists & share them to entice readers to contribute & participate. Don't attempt to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is not social or inviting. An exhaustive list is unapproachable. Leave room for mere mortals to help. Be imperfecticle. If you are going to ask help, look like you need it. Be real.
+Start lists & share them to entice readers to contribute & participate. Don't try to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is neither social nor inviting. An exhaustive list is unapproachable. Leave room for joe public to help. Be imperfecticle. If you ask for help, look like you need it. Be real.
 
 Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. 
 
 - [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). 
 - [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). 
 
-By sharing your imperfections, you let others shine. Being open to input lets you be generous. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy](http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
+By sharing your imperfections, you generously let others shine. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy](http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
 
-Collaborative lists that are embeddable & shareable will always outperform static HTML lists because your content can evolve over time & become distributed across the web as people reuse & embed your lists. You will get more views & engagement. What more means is up to you. You get out what you put in.
+Collaborative, embeddable, shareable lists will always outperform static HTML lists. You'll enjoy more views & engagement because people can embed & extend your ideas. You own what more means. Get out what you put in. 
 
 - A great static list will get stolen/copied/ignored/forgotten/outdated
 - A great Listly list will get embedded, shared & maintained
 
-Your lists get more valuable with time not less & hence attract more helpers. This is the cycle of life when you let your content  evolve by empowering people can help.
+Lists get more valuable with time as they evolve, attracting more helpers & better SEO ranking. This is the cycle of life when you let your content evolve by empowering people can help.
 
 **Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
@@ -171,11 +171,11 @@ Adding a List to Your Blog
 
 There is the Wordpress support page [here](https://wordpress.org/support/plugin/listly), but we prefer support to be logged via our [support site](http://listly.tenderapp.com/).
 
-Make sure you include URLs for your lists, your Listly account and any blog post you are embedding the list on. Operating sytems and browsers help too.
+Make sure you include URLs for your lists, your Listly account & any blog post you are embedding the list on. Operating sytems and browsers help too.
 
-Pleasre also mention if you are using Listly, the bookmarklet or the Chrome extension.
+Please also mention if you are using the Listly bookmarklet or the Chrome extension.
 
-All this information will help us be speedier and more useful in our responses.
+All this information will help us be speedier & more useful in our responses.
 
 = Why should I Author lists on Listly instead of my blog? =
 
