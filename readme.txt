@@ -16,15 +16,15 @@ List posts (listicles) generate traffic, but are tiresome to author with visual 
 
 **Integrate numbered lists on Wordpress & beyond.**
 
-Listly lets your audience actively contribute to your posts, while letting you retain control. In reality, no list is ever complete. With Listly, your audience helps keep your content socially current. Communities form around shared interests, needs & expertise.
+Listly lets your audience actively contribute to your posts, while letting you retain control. In reality, no list is ever complete. With Listly, the audience help your content evolve via socially interaction. Communities form around shared interests, needs & expertise.
 
 Use Listy to create, curate or collaborate to build awesome, people-ranked numbered lists.
 
 **Get more from your numbered list posts with Listly**
 
-Nobody questions if list posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe the same logic applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram have proven the value of making content shareable & embeddabe.
+List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram prove content that's findable shareable & embeddabe works best. 
 
-Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace and drive. 
+Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace and drive. Working alone on lists is just 1.0
 
 Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because it's about the audience playing an active role by answering questions. 
 
