@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) get traffic, but are tiresome to author with pizzazz. Make fun social lists to rank, evolve, embed & share
+List posts (listicles) get traffic, but are dreary to author with style. Make fun social lists to rank, evolve, embed & share.
 
 == Description ==
 
@@ -22,7 +22,7 @@ Use Listy to create, curate or collaborate to build awesome, people-ranked numbe
 
 **Get more from your numbered list posts with Listly**
 
-List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram prove content that's findable shareable & embeddabe perform better. 
+List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram prove content outperforms if it's findable, shareable & embeddabe.
 
 Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace & drive. Working alone on lists is just 1.0
 
