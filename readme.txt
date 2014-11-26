@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) get traffic, but are dreary to author with style. Make fun social lists to rank, evolve, embed & share.
+List posts (listicles) get you seen, but are hard to author with pizzazz. Make fun social lists to rank, evolve, embed & share.
 
 == Description ==
 
