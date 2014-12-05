@@ -10,13 +10,13 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) get traction, but are hard to author with pizzazz. Make fun social lists to rank, evolve, embed & share.
+List posts (listicles) get traction, but are hard to author with pizzazz. Make fun, social lists to rank, evolve, embed & share.
 
 == Description ==
 
 **Integrate numbered lists on Wordpress & beyond**
 
-Listly lets your audience actively contribute to your posts, while letting you moderate. In reality, no list is ever complete. With Listly, the audience help your content evolve via social engagement. Communities form around shared interests, needs & expertise.
+Listly lets your audience actively contribute to your posts, while giving you the power to moderate. In reality, no list is ever complete. With Listly, the audience help your content evolve via social engagement. Communities form around shared interests, needs & expertise.
 
 Use Listy to create, curate or collaborate to build awesome, people-ranked numbered-lists. One plugin, many uses.
 
@@ -30,7 +30,7 @@ Your job is to source & seed list ideas. Ask questions in the form of lists. Why
 
 **Your listicles should be inviting & enaging** 
 
-Start lists & share them to entice readers to contribute & participate. Don't try to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is neither social nor inviting. An exhaustive list is unapproachable. Leave room for joe public to help. Be imperfecticle. If you ask for help, look like you need it. Be real.
+Start lists & share them to entice readers to contribute & participate. Don't try to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is neither social nor inviting. An exhaustive list is unapproachable. Leave room for "Joe Public" to help. Be imperfecticle. If you ask for help, look like you need it and pitch it at a level where people see they can add to the conversation. Be real.
 
 Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. 
 
