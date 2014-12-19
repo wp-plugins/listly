@@ -1,16 +1,20 @@
-=== Listly: for bloggers, brands & journalists who crave reader contribution & growth ===
+=== Listly: for bloggers, brands & journalists who crave reader participation & growth ===
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
 Tags: admin, affiliate, affiliates, audience, blog, blogroll, bookmark, challenge, collaboration, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, disqus, directory lists, embed, embeds, embedded, engagement, FAQ, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, listicle, link, links, list, listly, lists, list post, local, marketing, members lists, news, oembed, opinion, people, people lists, plugin, playlist, photo, poll, post, posts, list posts, quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, tag, tagging, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+<<<<<<< .mine
+List posts (listicles) get traction, but are hard to author with style. Make fun social lists to rank, evolve, embed & share.
+=======
 List posts (listicles) get traction, but are hard to author with pizzazz. Make fun, social lists to rank, evolve, embed & share.
+>>>>>>> .r1039437
 
 == Description ==
 
@@ -22,7 +26,9 @@ Use Listy to create, curate or collaborate to build awesome, people-ranked numbe
 
 **Get more from your numbered list posts with Listly**
 
-List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. Social media platforms like YouTube, Slideshare & Instagram prove content outperforms if it's findable, shareable & embeddabe.
+List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. 
+
+Media platforms that are social, like YouTube, Slideshare & Instagram prove content outperforms if it's findable, shareable & embeddabe. They ensure your content gets found independent of you (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in a vaccuum
 
 Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace & drive. Working alone on lists is just 1.0
 
