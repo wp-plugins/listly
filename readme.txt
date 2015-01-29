@@ -10,15 +10,11 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-<<<<<<< .mine
-List posts (listicles) get traction, but are hard to author with style. Make fun social lists to rank, evolve, embed & share.
-=======
-List posts (listicles) get traction, but are hard to author with pizzazz. Make fun, social lists to rank, evolve, embed & share.
->>>>>>> .r1039437
+List posts (listicles) get traction, but are tough to author with pizzazz. Make fun, social lists to rank, evolve, 
 
 == Description ==
 
-**Integrate numbered lists on Wordpress & beyond**
+**Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
 Listly lets your audience actively contribute to your posts, while giving you the power to moderate. In reality, no list is ever complete. With Listly, the audience help your content evolve via social engagement. Communities form around shared interests, needs & expertise.
 
@@ -50,7 +46,7 @@ Collaborative, embeddable, shareable lists will always outperform static HTML li
 - A great static list will get stolen/copied/ignored/forgotten/outdated
 - A great Listly list will get embedded, shared & maintained
 
-Lists get more valuable with time as they evolve, attracting more helpers & better SEO ranking. This is the cycle of life when you let your content evolve by empowering people can help.
+Listly ensures your lists get more valuable with time as they evolve, attracting more helpers & better SEO ranking. This is the cycle of life when you let your content evolve by empowering people can help. HTML lists lost inside blog post don't behave like this. 
 
 **Benefits of Authoring / Moderating / Administering List Posts with/via Listly:**
 
