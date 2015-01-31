@@ -20,6 +20,8 @@ Listly lets your audience actively contribute to your posts, while giving you th
 
 Use Listy to create, curate or collaborate to build awesome, people-ranked numbered-lists. One plugin, many uses. A tool you can put to work in many ways.
 
+What kind of Listlys will you make? 
+
 **Get more from your numbered list posts with Listly**
 
 List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. 
