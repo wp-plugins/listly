@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) get traction, but are tough to author with pizzazz. Make fun, social lists to rank, embed & share
+List posts (listicles) get traction, but are a time suck to author visually. Make fun, social lists to rank, embed & share
 
 == Description ==
 
@@ -18,9 +18,11 @@ List posts (listicles) get traction, but are tough to author with pizzazz. Make 
 
 Listly lets your audience actively contribute to your posts, while giving you the power to moderate. In reality, no list is ever complete. With Listly, the audience help your content evolve via social engagement. Communities form around shared interests, needs & expertise.
 
-Use Listy to create, curate or collaborate to build awesome, people-ranked numbered-lists. One plugin, many uses. A tool you can put to work in many ways.
+Use Listy to create, curate or collaborate to build awesome, people-ranked numbered-lists. One plugin, many uses. A tool you can put to work in many ways. 
 
-What kind of Listlys will you make? 
+Listly is also a source of free content. Lists that you can embed as responsive/adaptive content for your blog.
+
+What kind of Listlys will you make? What kind of list will you embed? Who will embed your Listlys?
 
 **Get more from your numbered list posts with Listly**
 
