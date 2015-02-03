@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-List posts (listicles) get traction, but you can't embed like slides/videos. Fun, social lists to rank, embed & share
+List posts (listicles) get traction, but you can't embed like slides/videos. Collaborate to create fun, social lists to rank, embed & share
 
 == Description ==
 
