@@ -20,7 +20,7 @@ Listly lets your audience actively contribute to your posts, while giving you th
 
 Use Listy to create, curate or collaborate to build awesome, people-ranked numbered-lists. One plugin, many uses. A tool you can put to work in many ways. 
 
-Listly is also a source of free content, lists that you can embed as responsive/adaptive content for your blog.
+Listly is also a source of free content, lists that you can embed as responsive/adaptive content for your blog. Track your lists metrics as they get consumed across the web.
 
 What kind of Listlys will you make? What kind of list will you embed? Who will embed your Listlys?
 
