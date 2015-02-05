@@ -1,4 +1,4 @@
-=== Listly: for brands/authors wanting easy listicles, trackable UGC, reach & metrics ===
+=== Listly: for bloggers, brands & journalists who crave reader participation & growth ===
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
@@ -20,7 +20,7 @@ Listly lets your audience actively contribute to your posts, while giving you th
 
 Use Listy to create, curate or collaborate to build awesome, people-ranked numbered-lists. One plugin, many uses. A tool you can put to work in many ways. There's many useful lists you can create for your niche. Use Listly on Wordpress (with its "swiss army knife" tool approach) and you'll need less plugins. 
 
-Listly is both a tool, a plugin and a content platform. 
+Beyond being just a plugin, Listly is both a collaborative content authoring tool and a content platform. 
 
 Listly is also a source of free content, lists that you can embed as responsive/adaptive content for your blog. Track your lists metrics as they get consumed across the web.
 
