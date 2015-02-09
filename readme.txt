@@ -16,13 +16,13 @@ List posts (listicles) get traction, but you can't embed like slides/videos. Col
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-In reality, no list is ever complete. With Listly, the audience help your content evolve via social engagement. Listly lets your audience actively contribute to your posts, while letting you moderate.  Communities form around shared interests, needs & expertise.
+In reality, no list is ever complete. With Listly, your audience help your content evolve via social engagement. Listly lets your audience actively contribute to your posts, while letting you moderate.  Communities form around shared interests, needs & expertise.
 
-Use Listy to create, curate or collaborate. That trio is a powerful combo. Use Listly on Wordpress (with its "swiss army knife" tool approach) and you'll need less plugins. It also means your content becomes reusable and reembeddable by others. 
+Use Listy to create, curate or collaborate. A powerful trio. Use Listly on Wordpress (with its "swiss army knife" tool approach) and you'll need less plugins. It also means your content becomes reusable and reembeddable by others. 
 
-Not just a plugin, Listly is both a collaborative content authoring tool and a content platform. 
+Not just a plugin, Listly is both a collaborative content authoring tool & a content platform. 
 
-Build awesome, people-ranked numbered-lists. One plugin, many uses. A tool you can put to work in many ways. There's many useful lists you can create for your niche. 
+Build awesome, people-ranked numbered-lists. One plugin, many uses. There's many useful lists you can create for your niche. 
 
 Listly is also a source of free content, lists that you can embed as responsive/adaptive content for your blog. Track your lists metrics as they get consumed across the web.
 
