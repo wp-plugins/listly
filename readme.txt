@@ -16,7 +16,7 @@ Lists=30% of the Web Content becasue they work. Social listicles: Numbered list 
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-No list is ever truly complete. With Listly, your audience help evolve your content content. Listly lets your audience actively contribute to your posts, while letting you moderate.  Communities form around shared interests, needs & expertise.
+No list is ever truly complete. With Listly, your audience help evolve your list content. Listly lets your audience actively contribute to your list posts, while letting you moderate. Communities form around shared interests, needs & expertise.
 
 Use Listy to create, curate or collaborate. A powerful trio. Use Listly on Wordpress (with its "swiss army knife" tool approach) and you'll need less plugins. It also means your content becomes reusable and reembeddable by others. 
 
