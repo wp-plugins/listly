@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Lists=30% of the Web Content becasue they work. Social listicles: Numbered list posts made easy to author, share, embed & extend.
+30% of blog posts are lists, because they work. Social listicles: Numbered list posts made easy to author, share, embed & extend.
 
 == Description ==
 
@@ -20,13 +20,13 @@ No list is ever truly complete. With Listly, your audience help evolve your list
 
 Use Listy to create, curate or collaborate. A powerful trio. Use Listly on Wordpress (with its "swiss army knife" tool approach) and you'll need less plugins. It also means your content becomes reusable and reembeddable by others. 
 
-Not just a plugin, Listly is both a collaborative content authoring tool & a content platform. 
+Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. 
 
-Build awesome, people-ranked numbered-lists. One plugin, many uses. There's many useful lists you can create for your niche. 
+Build awesome useful lists for your niche. 
 
 Listly is also a source of free content, lists that you can embed as responsive/adaptive content for your blog. Track your lists metrics as they get consumed across the web.
 
-What kind of Listlys will you make? What kind of list will you embed? Who will embed your Listlys?
+What kind of list will you make? What kind of list will you embed? Who will embed your lists?
 
 **Get more from your numbered list posts with Listly**
 
