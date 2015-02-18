@@ -26,13 +26,13 @@ Build awesome useful lists for your niche.
 
 Listly is also a source of free content, lists that you can embed as responsive/adaptive content for your blog. Track your lists metrics as they get consumed across the web.
 
-What kind of list will you make? What kind of list will you embed? Who will embed your lists?
+What kind of list will you make/embed? Who will embed your lists?
 
 **Get more from your numbered list posts with Listly**
 
-List posts work, we just believe a social list platform beats personal lists (i.e. lists as text in blog posts). You wouldn't self-host a video today. We believe this applies to collaborative lists. 
+List posts work, we just believe a social list platform beats lists that as just text. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
 
-Media platforms that are social, like Listly, YouTube, Slideshare & Instagram prove content need to be findable, shareable & embeddabe. They ensure your content gets found independent of you (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in a vaccuum.
+Media platforms that are social, like Listly, YouTube, Slideshare & Instagram prove content need to be findable, shareable & embeddabe. They ensure your content gets found independent of you (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in isolation.
 
 Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace & drive. Working alone on lists is just 1.0.
 
