@@ -16,9 +16,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-No list is ever truly complete. With Listly, your audience help evolve your list content. Listly lets your audience actively contribute to your list posts, while letting you moderate. Communities form around shared interests, needs & expertise.
+No list is ever truly complete.  Your audience can evolve & extend your listly content, you can moderate. Your list posts stay fresh & valuable, while community forms around shared interests, needs & expertise.
 
-Use Listy to create, curate or collaborate. A powerful trio. Use Listly on Wordpress (with its "swiss army knife" tool approach) and you'll need less plugins. It also means your content becomes reusable and reembeddable by others. 
+Use Listy to create, curate or collaborate. A powerful trio. Use Listly on Wordpress (with its "swiss army knife" tool approach) & you'll need less plugins. It also means your content becomes reusable & reembeddable by others. 
 
 Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. 
 
@@ -34,9 +34,9 @@ List posts work, we just believe a social list platform beats lists that as just
 
 Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in isolation. Author media first, them embed on your blog. It scales and reaches further.
 
-Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace & drive. Working alone on lists is just 1.0.
+Making lists together is more fun & more productive. Begin  with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
 
-Your job is to source & seed list ideas. Ask questions in the form of lists. Why is talk radio engaging? Because the audience plays an active role by answering questions. Listly's paradigm emulates talk radio.
+Your job is to source & seed. Ask questions in the form of lists. Why is talk radio engaging? Because the audience plays an active role by answering questions. Listly's paradigm emulates talk radio.
 
 **Your listicles should be inviting & enaging** 
 
