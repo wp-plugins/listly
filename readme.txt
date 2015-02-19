@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: adaptive, adaptive design, admin, affiliate, affiliates, analytics, audience, blog, blogroll, bookmark, challenge, checklist, collaboration, column, columns, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, directory lists, embed, embeds, embedded, embedding, engagement, FAQ, feedback, google, html5, iframe, image, instagram, javascript, journalism, journalist, mobile, moderate, moderation, layout, listicle, link, links, list, listly, lists, list post,ist posts, local, marketing, members lists, metrics, news, oembed, opinion, page, people, people lists, plugin, playlist, photo, poll, post, posts, publishing,  quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive design, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, theme, tag, tagging, top 10, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: adaptive, adaptive design, admin, affiliate, affiliates, analytics, audience, blog, blogroll, bookmark, challenge, checklist, collaboration, column, columns, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, directory lists, embed, embeds, embedded, embedding, engagement, FAQ, feedback, google, html5, iframe, images, instagram, javascript, journalism, journalist, mobile, moderate, moderation, layout, listicle, link, links, list, listly, lists, list post,ist posts, local, marketing, members lists, metrics, news, oembed, opinion, page, people, people lists, plugin, playlist, photo, poll, post, posts, publishing,  quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive design, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, theme, tag, tagging, top 10, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.1
@@ -10,7 +10,7 @@ Stable tag: 1.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-30% of blog posts are lists, because they work. Social listicles: Numbered list posts made easy to author, share, embed & extend.
+30% of blog posts are lists, because they work. Fun, social listicles: Numbered list posts made easy to author, share, embed & extend.
 
 == Description ==
 
@@ -32,7 +32,7 @@ What kind of list will you make/embed? Who will embed your lists?
 
 List posts work, we just believe a social list platform beats lists that as just text. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
 
-Media platforms that are social, like Listly, YouTube, Slideshare & Instagram prove content need to be findable, shareable & embeddabe. They ensure your content gets found independent of you (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in isolation.
+Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in isolation. Author media first, them embed on your blog. It scales and reaches further.
 
 Making lists together is more fun & more productive. Begin lists with just a few items; an imperfect list, then ask for help to enhance the list. It's a never ending task, that your community can embrace & drive. Working alone on lists is just 1.0.
 
