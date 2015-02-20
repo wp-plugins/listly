@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-No list is ever truly complete.  Your audience can evolve & extend your listly content, you can moderate. Your list posts stay fresh & valuable, while community forms around shared interests, needs & expertise.
+No list is ever truly complete.  Your audience can evolve & extend your listly content, you can moderate. Your list posts stay fresh & valuable, while community forms around interests, needs & expertise.
 
 Use Listy to create, curate or collaborate. A powerful trio. Use Listly on Wordpress (with its "swiss army knife" tool approach) & you'll need less plugins. It also means your content becomes reusable & reembeddable by others. 
 
@@ -49,7 +49,7 @@ Imperfection is sexy. Your imperfections are sexy. The only person that does not
 
 By sharing your imperfections, you generously let others shine. Perhaps that's not something you expected to read on a Wordpress plugin page, but [genrosity is a strategy](http://blog.list.ly/2013/08/20/generosity-as-a-strategy/). 
 
-Collaborative, embeddable, shareable lists will always outperform static HTML lists. You'll enjoy more views & engagement because people can embed & extend your ideas. You own what more means. Get out what you put in. 
+Collaborative, embeddable, shareable lists will always outperform static HTML lists. You'll enjoy more views & engagement because people can embed & extend your ideas. What more means is up to you. Get out what you put in. 
 
 - A great static list will get stolen/copied/ignored/forgotten/outdated
 - A great Listly list will get embedded, shared & maintained
