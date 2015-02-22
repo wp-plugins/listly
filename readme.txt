@@ -1,4 +1,4 @@
-=== Listly: for bloggers, brands & journalists who crave reader participation & growth ===
+=== Listly: for blogs, brands & writers who crave "easy to author", socially compelling content ===
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
@@ -16,9 +16,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-No list is ever truly complete.  Your audience can evolve & extend your listly content, you can moderate. Your list posts stay fresh & valuable, while community forms around interests, needs & expertise.
+Use Listy to create, curate or collaborate visually-appealing social list posts. A powerful combo in one plugin that gives your content reach & enables discovery beyond your blog.
 
-Use Listy to create, curate or collaborate. A powerful trio. Use Listly on Wordpress (with its "swiss army knife" tool approach) & you'll need less plugins. It also means your content becomes reusable & reembeddable by others. 
+No list is ever truly complete, so tap into crowd-power. Your audience can evolve & extend your list content, as you moderate. Your list posts get more valuable with time, while community forms around interests, needs & expertise.
+
+Use Listly on Wordpress (with its "swiss army knife" tool approach) & you'll need less plugins. It also means your content becomes reusable & reembeddable by others. 
 
 Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. 
 
