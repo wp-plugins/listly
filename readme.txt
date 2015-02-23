@@ -1,4 +1,4 @@
-=== Listly: for blogs, brands & writers craving easy-to-author, socially compelling content ===
+=== Listly: for blogs, brands & writers craving easy-to-author, socially compelling lists ===
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
@@ -16,11 +16,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-Use Listy to create, curate or collaborate visually-appealing social list posts. A powerful combo in one plugin that gives your content reach & enables discovery beyond your blog.
+Use Listy to create, curate or collaborate visually-appealing, social list-posts. A powerful combo in one plugin that gives your content reach & enables discovery beyond your blog.
 
-No list is ever truly complete, so tap into crowd-power. Your audience can evolve & extend your list content, as you moderate. Your list posts get more valuable with time, while community forms around interests, needs & expertise.
+No list is ever truly complete, so tap into crowd-power. You moderate as your audience evolve & extend your list. Your list posts get more valuable with time, while community forms around interests, needs & expertise.
 
 Use Listly on Wordpress (with its "swiss army knife" tool approach) & you'll need less plugins. It also means your content becomes reusable & reembeddable by others. 
+
+**There are many ways to use Listly. Read on to find out more**
 
 Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. 
 
@@ -78,7 +80,7 @@ Authoring lists is tedious. Editing old posts to add omissions/suggestions is wo
 
 **Benefits of leveraging Listly lists for Content Marketing / Content Management:**
 
-1. Earn great organic search traffic. Lists are automatically tagged for SEO best practices. Our biggest list has seen [1.4 million views](http://list.ly/list/Um-old-hindi-evergreen-songs?feature=wpplugin) & that's 100% organic search traffic
+1. Earn organic search traffic. Lists are automatically tagged for SEO best practices. Our biggest list has seen [1.4 million views](http://list.ly/list/Um-old-hindi-evergreen-songs?feature=wpplugin) & that's 100% organic search traffic
 2. Include media links on your lists to create interactive platlists eg slides, videos, audio, images, tweets etc (one plugin to let you embed many forms of media)
 3. Run contests/surveys to source & rank ideas. Option to let people & ideas on the fly
 4. Affiliate product lists have never been easier to create, share & embed (needs Pro)
@@ -90,7 +92,7 @@ Authoring lists is tedious. Editing old posts to add omissions/suggestions is wo
 
 [youtube http://www.youtube.com/watch?v=sAmOywUMpaA]
 
-When you begin using Listly you can get significant personal utility by saving time on authoring great, visually-appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
+When you begin using Listly you can get significant personal utility by saving time on authoring, visually-appealing lists. Most of all Listly makes lists social & collaborative, but you can grow into that over time.
 
 Listly make your lists reusable: shareable, embeddable as responsive content. HTML lists on blogs add friction to sharing & reuse.
 
@@ -99,7 +101,7 @@ Listly empowers your audience to contribute to the list content on your blog. Th
 - Your lists are a source of content for others (just like Slides on Slideshare).
 - You can embed other people's lists on your blog (great blog posts in less time).
 
-Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Developer Wish They Knew). Listly is also great for creating playlists of videos, slides, audio & images. 
+Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Developer Wish They Knew). Listly is also for creating playlists of videos, slides, audio & images. 
 
 Explore the [Getting Started](http://www.slideshare.net/nickkellet/get-started-with-listly-a-beginners-guide-to-social-list-making) guide if you are new to Listly.
 
