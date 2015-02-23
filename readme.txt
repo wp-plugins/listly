@@ -1,4 +1,4 @@
-=== Listly: for blogs, brands & writers craving easy-to-author, socially compelling lists ===
+=== Listly: for blogs, brands & writers craving easy-to-author, socially compelling content ===
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
