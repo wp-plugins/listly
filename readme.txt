@@ -26,9 +26,9 @@ Use Listly on Wordpress (with its "swiss army knife" tool approach) & you'll nee
 
 Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. 
 
-Build awesome useful lists for your niche. 
-
-Listly is also a source of free content, lists that you can embed as responsive/adaptive content for your blog. Track your lists metrics as they get consumed across the web.
+- Build awesome useful lists for your niche
+- Use Listly as free content source (embed as responsive/adaptive content for your blog)
+- Track your lists metrics as they get consumed across the web
 
 What kind of list will you make/embed? Who will embed your lists?
 
