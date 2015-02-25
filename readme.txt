@@ -16,15 +16,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-Use Listy to create, curate or collaborate visually-appealing, social list-posts. A powerful combo in one plugin that sets your content free & enables discovery beyond your blog.
+Use Listy to create, curate or collaborate visually-appealing, social list-posts. A powerful combo in one plugin to set your content free & enable discovery beyond your blog.
 
-No list is ever truly complete, so tap into crowd-power. You moderate as your audience evolve & extend your list. Your list posts get more valuable with time, while community forms around interests, needs & expertise.
+No list is ever truly complete, so tap into crowd-power. You moderate as your audience evolve & extend your lists. Community forms around interests, needs & expertise as your list posts get more valuable with time. 
 
-Use Listly on Wordpress with its "Swiss Army Knife" tool mindset. You'll need less plugins. It also means your content becomes reusable & reembeddable by others. 
+Listly's a "Swiss Army Knife" for content. A tool that does many jobs. There's a reason: Lists solve many content problems. This means you can manage and master less tools/plugins/apps.  That's a good thing.
 
 **There are many ways to use Listly. Read on to find out more**
 
-Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. 
+Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. Lists are a unique and distinct form of media.
 
 - Build awesome useful lists for your niche
 - Use Listly as a free content source (embed other people's lists as responsive/adaptive blog content)
