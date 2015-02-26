@@ -18,7 +18,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Use Listy to create, curate or collaborate visually-appealing, social list-posts. A powerful combo in one plugin that also frees your content to be discovered / distributed beyond your blog.
 
-No list is ever truly complete, so tap into crowd-power. You moderate as your audience evolve & extend your lists. Community forms around interests, needs & expertise as your list posts get more valuable with time. 
+No list is ever truly complete, so engage the crowd. Moderate as your audience evolve & extend your lists. Community forms around interests, needs & expertise as your list posts get more valuable with time. 
 
 Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's a reason: Lists solve many content problems. This means you can manage and master less tools/plugins/apps.  That's a good thing.
 
