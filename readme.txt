@@ -24,7 +24,7 @@ Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's 
 
 **There are many ways to use Listly. Read on to find out more**
 
-Not just a plugin, Listly is also a collaborative content authoring tool & a content platform. Lists are a unique and distinct form of media.
+More than a plugin, Listly is a collaborative content authoring tool & a content platform. Lists are a unique and distinct form of media.
 
 - Build awesome useful lists for your niche
 - Use Listly as a free content source (embed other people's lists as responsive/adaptive blog content)
@@ -39,7 +39,7 @@ List posts work, we just believe a social list platform outperforms lists that a
 
 Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in isolation. Author media first, them embed on your blog. It scales and reaches further.
 
-Making lists together is more fun & more productive. Begin  with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
+Making lists together is more fun & more productive. Begin with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
 
 Your job is to source & seed. Ask questions in the form of lists. Why is talk radio engaging? Because the audience plays an active role by answering questions. Listly's paradigm emulates talk radio.
 
