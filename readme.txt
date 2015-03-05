@@ -47,7 +47,7 @@ Your job is to source & seed. Ask questions in the form of lists. Why is talk ra
 
 Start lists & share them to entice readers to contribute & participate. Don't try to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is neither social nor inviting. An exhaustive list is unapproachable. Leave room for "Joe Public" to help. Be imperfecticle. If you ask for help, look like you need it and pitch it at a level where people see they can add to the conversation. Be real.
 
-Imperfection is sexy. Your imperfections are sexy. The only person that does not know this is you. 
+Imperfection is sexy. 
 
 - [Brené Brown knows it](http://www.ted.com/talks/brene_brown_on_vulnerability?language=en). 
 - [Yo Yo Ma does too](https://www.youtube.com/watch?v=7mev2jwvJ-k&feature=youtu.be). 
@@ -99,8 +99,8 @@ Listly make your lists reusable: shareable, embeddable as responsive content. HT
 
 Listly empowers your audience to contribute to the list content on your blog. That's a level of engagement above commenting. People can also embed other people's lists on their blog. 
 
-- Your lists are a source of content for others (just like Slides on Slideshare).
-- You can embed other people's lists on your blog (great blog posts in less time).
+- Your lists are a source of content for others (just like Slides on Slideshare)
+- You can embed other people's lists on your blog (great blog posts in less time)
 
 Use Listly to create useful resource lists (eg Top 10 Wordpress plugins) or Listicle type list (eg 10 Tricks Every Wordpress Developer Wish They Knew). Listly is also for creating playlists of videos, slides, audio & images. 
 
@@ -115,10 +115,10 @@ Think of Listly as Slideshare for lists. Put your lists on Listly, then embed th
 **Here's 5 simple ideas to begin using Listly on your Wordpress blog:**
 
 1. Track your [guest posts](http://list.ly/list/DNy-guest-blog-posts-2014?search) on other blogs for easy resharing
-2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=wpplugin) for a given blog or project.
+2. Create people lists of [your team](http://list.ly/list/Bt2-sp24-speakers-and-team?feature=wpplugin) for a given blog or project
 3. Create universal [playlists](http://list.ly/list/1Jt-sampler-official-listly-whitelisted-media-playlist?feature=wpplugin) of relevant slides, videos & podcasts to embed on your blog
 4. Create lists of [related posts or resources](http://list.ly/list/8KM-content-marketing-tools/?feature=wpplugin) to help your readers 
-5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use & extend your list.
+5. Manage your [blog roll via Listly](http://polleydan.wordpress.com/2014/06/09/listly-blogroll/) so anyone can  / vote, re-use & extend your list
 
 We think of Lists as a type of data, just like you think of Slides, Videos or Podcasts. All these technologies have evolved in similar ways to be highly embeddable. They have also become highly trafficed search destination sites. See graphic on [Slideshare](http://www.slideshare.net/nickkellet/embeddable-media-categories-shareable-content-v3)
 
