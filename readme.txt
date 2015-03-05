@@ -22,7 +22,7 @@ No list is ever truly complete, so engage the crowd. Moderate as your audience e
 
 Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's a reason: Lists solve many content problems. This means you can manage and master less tools/plugins/apps.  That's a good thing.
 
-**There are many ways to use Listly. Read on to find out more**
+**Many ways to use Listly**
 
 More than a plugin, Listly is a collaborative content authoring tool & a content platform. Lists are a unique and distinct form of media.
 
@@ -35,9 +35,9 @@ What kind of list will you make/embed? Who will embed your lists?
 
 **Get more from your numbered list posts with Listly**
 
-List posts work, we just believe a social list platform outperforms lists that are just text. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
+We believe a social list platform outperforms plain text lists. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
 
-Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platform your blog is operating in isolation. Author media first, them embed on your blog. It scales and reaches further.
+Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author media first, them embed on your blog. It scales and reaches further.
 
 Making lists together is more fun & more productive. Begin with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
 
