@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: adaptive, adaptive design, admin, affiliate, affiliates, analytics, audience, blog, blogroll, bookmark, challenge, checklist, collaboration, column, columns, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, directory lists, embed, embeds, embedded, embedding, engagement, FAQ, feedback, google, html5, iframe, images, instagram, javascript, journalism, journalist, mobile, moderate, moderation, layout, listicle, link, links, list, listly, lists, list post,ist posts, local, marketing, members lists, metrics, news, oembed, opinion, page, people, people lists, plugin, playlist, photo, poll, post, posts, publishing,  quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive design, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, theme, tag, tagging, top 10, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: adaptive, adaptive design, admin, affiliate, affiliates, analytics, audience, blog, blogroll, bookmark, challenge, checklist, collaboration, column, columns, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, directory lists, embed, embeds, embedded, embedding, engagement, FAQ, feedback, google, html5, iframe, image, images, instagram, javascript, journalism, journalist, mobile, moderate, moderation, layout, listicle, link, links, list, listly, lists, list post, list posts, local, marketing, members lists, metrics, news, oembed, opinion, page, people, people lists, plugin, playlist, photo, poll, post, posts, publishing,  quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive design, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, theme, tag, tagging, top 10, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.1
@@ -37,7 +37,7 @@ What kind of list will you make/embed? Who will embed your lists?
 
 We believe a social list platform outperforms plain text lists. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
 
-Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author media first, them embed on your blog. It scales and reaches further.
+Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author media first, them embed on your blog. It scales & reaches further.
 
 Making lists together is more fun & more productive. Begin with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
 
@@ -45,7 +45,7 @@ Your job is to source & seed. Ask questions in the form of lists. Why is talk ra
 
 **Your listicles should be inviting & enaging** 
 
-Start lists & share them to entice readers to contribute & participate. Don't try to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is neither social nor inviting. An exhaustive list is unapproachable. Leave room for "Joe Public" to help. Be imperfecticle. If you ask for help, look like you need it and pitch it at a level where people see they can add to the conversation. Be real.
+Start lists & share them to entice readers to contribute & participate. Don't try to be exhaustive & perfect. Leave gaps. Don't be a smarticle. Sharing all you know is neither social nor inviting. An exhaustive list is unapproachable. Leave room for "Joe Public" to help. Be imperfecticle. If you ask for help, look like you need it & pitch it at a level where people see they can add to the conversation. Be real.
 
 Imperfection is sexy. 
 
@@ -186,7 +186,7 @@ Adding a List to Your Blog
 
 There is the Wordpress support page [here](https://wordpress.org/support/plugin/listly), but we prefer support to be logged via our [support site](http://listly.tenderapp.com/).
 
-Make sure you include URLs for your lists, your Listly account & any blog post you are embedding the list on. Operating sytems and browsers help too.
+Make sure you include URLs for your lists, your Listly account & any blog post you are embedding the list on. Operating sytems & browsers help too.
 
 Please also mention if you are using the Listly bookmarklet or the Chrome extension.
 
