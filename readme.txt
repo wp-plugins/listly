@@ -24,12 +24,12 @@ Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's 
 
 **Many ways to use Listly**
 
-More than a plugin, Listly is a collaborative content authoring tool & a content platform. Lists are a unique and distinct form of media.
+More than a plugin, Listly is a collaborative content authoring tool & a content platform. Lists are a distinct form of media.
 
 - Build awesome useful lists for your niche
 - Use Listly as a free content source (embed other people's lists as responsive/adaptive blog content)
-- Track your lists metrics as they get consumed across the web
-- Simpler sharing of the list AND the list items 
+- Track your list metrics as they get consumed across the web
+- Simplify sharing of both your lists & your list items 
 
 What kind of list will you make/embed? Who will embed your lists?
 
@@ -37,7 +37,7 @@ What kind of list will you make/embed? Who will embed your lists?
 
 We believe a social list platform outperforms plain text lists. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
 
-Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author media first, them embed on your blog. It scales & reaches further.
+Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author your media first, them embed on your blog. It gives your more reach.
 
 Making lists together is more fun & more productive. Begin with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
 
