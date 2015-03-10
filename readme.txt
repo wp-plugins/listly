@@ -37,9 +37,11 @@ What kind of list will you make/embed? Who will embed your lists?
 
 We believe a social list platform outperforms plain text lists. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
 
-Media platforms (like Listly, YouTube, Slideshare & Instagram) are social. They showcase why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author your media first, them embed on your blog. It gives your more reach.
+Media platforms are social. Platforms like Listly, YouTube, Slideshare & Instagram highlight why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author your media first, them embed on your blog. It gives your more reach.
 
-Making lists together is more fun & more productive. Begin with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
+**Making lists together is more fun & more productive** 
+
+Begin with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
 
 Your job is to source & seed. Ask questions in the form of lists. Why is talk radio engaging? Because the audience plays an active role by answering questions. Listly's paradigm emulates talk radio.
 
