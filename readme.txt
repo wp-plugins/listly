@@ -2,7 +2,7 @@
 
 Contributors: listly, milanmk
 Donate link: http://list.ly/
-Tags: adaptive, adaptive design, admin, affiliate, affiliates, analytics, audience, blog, blogroll, bookmark, challenge, checklist, collaboration, column, columns, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, directory lists, embed, embeds, embedded, embedding, engagement, FAQ, feedback, google, html5, iframe, image, images, instagram, javascript, journalism, journalist, mobile, moderate, moderation, layout, listicle, link, links, list, listly, lists, list post, list posts, local, marketing, members lists, metrics, news, oembed, opinion, page, people, people lists, plugin, playlist, photo, poll, post, posts, publishing,  quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive design, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, slides, slideshare, social media, social, sort, sorting, storify, survey, theme, tag, tagging, top 10, twitter, twitter lists, video, vote, widget, writing, youtube
+Tags: adaptive, adaptive design, admin, affiliate, affiliates, analytics, audience, blog, blogroll, bookmark, challenge, checklist, collaboration, column, columns, comments, community, content curation, content marketing, content, contest, contests, create, crowdsource, crowdsourcing, curate, curation software, curation tools, curation, directory lists, embed, embeds, embedded, embedding, engagement, FAQ, feedback, google, html5, iframe, image, images, instagram, javascript, journalism, journalist, mobile, moderate, moderation, layout, listicle, link, links, list, listly, lists, list post, list posts, local, marketing, members lists, metrics, news, oembed, opinion, page, people, people lists, plugin, playlist, photo, poll, post, posts, publishing,  quiz, questions, resize, rank, rate, rankable, ranking, responsive, responsive design, responsive video, rss, search engine optimization, seo, sem, SMO, SMM, SERP, share, sharing, sidebar, shortcode, slides, slideshare, social media, social, sort, sorting, storify, survey, theme, tag, tagging, top 10, twitter, twitter lists, video, vote, widget, writing, youtube
 
 Requires at least: 3.0
 Tested up to: 4.1
@@ -18,7 +18,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Use Listy to create, curate or collaborate visually-appealing, social list-posts. A powerful combo in one plugin that also frees your content to be discovered / distributed beyond your blog.
 
-No list is ever truly complete, so engage the crowd. Moderate as your audience evolve & extend your lists. Community forms around interests, needs & expertise as your list posts get more valuable with time. 
+No list is ever truly complete, so engage the crowd, make them your crowd.
+
+Moderate as your audience evolve & extend your lists. Community forms around interests, needs & expertise as your list posts get more valuable with time. 
 
 Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's a reason: Lists solve many content problems. This means you can manage and master less tools/plugins/apps.  That's a good thing.
 
