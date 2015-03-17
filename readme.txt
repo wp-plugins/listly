@@ -22,7 +22,7 @@ No list is ever truly complete, so engage the crowd, make them your crowd.
 
 Moderate as your audience evolve & extend your lists. Community forms around interests, needs & expertise as your list posts get more valuable with time. 
 
-Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's a reason: Lists solve many content problems. This means you can manage and master less tools/plugins/apps.  That's a good thing.
+Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's a reason: Lists solve many content problems. This means you can manage and master less tools/plugins/apps.
 
 **Many ways to use Listly**
 
@@ -45,7 +45,7 @@ Media platforms are social. Platforms like Listly, YouTube, Slideshare & Instagr
 
 Begin with a few items; an imperfect list, then ask for help to enhance the list. A never ending task your community can embrace & drive. Working alone on lists is just 1.0 thinking.
 
-Your job is to source & seed. Ask questions in the form of lists. Why is talk radio engaging? Because the audience plays an active role by answering questions. Listly's paradigm emulates talk radio.
+Your job: source & seed. Ask questions in the form of lists. Why is talk radio engaging? Because the audience plays an active role by answering questions. Listly's paradigm emulates talk radio.
 
 **Your listicles should be inviting & enaging** 
 
