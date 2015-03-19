@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 **Integrate Numbered Lists/Listicles on Wordpress & Beyond**
 
-Use Listy to create, curate or collaborate visually-appealing, social list-posts. A powerful combo in one plugin that also frees your content to be discovered / distributed beyond your blog.
+Use Listy to create, curate or collaborate visually-appealing, social list-posts. A powerful combo in one plugin that frees your content to be discovered / distributed beyond your blog.
 
 No list is ever truly complete, so engage the crowd, make them your crowd.
 
@@ -29,7 +29,7 @@ Listly is a "Swiss Army Knife" for content. A tool that does many jobs. There's 
 More than a plugin, Listly is a collaborative content authoring tool & a content platform. Lists are a distinct form of media.
 
 - Build awesome useful lists for your niche
-- Use Listly as a free content source (embed other people's lists as responsive/adaptive blog content)
+- Use Listly as a free content source (embed other people's lists)
 - Track your list metrics as they get consumed across the web
 - Simplify sharing of both your lists & your list items 
 
@@ -39,7 +39,9 @@ What kind of list will you make/embed? Who will embed your lists?
 
 We believe a social list platform outperforms plain text lists. You wouldn't self-host a video today. We believe this applies to collaborative lists. 
 
-Media platforms are social. Platforms like Listly, YouTube, Slideshare & Instagram highlight why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog (they are all destination sites - people go there to find content). If you ignore these platforms your blog is operating in isolation. Author your media first, them embed on your blog. It gives your more reach.
+Media platforms are social. Platforms like Listly, YouTube, Slideshare & Instagram highlight why your content needs to be findable, shareable & embeddabe. Your content gets found independent of your blog. People visit these destination sites to find content. If you ignore these platforms your blog is operating in isolation. 
+
+It's smarter to author your media first, them this media embed on your blog. It gives your more reach. Lists should be media.
 
 **Making lists together is more fun & more productive** 
 
@@ -178,7 +180,7 @@ Installing
 
 Adding a List to Your Blog
 
-1. Go to Listly to manage your lists eg here is [Nick Kellet's list page](http://list.ly/nickkellet). You can  begin by embedding another person's list.
+1. Go to Listly to manage your lists eg here is [Nick Kellet's list page](http://list.ly/nickkellet). You can begin by embedding another person's list.
 2. On each list page eg ['50+ Listly Reviews'](http://list.ly/list/2SC) there's an 'Embed List' link that takes your to a page like [this](http://list.ly/preview/2SC)
 3. Grab your customized embed code e.g. [listly  id="2SC" layout="short" show_header="true" show_author="true" show_sharing="false" show_tools="true" per_page="3"] 
 4. Paste your shortcode into any new or existing post or page. 
