@@ -6,7 +6,7 @@ Tags: adaptive, adaptive design, admin, affiliate, affiliates, analytics, audien
 
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.6.6
+Stable tag: 1.6.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -290,6 +290,9 @@ Yes, the list is first loaded from cache (on your Wordpress install or on Listly
 8. [Chrome extension](https://chrome.google.com/webstore/detail/listly/bnohaknhjanaejcegmlbhiknhcfkajbb)
 
 == Changelog ==
+
+= 1.6.7 =
+* Performance tuning - load Listly assets (script files and styles) only on pages, posts and archives with Listly ShortCode.
 
 = 1.6.6 =
 * Conditional loading of CSS & Scripts on singular pages based on ShortCode presence.
