@@ -1,20 +1,28 @@
 jQuery(document).ready(function($)
 {
-	$('#ListlyAdminAuthStatus').click(function(e)
+	$('#ListlyAdminAuthCheck').click(function(e)
 	{
 		e.preventDefault();
-
-		var Key = $(this).prev('input').val();
-		var ElmMsg = $(this).next('span');
-
-		ElmMsg.html('Loading...');
-
-		$.post(ajaxurl, {'action': 'ListlyAJAXPublisherAuth', 'nounce': Listly.Nounce, 'Key': Key}, function(data)
-		{
-			ElmMsg.html(data);
-		});
+		ListlyAuthStatus();
 	});
 
+	function ListlyAuthStatus()
+	{
+		var PubKey = $('input[name="PublisherKey"]').val(), AuthMsg = $("#ListlyAdminAuthStatus"), CheckButton = $("#ListlyAdminAuthCheck");
+
+		AuthMsg.html('');
+		CheckButton.text("Checking...").attr("disabled", "disabled")
+
+		$.post(ajaxurl, {'action': 'ListlyAJAXPublisherAuth', 'nounce': Listly.Nounce, 'Key': PubKey}, function(data)
+		{
+			AuthMsg.html(data);
+			CheckButton.text("Check Status").removeAttr("disabled")
+		});
+	}
+
+  if ($('input[name="PublisherKey"]').val() != "") {
+		ListlyAuthStatus(); 	
+  }
 
 	$('input[name="ListlyAdminListSearch"]').bind('keyup', function(event)
 	{
@@ -57,14 +65,11 @@ jQuery(document).ready(function($)
 
 						if (jQuery.isEmptyObject(data.results))
 						{
-							Container.append('<p>No results found!</p>');
+							Container.append('<p>No lists found! <a target="_blank" href="http://list.ly?trigger=newlist">Make a list now?</a></p>');
 						}
 						else
 						{
-							$(data.results).each(function(i)
-							{
-								Container.append('<p> <img class="avatar" src="'+data.results[i].user_image+'" alt="" /> <a class="ListlyAdminListEmbed" target="_new" href="http://list.ly/preview/'+data.results[i].list_id+'?key='+Listly.Key+'&source=wp_plugin" title="Get Short Code"><img src="'+Listly.PluginURL+'images/shortcode.png" alt="" /></a> <a class="strong" target="_blank" href="http://list.ly/'+data.results[i].list_id+'?source=wp_plugin" title="Go to List on List.ly">'+data.results[i].title+'</a> </p>');
-							});
+							ListlyAdminPopulateList(data.results)
 						}
 					}
 					else
@@ -102,6 +107,26 @@ jQuery(document).ready(function($)
 		$('input[name="ListlyAdminListSearch"]').trigger('keyup');
 	});
 
+	function ListlyAdminPopulateList(lists){
+		var Container = $('#ListlyAdminYourList');
+
+		$(lists).each(function(i)
+		{
+			var item = '<p class="ListlyAdminItem"> \
+			             <img class="ListlyAdminItemImage" src="'+lists[i].image+'" alt="" /> \
+			               <a class="ListlyAdminItemEmbed" target="_blank" href="http://list.ly/preview/'+lists[i].list_id+'?key='+Listly.Key+'&source=wp_plugin" title="Customize and get short code"> \
+			                 <span class="dashicons dashicons-editor-code"></span> \
+			                 <span>GET SHORT CODE</span> \
+			               </a> \
+			               <span class="ListlyAdminItemTitle">' + lists[i].title + ' \
+			                 <a class="dashicons dashicons-external" target="_blank" href="http://list.ly/l/'+lists[i].list_id+'?source=wp_plugin" title="See list on List.ly"> \
+			                 </a> \
+			               </span> \
+			            </p>'
+			Container.append(item);
+		});
+
+	}
 
 	function ListlyAdminYourList()
 	{
@@ -134,14 +159,11 @@ jQuery(document).ready(function($)
 
 					if (jQuery.isEmptyObject(data.lists))
 					{
-						Container.append('<p>No lists found!</p>');
+						Container.append('<p>No lists found! <a target="_blank" href="http://list.ly?trigger=newlist">Make a list now?</a></p>');
 					}
 					else
 					{
-						$(data.lists).each(function(i)
-						{
-							Container.append('<p> <img class="avatar" src="'+data.lists[i].user_image+'" alt="" /> <a class="ListlyAdminListEmbed" target="_new" href="http://list.ly/preview/'+data.lists[i].list_id+'?key='+Listly.Key+'&source=wp_plugin" title="Get Short Code"><img src="'+Listly.PluginURL+'images/shortcode.png" alt="" /></a> <a class="strong" target="_blank" href="http://list.ly/'+data.lists[i].list_id+'?source=wp_plugin" title="Go to List on List.ly">'+data.lists[i].title+'</a> </p>');
-						});
+						ListlyAdminPopulateList(data.lists)
 					}
 				}
 				else if (data.message != '')
