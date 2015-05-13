@@ -125,7 +125,6 @@ More questions?  Check out our [community site](http://community.list.ly).
 
 = 1.7.1 =
 * Fix for multisite network activate.
-* Added oEmbed support for listly links.
 
 = 1.7.0 =
 * Support for custom colors and styling.
