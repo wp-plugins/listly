@@ -56,7 +56,7 @@ if ( ! class_exists( 'Listly' ) )
 			add_action( 'wp_ajax_ListlyAJAXPublisherAuth', array( $this, 'ListlyAJAXPublisherAuth' ) );
 			add_action( 'the_posts', array( $this, 'ThePosts' ), 10, 2 );
 			add_shortcode( 'listly', array( $this, 'ShortCode' ) );
-			wp_embed_register_handler( 'listly', '#http://(?:www\.)?list\.ly/list/(\w+).*#i', array( $this, 'Embed' ) );
+			//wp_embed_register_handler( 'listly', '#http://(?:www\.)?list\.ly/list/(\w+).*#i', array( $this, 'Embed' ) );
 
 			if ( $this->Settings['PublisherKey'] == '' )
 			{

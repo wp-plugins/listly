@@ -179,4 +179,4 @@ More questions?  Check out our [community site](http://community.list.ly).
 
 == Upgrade Notice ==
 
-Fix for multisite network activate. Added oEmbed support for listly links.
+Fix for multisite network activate.
