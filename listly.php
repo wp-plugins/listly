@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.7.0
+	Version:     1.7.1
 	Author:      Milan Kaneria
 	Author URI:  http://brandintellect.in/?Listly
 */
@@ -15,7 +15,7 @@ if ( ! class_exists( 'Listly' ) )
 	{
 		function __construct()
 		{
-			$this->Version = '1.7.0';
+			$this->Version = '1.7.1';
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname( $this->PluginFile ) . '/';
@@ -56,6 +56,7 @@ if ( ! class_exists( 'Listly' ) )
 			add_action( 'wp_ajax_ListlyAJAXPublisherAuth', array( $this, 'ListlyAJAXPublisherAuth' ) );
 			add_action( 'the_posts', array( $this, 'ThePosts' ), 10, 2 );
 			add_shortcode( 'listly', array( $this, 'ShortCode' ) );
+			wp_embed_register_handler( 'listly', '#http://(?:www\.)?list\.ly/list/(\w+).*#i', array( $this, 'Embed' ) );
 
 			if ( $this->Settings['PublisherKey'] == '' )
 			{
@@ -63,18 +64,44 @@ if ( ! class_exists( 'Listly' ) )
 			}
 		}
 
-		function Activate()
+		function Activate( $NetworkWide )
 		{
-			if ( is_array( $this->Settings ) )
+			if ( is_multisite() && $NetworkWide )
 			{
-				$Settings = array_merge( $this->SettingsDefaults, $this->Settings );
-				$Settings = array_intersect_key( $Settings, $this->SettingsDefaults );
+				foreach ( get_blog_list( 0, 'all' ) as $Blog )
+				{
+					switch_to_blog( $Blog['blog_id'] );
 
-				update_option( $this->SettingsName, $Settings );
+						$SettingsCurrent = get_option( $this->SettingsName );
+
+						if ( is_array( $SettingsCurrent ) )
+						{
+							$Settings = array_merge( $this->SettingsDefaults, $SettingsCurrent );
+							$Settings = array_intersect_key( $Settings, $this->SettingsDefaults );
+
+							update_option( $this->SettingsName, $Settings );
+						}
+						else
+						{
+							add_option( $this->SettingsName, $this->SettingsDefaults );
+						}
+
+					restore_current_blog();
+				}
 			}
 			else
 			{
-				add_option( $this->SettingsName, $this->SettingsDefaults );
+				if ( is_array( $this->Settings ) )
+				{
+					$Settings = array_merge( $this->SettingsDefaults, $this->Settings );
+					$Settings = array_intersect_key( $Settings, $this->SettingsDefaults );
+
+					update_option( $this->SettingsName, $Settings );
+				}
+				else
+				{
+					add_option( $this->SettingsName, $this->SettingsDefaults );
+				}
 			}
 		}
 
@@ -558,7 +585,7 @@ if ( ! class_exists( 'Listly' ) )
 			{
 				foreach ( $Posts as $Post )
 				{
-					if ( has_shortcode( $Post->post_content, 'listly' ) )
+					if ( has_shortcode( $Post->post_content, 'listly' ) || preg_match( '#http://(?:www\.)?list\.ly/list/(\w+).*#i', $Post->post_content ) )
 					{
 						if ( $this->Settings['APIStylesheet'] )
 						{
@@ -710,6 +737,15 @@ if ( ! class_exists( 'Listly' ) )
 					return "<p><a href=\"http://list.ly/$ListId\">View List on List.ly</a></p>";
 				}
 			}
+		}
+
+
+		function Embed( $matches, $attr, $url, $rawattr )
+		{
+
+			$embed = sprintf( '[listly id="%s"]', esc_attr( $matches[1] ) );
+
+			return apply_filters( 'embed_listly', $embed, $matches, $attr, $url, $rawattr );
 		}
 
 
