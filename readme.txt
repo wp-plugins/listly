@@ -179,4 +179,5 @@ More questions?  Check out our [community site](http://community.list.ly).
 
 == Upgrade Notice ==
 
-Fix for multisite network activate.
+= 1.7.1 =
+Fix for multisite network activate. Support for custom colors and styling. New UI in editor page.
