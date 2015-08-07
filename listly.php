@@ -3,7 +3,7 @@
 	Plugin Name: List.ly
 	Plugin URI:  http://wordpress.org/extend/plugins/listly/
 	Description: Plugin to easily integrate List.ly lists to Posts and Pages. It allows publishers to add/edit lists, add items to list and embed lists using shortcode. <a href="mailto:support@list.ly">Contact Support</a>
-	Version:     1.7.1
+	Version:     1.7.2
 	Author:      Milan Kaneria
 	Author URI:  http://brandintellect.in/?Listly
 */
@@ -15,7 +15,7 @@ if ( ! class_exists( 'Listly' ) )
 	{
 		function __construct()
 		{
-			$this->Version = '1.7.1';
+			$this->Version = '1.7.2';
 			$this->PluginFile = __FILE__;
 			$this->PluginName = 'Listly';
 			$this->PluginPath = dirname( $this->PluginFile ) . '/';
@@ -51,6 +51,7 @@ if ( ! class_exists( 'Listly' ) )
 
 			add_filter( 'plugin_action_links_' . plugin_basename( $this->PluginFile ), array( $this, 'ActionLinks' ) );
 			add_action( 'init', array( $this, 'Init' ) );
+			add_action( 'widgets_init', array( $this, 'WidgetsInit' ) );
 			add_action( 'admin_menu', array( $this, 'AdminMenu' ) );
 			add_action( 'admin_enqueue_scripts', array( $this, 'AdminEnqueueScripts' ), 10, 1 );
 			add_action( 'wp_ajax_ListlyAJAXPublisherAuth', array( $this, 'ListlyAJAXPublisherAuth' ) );
@@ -142,6 +143,26 @@ if ( ! class_exists( 'Listly' ) )
 
 				exit;
 			}
+
+/*
+			if ( is_active_widget( false, false, 'listly-widget', true ) )
+			{
+				if ( $this->Settings['APIStylesheet'] )
+				{
+					wp_enqueue_style( 'listly-style', $this->Settings['APIStylesheet'], false, $this->Version );
+				}
+
+				wp_enqueue_script( 'jquery' );
+
+				add_action( 'wp_head', array( $this, 'WPHead' ) );
+			}
+*/
+		}
+
+
+		function WidgetsInit()
+		{
+			register_widget( 'Listly_Widget' );
 		}
 
 
@@ -179,7 +200,7 @@ if ( ! class_exists( 'Listly' ) )
 			wp_enqueue_script( 'jquery' );
 			wp_enqueue_script( 'listly-script', $this->PluginURL . 'script.js', false, $this->Version, false );
 			wp_localize_script( 'listly-script', 'Listly', array( 'PluginURL' => $this->PluginURL, 'SiteURL' => $this->SiteURL, 'Key' => $this->Settings['PublisherKey'], 'Nounce' => wp_create_nonce( 'ListlyNounce' ) ) );
-			wp_enqueue_style( 'listly-style', $this->PluginURL . 'style.css', false, $this->Version, 'screen' );
+			wp_enqueue_style( 'listly-style', $this->PluginURL . 'style.css', false, $this->Version );
 
 			add_filter( 'contextual_help', array( $this, 'AdminContextualHelp' ), 10, 3 );
 		}
@@ -198,7 +219,7 @@ if ( ! class_exists( 'Listly' ) )
 				wp_enqueue_script( 'jquery' );
 				wp_enqueue_script( 'listly-script', $this->PluginURL . 'script.js', false, $this->Version, false );
 				wp_localize_script( 'listly-script', 'Listly', array( 'PluginURL' => $this->PluginURL, 'SiteURL' => $this->SiteURL, 'Key' => $this->Settings['PublisherKey'], 'Nounce' => wp_create_nonce( 'ListlyNounce' ) ) );
-				wp_enqueue_style( 'listly-style', $this->PluginURL . 'style.css', false, $this->Version, 'screen' );
+				wp_enqueue_style( 'listly-style', $this->PluginURL . 'style.css', false, $this->Version );
 			}
 		}
 
@@ -589,7 +610,7 @@ if ( ! class_exists( 'Listly' ) )
 					{
 						if ( $this->Settings['APIStylesheet'] )
 						{
-							wp_enqueue_style( 'listly-list', $this->Settings['APIStylesheet'], false, $this->Version, 'screen' );
+							wp_enqueue_style( 'listly-style', $this->Settings['APIStylesheet'], false, $this->Version );
 						}
 
 						wp_enqueue_script( 'jquery' );
@@ -607,23 +628,30 @@ if ( ! class_exists( 'Listly' ) )
 
 		function WPHead()
 		{
-			$Styling = array_filter( $this->Settings['Styling'], 'trim' );
+			static $Called;
 
-			if ( ! count( $Styling ) )
+			if ( ! $Called )
 			{
-				return;
+				$Called = true;
+
+				$Styling = array_filter( $this->Settings['Styling'], 'trim' );
+
+				if ( ! count( $Styling ) )
+				{
+					return;
+				}
+
+			?>
+
+				<script type="text/javascript">
+					var _lstq = _lstq || [];
+
+					_lstq.push ( [ '_theme', { <?php foreach ( $Styling as $Key => $Value ) { printf( '%s: "%s", ', $Key, $Value ); } ?> } ] );
+				</script>
+
+			<?php
+
 			}
-
-		?>
-
-			<script type="text/javascript">
-				var _lstq = _lstq || [];
-
-				_lstq.push ( [ '_theme', { <?php foreach ( $Styling as $Key => $Value ) { printf( '%s: "%s", ', $Key, $Value ); } ?> } ] );
-			</script>
-
-		<?php
-
 		}
 
 
@@ -740,12 +768,12 @@ if ( ! class_exists( 'Listly' ) )
 		}
 
 
-		function Embed( $matches, $attr, $url, $rawattr )
+		function Embed( $Matches, $Attributes, $URL, $AttributesRaw )
 		{
 
-			$embed = sprintf( '[listly id="%s"]', esc_attr( $matches[1] ) );
+			$Embed = sprintf( '[listly id="%s"]', esc_attr( $Matches[1] ) );
 
-			return apply_filters( 'embed_listly', $embed, $matches, $attr, $url, $rawattr );
+			return apply_filters( 'embed_listly', $Embed, $Matches, $Attributes, $URL, $AttributesRaw );
 		}
 
 
@@ -792,5 +820,78 @@ if ( ! class_exists( 'Listly' ) )
 	$Listly = new Listly();
 }
 
+
+if ( ! class_exists( 'Listly_Widget' ) )
+{
+	class Listly_Widget extends WP_Widget
+	{
+		public function __construct()
+		{
+			parent::__construct( 'listly-widget', __( 'Listly' ), array( 'classname' => 'widget-listly', 'description' => __( 'Listly list using ShortCode.' ) ) );
+		}
+
+		public function widget( $Settings, $Data )
+		{
+			global $Listly;
+
+			if ( $Listly->Settings['APIStylesheet'] )
+			{
+				wp_enqueue_style( 'listly-style', $Listly->Settings['APIStylesheet'], false, $Listly->Version );
+			}
+
+			wp_enqueue_script( 'jquery', false, false, false, true );
+
+			add_action( 'wp_footer', array( $Listly, 'WPHead' ) );
+
+
+			$Title = apply_filters( 'widget_title', empty( $Data['title'] ) ? '' : $Data['title'], $Data, $this->id_base );
+			$Text = apply_filters( 'widget_text', empty( $Data['text'] ) ? '' : $Data['text'], $Data );
+
+			print $Settings['before_widget'];
+
+			if ( ! empty( $Title ) )
+			{
+				print $Settings['before_title'] . $Title . $Settings['after_title'];
+			}
+
+			?>
+
+				<?php print do_shortcode( $Text ); ?>
+
+			<?php
+
+			print $Settings['after_widget'];
+		}
+
+		public function update( $DataUpdate, $Data )
+		{
+			$Data['title'] = strip_tags( $DataUpdate['title'] );
+			$Data['text'] = current_user_can( 'unfiltered_html' ) ? $DataUpdate['text'] : stripslashes( wp_filter_post_kses( addslashes( $DataUpdate['text'] ) ) );
+
+			return $Data;
+		}
+
+		public function form( $Data )
+		{
+			$Data = wp_parse_args( (array) $Data, array( 'title' => '', 'text' => '' ) );
+			$Title = strip_tags( $Data['title'] );
+			$Text = esc_textarea( $Data['text'] );
+
+		?>
+
+			<p>
+				<label for="<?php print $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
+				<input class="widefat" id="<?php print $this->get_field_id('title'); ?>" name="<?php print $this->get_field_name( 'title' ); ?>" type="text" value="<?php print esc_attr( $Title ); ?>" />
+			</p>
+			<p>
+				<label for="<?php print $this->get_field_id( 'text' ); ?>"><?php _e( 'ShortCode:' ); ?></label>
+				<textarea class="widefat" rows="3" cols="20" id="<?php print $this->get_field_id( 'text' ); ?>" name="<?php print $this->get_field_name( 'text' ); ?>"><?php print $Text; ?></textarea>
+			</p>
+
+		<?php
+
+		}
+	}
+}
 
 ?>
