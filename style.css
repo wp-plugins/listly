@@ -1,3 +1,20 @@
+#ListlyAdminAuthStatus
+{
+	display: inline-block;
+	margin-top:10px;
+}
+
+#ListlyAdminAuthStatus .info
+{
+	background: lightyellow;
+	padding: 3px 6px;
+}
+
+#ListlyAdminAuthStatus .error
+{
+	color:red;
+}
+
 #ListlyAdminYourList
 {
 	max-height: 250px;
